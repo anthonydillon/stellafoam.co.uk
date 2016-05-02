@@ -1,0 +1,251 @@
+* { margin: 0; padding: 0; }
+
+
+ol, ul {
+	list-style: none;
+}
+
+body { background: #f8f7f5; }
+.access, .hidden {
+	position: absolute;
+	top: -1000em;
+	left: -1000em;
+}
+
+#pageWrapper:after,
+#pageWrapper #header:after,
+#topNav ul#mainNav li .subnav ul.subnavContent:after,
+#basket .accountBox:after,
+.breadcrumb:after,
+.productImages .productHero #productImageTabBlock:after,
+#footer:after,
+.listerOverlayContent:after,
+.addToCartMsg:after,
+#qfinder ul:after,
+#catMifWrapper:after,
+div#mifHeroPanelContent:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.mainNavSection {
+	text-align:center;
+	color: #fff;
+	text-shadow: 1px 1px 2px #000;
+	font-size: 14px;
+	display: block;
+	padding-top: 8px;
+}
+
+.draws .mainNavSection,
+.blum .mainNavSection {
+	font-size: 13px;
+}
+.draws .mainNavSection,
+.vinyls .mainNavSection,
+.edging .mainNavSection,
+.blum .mainNavSection {
+	padding-top: 3px;
+}
+#pageWrapper {
+	margin: 0 auto;
+	width: 964px;
+	background: #fff;
+	border-right: 15px solid #ded6d4;
+	border-bottom: 15px solid #ded6d4;
+	border-left: 15px solid #ded6d4;
+}
+#pageWrapper table, #pageWrapper #contentWrapper { margin: 0 auto; }
+
+#pageWrapper #header {
+	padding: 0 5px;
+	width: 954px;
+	background: #fff url(nav-bg.png) bottom left repeat-x;
+}
+
+#header #topNav {
+	float: left;
+	width: 954px;
+	background: #fff url(nav-bg.png) bottom left repeat-x;
+}
+#topNav ul { width: 100%; }
+#topNav ul#mainNav {
+	clear: both;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	width: 954px;
+	height: 38px;
+}
+#topNav ul li {
+	float: left;
+	padding: 12px 37px 16px 0;
+	z-index: 5001;
+}
+#topNav ul li a {
+	display: block;
+	height: 15px;
+}
+
+#topNav ul#mainNav li {
+	position: relative;
+	margin: 0 0 10px 0;
+	padding: 0 2px 0 0;
+	height: 38px;
+}
+
+#topNav ul#mainNav li.admin_back { width: 90px; background: url(/nav-buttons-bg.png) top left no-repeat; }
+#topNav ul#mainNav li.admin_products { width: 90px; background: url(/nav-buttons-bg.png) top left no-repeat; }
+
+#topNav ul#mainNav li.board { width: 85px; background: url(board.png) top left no-repeat; }
+#topNav ul#mainNav li.vinyls { width: 85px; background: url(vinyl.png) top left no-repeat; }
+#topNav ul#mainNav li.doors { width: 85px; background: url(doors.png) top left no-repeat; }
+#topNav ul#mainNav li.draws { width: 85px; background: url(draws.png) top left no-repeat; }
+#topNav ul#mainNav li.blum { width: 85px; background: url(blum.png) top left no-repeat; }
+#topNav ul#mainNav li.handles { width: 85px; background: url(handles.png) top left no-repeat; }
+#topNav ul#mainNav li.edging { width: 85px; background: url(edging.png) top left no-repeat; }
+#topNav ul#mainNav li.sliding-doors { width: 85px; background: url(sliding-doors.png) top left no-repeat; }
+#topNav ul#mainNav li.accessories { width: 84px; background: url(accessories.png) top left no-repeat;padding:0px; }
+#topNav ul#mainNav li.worktops { width: 85px; background: url(worktops.png) top left no-repeat; }
+#topNav ul#mainNav li.profiles { width: 85px; background: url(profiles.png) top left no-repeat; }
+
+#topNav ul#mainNav li.section {
+	background-image: url(nav-buttons-bg.png) !important;
+	width: 84.8px;
+	background-size: cover;
+}
+
+#topNav ul#mainNav li:hover, #topNav ul#mainNav li.over { background-position: bottom left; }
+#topNav ul#mainNav li a {
+	display: block;
+	height: 35px;
+	cursor:pointer;
+	text-decoration: none;
+}
+#topNav ul#mainNav li.hit {
+	background-position: bottom left;
+	padding-bottom: 0;
+}
+#topNav ul#mainNav li:hover div.subnav, #topNav ul#mainNav li.over div.subnav { display: block; }
+#topNav ul#mainNav li div.subnav {
+	display: none;
+	position: absolute;
+	top: 34px;
+	left: 0px;
+	padding: 0 0 14px 0;
+	width: 839px;
+	background: url(subnav-bottom.png) bottom left no-repeat;
+}
+#topNav ul#mainNav li.board div.subnav { left: 0px; }
+#topNav ul#mainNav li.doors div.subnav { left: -85px; }
+#topNav ul#mainNav li.sliding-doors div.subnav { left: -170px; }
+#topNav ul#mainNav li.draws div.subnav { left: -250px; }
+#topNav ul#mainNav li.blum div.subnav { left: -340px; }
+#topNav ul#mainNav li.edging div.subnav { left: -330px; }
+#topNav ul#mainNav li.vinyls div.subnav { left: -415px; }
+#topNav ul#mainNav li.blum div.subnav { left: -490px; }
+#topNav ul#mainNav li.worktops div.subnav { left: -550px; }
+#topNav ul#mainNav li.profiles div.subnav { left: -600px; }
+#topNav ul#mainNav li.handles div.subnav { left: -700px; }
+#topNav ul#mainNav li.accessories div.subnav { left: -755px; }
+
+#topNav ul#mainNav li div .subnavTop {
+	padding-top: 5px;
+	width: 839px;
+}
+
+#topNav ul#mainNav li .subnav ul.subnavContent {
+	padding: 3px 3px 0 1px;
+	width: 834px;
+	background: #fff;
+	list-style: none;
+	border-right: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+}
+#topNav ul#mainNav li .subnav ul.subnavContent li {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: 835px;
+	height: auto;
+}
+#topNav ul#mainNav li .subnav ul.subnavContent li a:hover,
+#topNav ul#mainNav li .subnav ul.subnavContent li a:hover span { text-decoration: underline; }
+#topNav ul#mainNav li .subnav dl {
+	float: left;
+	margin: 0 0 0 3px !important;
+	padding: 0 0 6px 9px;
+	width: 196px;
+}
+#topNav ul#mainNav li .subnav dl dt { padding: 4px 0 12px 6px; color:#016BB5; }
+#topNav ul#mainNav li .subnav dl dt a { height: 1em; }
+#topNav ul#mainNav li .subnav dl dd { padding: 0 0 6px 6px; position: relative; }
+#topNav ul#mainNav li .subnav dl dd a { height: 1%; }
+
+#topNav ul#mainNav li.profiles .subnav dl {
+	/*width: 392px;*/
+}
+
+#topNav ul#mainNav li.vinyls .subnav  dl dt,
+#topNav ul#mainNav li.profiles .subnav dl dt {
+	border-radius: 2px;
+	background: #F1F1F1;
+	border-bottom: 1px solid #333;
+	margin: 2px 0 10px 0;
+	padding: 2px 6px 2px 6px;
+}
+
+#topNav ul#mainNav li.vinyls .subnav  dl dt,
+#topNav ul#mainNav li.vinyls .subnav  dl dd {
+	font-size: 12px;
+}
+
+.product-image {
+	display: none;
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	right: -160px;
+	top: -5px;
+	z-index: 5;
+	border: 1px solid #888;
+}
+
+.vinyls .product-image,
+.profiles .product-image {
+	left: 50%;
+}
+
+.last-col .product-image {
+	left: -155px;
+}
+
+#topNav ul#mainNav li .subnav dl dd:hover .product-image {
+	display: block;
+}
+
+.height,
+.width,
+.depth,
+.thinkness,
+.length {
+	text-align: center;
+	display: inline-block;
+}
+.height {
+	width: 35px;
+}
+.width {
+	width: 54px;
+}
+.depth {
+	width: 33px;
+}
+.thinkness {
+	width: 54px;
+}
+.length {
+	width: 36px;
+}

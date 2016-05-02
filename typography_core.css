@@ -1,0 +1,151 @@
+
+body { font: 1em/1em Arial, Helvetica, sans-serif; color: #494c4e; }
+
+h1 { font-size: 2em; }
+#content .heroWrapper h1, #fullWidthContent .fullWidthHeroWrapper h1 { font-weight: normal; }
+
+a { color: #016bb5; text-decoration: none; }
+a:hover, a:focus { color: #000; text-decoration: underline; }
+a:visited { color: #016bb5; }
+
+#topNav, #basket, p.loginLine, .breadcrumb, #secondNav, #content, #fullWidthContent, #footer, p.copyright, body#popup, #staticContent, #staticContentFullWidth { font-size: 0.75em; }
+
+/**
+* =1.1: Static content font fix
+*/
+.fontFix { font-size: 0.75em; }
+.oldStyleLink, a.oldStyleLink:visited { color: #ff6600; }
+
+
+/**
+* =2: Page specific text
+*
+* @info Fonts specifc to a page type
+*/
+
+/**
+* =2.1: Topnav
+*/
+#topNav ul#mainNav li .subnav dl { text-align: left; line-height: 1.1em; }
+#topNav ul#mainNav li .subnav dl dt { font-weight: bold; }
+#topNav ul#mainNav li .subnav dl dd a { color: #000; }
+
+/**
+* =2.2: Basket
+*/
+#basket a { text-decoration: underline; }
+/**
+* =2.2.1: Basket
+*/
+p.loginLine { text-align: right; }
+p.loginLine a { text-decoration: underline; }
+
+/**
+* =2.3: Left nav
+*/
+#secondNav .catList dl dt { font-weight: bold; }
+#secondNav .catList dl dd a:hover, #secondNav .catList dl dd a:focus { text-decoration: none; }
+#secondNav div p a { text-decoration: underline; }
+
+/**
+* =2.4: Lister page
+*/
+.listerPage h1 { font-size: 1.4em; color: #fff; }
+.listerPage h1 .subtitle { font-weight: normal; }
+.listerPage p.resultsIntro strong { color: #ff6600; }
+.listerPage .listerFilter h2 { font-weight: bold; }
+.listerPage .listerFilter form label { text-align: right; }
+.listerPage .pagingBlock .right a { text-decoration: underline; }
+#compareDOMContainer_top .compareButton a, #compareDOMContainer_bottom .compareButton a { text-decoration: underline; }
+.listerPage .listerProduct a span { font-size: 1.2em; font-weight: bold; }
+.listerPage .listerProduct a.external span { font-size: 1em; font-weight: normal; }
+.listerPage .listerProduct .zoomImage a span { text-decoration: underline; }
+.listerPage .listerProduct .compareCheck label, .listerPage .listerProduct .productInfo .multiSkuOptions a { text-decoration: underline; }
+
+/**
+* =2.5: Availability block
+*/
+.availabilityDetailBlock h3 { font-size: 1.6em; }
+.skuAvailabilityBlock .availabilityDetailBlock p a { text-decoration: underline; }
+
+/**
+* =2.6: Product price section
+*/
+
+/**
+* =2.6.1: Main styles
+*/
+p.productPrice { text-align: right; font-weight: bold; }
+body#popup .productPrice { line-height: 1.3em !important; }
+span.nowPrice, span.onlyPrice { font-size: 1.3em; }
+span.wasPrice, #fullWidthContent .productInfo span.wasWasPrice { font-size: 0.95em; font-weight: normal !important; }
+span.savePrice { color: #fff; }
+/**
+* =2.6.2: Compare section
+*/
+#compareTableBlock th.titleColumn { text-align: right; font-weight: bold; }
+#compareTableBlock th.productPrice span.productName { font-weight: bold; }
+#compareTableBlock tr th p.productPrice span.savePrice { 
+	background: none; 
+	color: #dc241f; 
+	font-size: 0.95em;
+}
+#compareTableBlock .productPrice span { font-size: 1.2em; }
+#compareTableBlock .productPrice span.wasPrice { font-size: 0.95em; }
+/**
+* =2.6.3: Related products section
+*/
+#fullWidthContent .relatedProducts ul li { text-align: right; }
+#fullWidthContent .relatedProducts ul li span { font-weight: bold;}
+#fullWidthContent .relatedProducts ul li span.title { 
+	text-align: left; 
+	display: block; 
+	width: 210px; 
+}
+#fullWidthContent .relatedProducts ul li span.nowPrice, #fullWidthContent .relatedProducts ul li span.onlyPrice { font-size: 1em; }
+#fullWidthContent .relatedProducts ul li span.savePrice { color: #fff; }
+#fullWidthContent .relatedProducts ul li a { float: left; }
+
+/**
+* =2.7: Product popup
+*/
+body#popup #popup-content, body#popup #popup-banner-print, body#popup #popup-banner-links { padding: 15px 15px 0 15px; }
+body#popup h1 { font-size: 1.2em; }
+body#popup #popup-content p { padding-bottom:1.2em; }
+/**
+* =2.8: Store locator
+*/
+.storeFinderWrapper .heroWrapper h1 { font-weight: normal; }
+.storeFinderWrapper h2 { font-size: 1em; }
+
+/**
+* =2.9: Content box
+*/
+#content .helpBox .helpBoxContent h2.helpBoxTitle { font-size: 1.5em; }
+#content .funcContentBanners .contentBanner .promoLink a { text-decoration: underline; }
+
+/**
+* =2.10: Nav slots
+*/
+.navSlots ul li a:hover strong, .navSlots ul li a:hover span { text-decoration: underline; }
+
+/**
+* =3: Add to basket messaging
+*
+* @info Site wide add to basket error messaging
+*/
+.productError { color: #D90000; }
+.productError dl dt { font-weight: bold; }
+.productError dl dd { color: #000; }
+
+/**
+* =4: Static content
+*
+* @info Changes to static content fonts
+*/
+#contentWrapper h2 { font-size: 1.2em; font-weight: bold; margin-bottom: 10px; }
+#contentWrapper .text12 { margin-bottom: 10px; }
+#contentWrapper .text12b { margin-bottom: 10px; font-weight: bold; }
+#contentWrapper .textorange { color: #FF6600; }
+#contentWrapper .text10 { font-size:0.8em; margin-bottom:10px; }
+#contentWrapper .text12red { color: #f00; }

@@ -1,0 +1,3 @@
+<meta name="description" content='Welcome to the Stellafoam website. We are a specialist importer and distributor of melamine faced panels, vinyl wrapped doors and all accessories required in the cabinet making industry.'/>
+<meta name="keywords" content='Stellafoam,Melamine Faced Panels,Chipboard,Distributor,Importer,Vinyl Wrapped Doors,Fitted Furniture Supplier,Made To Measure Doors,Hire-able Workshop, Kitchen Carcass, Cabinets, Uniclic, Edging, Soft Close Drawer Boxes, Worktops, BLUM, Stock Kitchen, Stock Bedroom, Gloss'/>
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png" />

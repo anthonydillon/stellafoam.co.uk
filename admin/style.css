@@ -1,0 +1,123 @@
+#order {
+	width:180px;
+	height:37px;
+	float:right;
+	border:1px solid #E9E5E6;
+	font-size:13px;
+	padding-top:3px;
+	text-align:center;
+}
+#breadcrumb{
+	width:954px;
+	background-color:#DED6D4;
+	padding:5px;
+	font-size:12px;
+}
+#welcome{
+	margin-left:20px; 
+	margin-bottom:20px; 
+	background-image:url(welcome.jpg);
+	width:860px; 
+	height:277px;
+	padding:10px;
+}
+#welcome #information{
+	text-align:left;
+	width:400px; 
+	margin-left:30px; 
+	margin-top:70px;
+	color:#333;
+}
+#content .promo{
+	width:279px;
+}
+
+#info{
+	width:550px; 
+	margin-top:10px; 
+	margin-right:35px; 
+	float:right;
+	font-family: league-gothic-1, league-gothic-2, 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+#links{
+	width:150px; 
+	float:right;
+}
+#title{
+	font-size: 40px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#tab{
+	border-top-left-radius: 10px 10px;
+	-moz-border-radius-topleft: 10px 10px;
+	border-top-right-radius: 10px 10px;
+	-moz-border-radius-topright: 10px 10px;
+	margin-top:20px;
+	background-color:#DED6D4;
+	color:#494C4E;
+	width:100px;
+	padding-top:10px;
+	height:30px;
+	font-size:16px;
+	text-align:center;
+}
+
+#description{
+	background-color:#DED6D4;
+	color:#494C4E;
+	padding:10px;
+	height:160px;
+	font-size:13px;
+}
+
+#stock{
+	font-size:13px;
+	margin-top:20px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse:collapse;
+}
+
+#stock td, #stock th {
+	font-size:1em;
+	border:1px solid #ddd5d3;
+	padding:3px 7px 2px 7px;
+}
+
+#stock th {
+	font-size:1.1em;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#ffe8c1;
+	color:#494C4E;
+}
+
+#stock tr.alt td {
+	color:#494C4E;
+}
+
+#stock form{
+	 margin-bottom:10px;
+	 margin-top:4px;
+}
+
+#stock form input{
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:1px;
+	padding-bottom:1px;
+}
+
+#low_content{
+	text-align:center;
+	color:#666;
+	font-size:12px; 
+	padding:6px;
+}
+
+dt{
+	background: #fff url(subnav-title-bg.jpg) 0 1px no-repeat;
+	color:#016BB5;
+}

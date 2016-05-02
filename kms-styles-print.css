@@ -1,0 +1,14 @@
+.articad-box,
+.product-picker,
+#topNav,
+#breadcrumb,
+#footer,
+#copyright,
+.intro,
+.button-group {
+	display: none;
+}
+
+.row.stripe-grey {
+	padding-top: 0;
+}
