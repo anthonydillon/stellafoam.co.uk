@@ -89,12 +89,18 @@ include("functions.php");
 		width: 47px;
 	}
 
-	.door-list li img,
-	.colour-list li img {
+	.door-list li img {
 		border: 1px solid #ddd;
 		float: left;
 		width: 49px;
 		height: 198px;
+	}
+
+	.colour-list li img {
+		border: 1px solid #ddd;
+		float: left;
+		width: 49px;
+		height: 49px;
 	}
 
 	.door-list li img {
@@ -386,23 +392,117 @@ include("functions.php");
 
 			<div class="row stripe-grey is-hidden doors-row" id="kitchens-vinyl">
 				<h2>Vinyl Kitchen doors</h2>
+				<div class="eight-col">
+					<ul class="door-list">
+						<li class="selected" data-name="Amsterdam"><img src="images/doors/amsterdam.jpg" alt="Amsterdam" /></li>
+						<li data-name="Annabelle"><img src="images/doors/annabelle.jpg" alt="Annabelle" /></li>
+						<li data-name="Arch"><img src="images/doors/arch.jpg" alt="Arch" /></li>
+						<li data-name="Auckland"><img src="images/doors/auckland.jpg" alt="Auckland" /></li>
+						<li data-name="Barkby"><img src="images/doors/barkby.jpg" alt="Barkby" /></li>
+						<li data-name="Brisbane"><img src="images/doors/brisbane.jpg" alt="Brisbane" /></li>
+						<li data-name="Auckland"><img src="images/doors/auckland.jpg" alt="Auckland" /></li>
+						<li data-name="Bourbon"><img src="images/doors/bourbon.jpg" alt="Bourbon" /></li>
+						<li data-name="Cairo"><img src="images/doors/cairo.jpg" alt="Cairo" /></li>
+						<li data-name="Calcutta"><img src="images/doors/calcutta.jpg" alt="Calcutta" /></li>
+						<li data-name="Cologne"><img src="images/doors/cologne.jpg" alt="Cologne" /></li>
+						<li data-name="Copenhagen"><img src="images/doors/copenhagen.jpg" alt="Copenhagen" /></li>
+						<li data-name="Derwent"><img src="images/doors/derwent.jpg" alt="Derwent" /></li>
+						<li data-name="Duleek"><img src="images/doors/duleek.jpg" alt="Duleek" /></li>
+						<li data-name="Euroline"><img src="images/doors/euroline.jpg" alt="Euroline" /></li>
+						<li data-name="Farmhouse Arch"><img src="images/doors/farmhouse-arch.jpg" alt="Farmhouse Arch" /></li>
+						<li data-name="Farmhouse Square"><img src="images/doors/farmhouse-square.jpg" alt="Farmhouse Square" /></li>
+						<li data-name="Florida"><img src="images/doors/florida.jpg" alt="Florida" /></li>
+						<li data-name="Galaxy"><img src="images/doors/galaxy.jpg" alt="Galaxy" /></li>
+						<li data-name="Gallo"><img src="images/doors/gallo.jpg" alt="Gallo" /></li>
+						<li data-name="Glebe"><img src="images/doors/glebe.jpg" alt="Glebe" /></li>
+						<li data-name="Hourglass"><img src="images/doors/hourglass.jpg" alt="Hourglass" /></li>
+						<li data-name="Houston"><img src="images/doors/houston.jpg" alt="Houston" /></li>
+						<li data-name="Letterbox"><img src="images/doors/letterbox.jpg" alt="Letterbox" /></li>
+						<li data-name="Madrid"><img src="images/doors/madrid.jpg" alt="Madrid" /></li>
+						<li data-name="Manhatton"><img src="images/doors/manhattan.jpg" alt="Manhatton" /></li>
+						<li data-name="Melbourne"><img src="images/doors/melbourne.jpg" alt="Melbourne" /></li>
+						<li data-name="Metro"><img src="images/doors/metro.jpg" alt="Metro" /></li>
+						<li data-name="Mona"><img src="images/doors/mona.jpg" alt="Mona" /></li>
+						<li data-name="Morris"><img src="images/doors/morris.jpg" alt="Morris" /></li>
+						<li data-name="Oslo"><img src="images/doors/oslo.jpg" alt="Oslo" /></li>
+						<li data-name="Ottawa"><img src="images/doors/ottawa.jpg" alt="Ottawa" /></li>
+						<li data-name="Paris"><img src="images/doors/paris.jpg" alt="Paris" /></li>
+						<li data-name="Prague"><img src="images/doors/prague.jpg" alt="Prague" /></li>
+						<li data-name="Quebec"><img src="images/doors/quebec.jpg" alt="Quebec" /></li>
+						<li data-name="Ribbed Shaker"><img src="images/doors/ribbed-shaker.jpg" alt="Ribbed Shaker" /></li>
+						<li data-name="Rosapenna"><img src="images/doors/rosapenna.jpg" alt="Rosapenna" /></li>
+						<li data-name="Ruskin"><img src="images/doors/ruskin.jpg" alt="Ruskin" /></li>
+						<li data-name="Scoop"><img src="images/doors/scoop.jpg" alt="Scoop" /></li>
+						<li data-name="Slab"><img src="images/doors/slab.jpg" alt="Slab" /></li>
+						<li data-name="Somerby"><img src="images/doors/somerby.jpg" alt="Somerby" /></li>
+						<li data-name="Springfield"><img src="images/doors/springfield.jpg" alt="Springfield" /></li>
+						<li data-name="Square"><img src="images/doors/square.jpg" alt="Square" /></li>
+						<li data-name="Stamford"><img src="images/doors/stamford.jpg" alt="Stamford" /></li>
+						<li data-name="Stockholm"><img src="images/doors/stockholm.jpg" alt="Stockholm" /></li>
+						<li data-name="Tressel"><img src="images/doors/tressel.jpg" alt="Tressel" /></li>
+						<li data-name="Twin Square"><img src="images/doors/twin-square.jpg" alt="Twin Square" /></li>
+						<li data-name="Vancouver"><img src="images/doors/vancouver.jpg" alt="Vancouver" /></li>
+						<li data-name="Vienna"><img src="images/doors/vienna.jpg" alt="Vienna" /></li>
+						<li data-name="Warsaw"><img src="images/doors/warsaw.jpg" alt="Warsaw" /></li>
+						<li data-name="Windermere"><img src="images/doors/windermere.jpg" alt="Windermere" /></li>
+					</ul>
+				</div>
+				<div class="two-col align-center">
+					<img id="zoom-door" src="images/doors/amsterdam.jpg" class="door-image" data-zoom-image="images/doors/amsterdam-large.jpg" alt="" />
+					<p class="door-name">Amsterdam</p>
+				</div>
+				<div class="two-col last-col align-center">
+					<img src="images/AG.jpg" class="door-colour-image" alt="" />
+					<p class="door-colour-name">Melon</p>
+				</div>
+				<h3>Colours</h3>
+				<ul class="colour-list">
+					<li data-name="Agnola Beech" class="selected"><img src="images/AG.jpg" alt="Agnola Beech" /></li>
+					<li data-name="Brown Avola"><img src="images/BA.jpg" alt="Brown Avola" /></li>
+					<li data-name="Grey Avola"><img src="images/GA.jpg" alt="Grey Avola" /></li>
+					<li data-name="White Avola"><img src="images/WA.jpg" alt="White Avola" /></li>
+					<li data-name="Cashmere"><img src="images/CM.jpg" alt="Cashmere" /></li>
+					<li data-name="Classic Walnut"><img src="images/CW.jpg" alt="Classic Walnut" /></li>
+					<li data-name="Dust grey"><img src="images/DG.jpg" alt="Dust grey" /></li>
+					<li data-name="French Oak"><img src="images/FO.jpg" alt="French Oak" /></li>
+					<li data-name="Golden Walnut"><img src="images/GW.jpg" alt="Golden Walnut" /></li>
+					<li data-name="Ivory"><img src="images/IV.jpg" alt="Ivory" /></li>
+					<li data-name="Legno Alabaster"><img src="images/LA.jpg" alt="Legno Alabaster" /></li>
+					<li data-name="Legno Mussel"><img src="images/LM.jpg" alt="Legno Mussel" /></li>
+					<li data-name="Legno White"><img src="images/LW.jpg" alt="Legno White" /></li>
+					<li data-name="Light Elm"><img src="images/LE.jpg" alt="Light Elm" /></li>
+					<li data-name="Lissa Oak"><img src="images/LO.jpg" alt="Lissa Oak" /></li>
+					<li data-name="Mali Wenge"><img src="images/MW.jpg" alt="Mali Wenge" /></li>
+					<li data-name="Metallic"><img src="images/ME.jpg" alt="Metallic" /></li>
+					<li data-name="Mussel"><img src="images/MU.jpg" alt="Mussel" /></li>
+					<li data-name="Natural Oak"><img src="images/NO.jpg" alt="Natural Oak" /></li>
+					<li data-name="Ontario Maple"><img src="images/OM.jpg" alt="Ontario Maple" /></li>
+					<li data-name="Pamplona Oak"><img src="images/PO.jpg" alt="Pamplona Oak" /></li>
+					<li data-name="Pearl Darkar"><img src="images/DA.jpg" alt="Pearl Darkar" /></li>
+					<li data-name="Pippy Oak"><img src="images/PI.jpg" alt="Pippy Oak" /></li>
+					<li data-name="Steamed Beech"><img src="images/SB.jpg" alt="Steamed Beech" /></li>
+					<li data-name="Stone Grey"><img src="images/SG.jpg" alt="Stone Grey" /></li>
+					<li data-name="Tiepolo (Natural)"><img src="images/TI.jpg" alt="Tiepolo (Natural)" /></li>
+					<li data-name="Vintage Oak"><img src="images/VO.jpg" alt="Vintage Oak" /></li>
+					<li data-name="White Matt"><img src="images/white.jpg" alt="White Matt" /></li>
+				</ul>
 			</div>
 			<div class="row stripe-grey is-hidden doors-row" id="kitchens-acrylic">
 				<h2>Acrylic kitchen doors</h2>
 				<div class="eight-col">
 					<ul class="door-list">
-						<li class="selected" data-name="Gloss Black"><img src="images/doors/gloss-black.jpg" alt="Gloss Black" /></li>
-						<li data-name="Gloss Brown" style="height:87px"><img src="images/doors/gloss-brown.jpg" alt="Gloss Brown" /></li>
-						<li data-name="Gloss Cashmere" style="height:87px"><img src="images/doors/gloss-cashmere.jpg" alt="Gloss Cashmere" /></li>
-						<li data-name="Gloss Cream" style="height:87px"><img src="images/doors/gloss-cream.jpg" alt="Gloss Cream" /></li>
-						<li data-name="Gloss Dakar" style="height:87px"><img src="images/doors/gloss-dakar.jpg" alt="Gloss Dakar" /></li>
-						<li data-name="Gloss Fossil" style="height:87px"><img src="images/doors/gloss-fossil.jpg" alt="Gloss Fossil" /></li>
-						<li data-name="Gloss Light Grey" style="height:87px"><img src="images/doors/gloss-light-grey.jpg" alt="Gloss Light Grey" /></li>
-						<li data-name="Gloss Mussell" style="height:87px"><img src="images/doors/gloss-mussell.jpg" alt="Gloss Mussell" /></li>
-						<li data-name="Gloss Red" style="height:87px"><img src="images/doors/gloss-red.jpg" alt="Gloss Red" /></li>
-						<li data-name="Gloss Stone Grey" style="height:87px"><img src="images/doors/gloss-stone-grey.jpg" alt="Gloss Stone Grey" /></li>
-						<li data-name="Gloss Tiepolo" style="height:87px"><img src="images/doors/gloss-tiepolo.jpg" alt="Gloss Tiepolo" /></li>
-						<li data-name="Gloss White" style="height:87px"><img src="images/doors/gloss-white.jpg" alt="Gloss White" /></li>
+						<li class="selected" data-name="Gloss Black" style="height:87px"><img src="images/doors/gloss-black.jpg" alt="Gloss Black" style="height:87px" /></li>
+						<li data-name="Gloss Brown" style="height:87px"><img src="images/doors/gloss-brown.jpg" alt="Gloss Brown" style="height:87px" /></li>
+						<li data-name="Gloss Cashmere" style="height:87px"><img src="images/doors/gloss-cashmere.jpg" alt="Gloss Cashmere" style="height:87px" /></li>
+						<li data-name="Gloss Cream" style="height:87px"><img src="images/doors/gloss-cream.jpg" alt="Gloss Cream" style="height:87px" /></li>
+						<li data-name="Gloss Dakar" style="height:87px"><img src="images/doors/gloss-dakar.jpg" alt="Gloss Dakar" style="height:87px" /></li>
+						<li data-name="Gloss Fossil" style="height:87px"><img src="images/doors/gloss-fossil.jpg" alt="Gloss Fossil" style="height:87px" /></li>
+						<li data-name="Gloss Light Grey" style="height:87px"><img src="images/doors/gloss-light-grey.jpg" alt="Gloss Light Grey" style="height:87px" /></li>
+						<li data-name="Gloss Mussell" style="height:87px"><img src="images/doors/gloss-mussell.jpg" alt="Gloss Mussell" style="height:87px" /></li>
+						<li data-name="Gloss Red" style="height:87px"><img src="images/doors/gloss-red.jpg" alt="Gloss Red" style="height:87px" /></li>
+						<li data-name="Gloss Stone Grey" style="height:87px"><img src="images/doors/gloss-stone-grey.jpg" alt="Gloss Stone Grey" style="height:87px" /></li>
+						<li data-name="Gloss Tiepolo" style="height:87px"><img src="images/doors/gloss-tiepolo.jpg" alt="Gloss Tiepolo" style="height:87px" /></li>
+						<li data-name="Gloss White" style="height:87px"><img src="images/doors/gloss-white.jpg" alt="Gloss White" style="height:87px" /></li>
 					</ul>
 				</div>
 				<div class="four-col last-col align-center">
