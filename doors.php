@@ -337,7 +337,7 @@ include("functions.php");
 					</ul>
 				</div>
 				<div class="two-col align-center">
-					<img id="zoom-door" src="images/doors/amsterdam.jpg" class="door-image" data-zoom-image="images/doors/amsterdam-large.jpg" alt="" />
+					<img class="zoom-door door-image" src="images/doors/amsterdam.jpg" data-zoom-image="images/doors/amsterdam-large.jpg" alt="" />
 					<p class="door-name">Amsterdam</p>
 				</div>
 				<div class="two-col last-col align-center">
@@ -379,6 +379,26 @@ include("functions.php");
 
 			<div class="row stripe-grey is-hidden doors-row" id="bedrooms-acrylic">
 				<h2>Acrylic bedrooms doors</h2>
+				<div class="eight-col">
+					<ul class="door-list">
+						<li class="selected" data-name="Gloss Black" style="height:187px"><img src="images/doors/gloss-black.jpg" alt="Gloss Black" style="height:187px" /></li>
+						<li data-name="Gloss Brown" style="height:187px"><img src="images/doors/gloss-brown.jpg" alt="Gloss Brown" style="height:187px" /></li>
+						<li data-name="Gloss Cashmere" style="height:187px"><img src="images/doors/gloss-cashmere.jpg" alt="Gloss Cashmere" style="height:187px" /></li>
+						<li data-name="Gloss Cream" style="height:187px"><img src="images/doors/gloss-cream.jpg" alt="Gloss Cream" style="height:187px" /></li>
+						<li data-name="Gloss Dakar" style="height:187px"><img src="images/doors/gloss-dakar.jpg" alt="Gloss Dakar" style="height:187px" /></li>
+						<li data-name="Gloss Fossil" style="height:187px"><img src="images/doors/gloss-fossil.jpg" alt="Gloss Fossil" style="height:187px" /></li>
+						<li data-name="Gloss Light Grey" style="height:187px"><img src="images/doors/gloss-light-grey.jpg" alt="Gloss Light Grey" style="height:187px" /></li>
+						<li data-name="Gloss Mussell" style="height:187px"><img src="images/doors/gloss-mussell.jpg" alt="Gloss Mussell" style="height:187px" /></li>
+						<li data-name="Gloss Red" style="height:187px"><img src="images/doors/gloss-red.jpg" alt="Gloss Red" style="height:187px" /></li>
+						<li data-name="Gloss Stone Grey" style="height:187px"><img src="images/doors/gloss-stone-grey.jpg" alt="Gloss Stone Grey" style="height:187px" /></li>
+						<li data-name="Gloss Tiepolo" style="height:187px"><img src="images/doors/gloss-tiepolo.jpg" alt="Gloss Tiepolo" style="height:187px" /></li>
+						<li data-name="Gloss White" style="height:187px"><img src="images/doors/gloss-white.jpg" alt="Gloss White" style="height:187px" /></li>
+					</ul>
+				</div>
+				<div class="two-col last-col align-center">
+					<img class="zoom-door door-image" src="images/doors/gloss-black.jpg" height="400px" data-zoom-image="images/doors/gloss-black-large.jpg" alt="" />
+					<p class="door-name">Gloss Black</p>
+				</div>
 			</div>
 			<div class="row stripe-grey is-hidden doors-row" id="bedrooms-piece">
 				<h2>5-Piece bedrooms doors</h2>
@@ -448,7 +468,7 @@ include("functions.php");
 					</ul>
 				</div>
 				<div class="two-col align-center">
-					<img id="zoom-door" src="images/doors/amsterdam.jpg" class="door-image" data-zoom-image="images/doors/amsterdam-large.jpg" alt="" />
+					<img class="zoom-door door-image" src="images/doors/amsterdam.jpg" data-zoom-image="images/doors/amsterdam-large.jpg" alt="" />
 					<p class="door-name">Amsterdam</p>
 				</div>
 				<div class="two-col last-col align-center">
@@ -456,7 +476,7 @@ include("functions.php");
 					<p class="door-colour-name">Melon</p>
 				</div>
 				<h3>Colours</h3>
-				<ul class="colour-list">
+				<ul class="colour-list">	
 					<li data-name="Agnola Beech" class="selected"><img src="images/AG.jpg" alt="Agnola Beech" /></li>
 					<li data-name="Brown Avola"><img src="images/BA.jpg" alt="Brown Avola" /></li>
 					<li data-name="Grey Avola"><img src="images/GA.jpg" alt="Grey Avola" /></li>
@@ -506,7 +526,7 @@ include("functions.php");
 					</ul>
 				</div>
 				<div class="four-col last-col align-center">
-					<img id="zoom-door" src="images/doors/gloss-black.jpg" class="door-image" data-zoom-image="images/doors/gloss-black-large.jpg" alt="" />
+					<img class="zoom-door door-image" src="images/doors/gloss-black.jpg" data-zoom-image="images/doors/gloss-black-large.jpg" alt="" />
 					<p class="door-name">Gloss Black</p>
 				</div>
 			</div>
@@ -540,6 +560,7 @@ include("functions.php");
 					$(this).addClass('selected');
 					$('.doors-row').hide();
 					$(currentDoor).show();
+					$(currentDoor).find('.door-list li:first-of-type').trigger( "click" );
 				});
 
 				$('.colour-list li').click(function(e) {
@@ -555,13 +576,15 @@ include("functions.php");
 					$('.door-list li').removeClass('selected');
 					$(this).addClass('selected');
 					var imageSrc = $(this).find("img").attr('src');
+					console.log(imageSrc);
 					$('.door-image').attr('src', imageSrc);
 					$('.door-image').attr('data-zoom-image', imageSrc.replace('.jpg','') + '-large.jpg');
 					$('.door-name').text($(this).find("img").attr('alt'));
-					$(".zoomContainer .zoomLens").css('background-image', imageSrc.replace('.jpg','') + '-large.jpg');
+					var largeImage = 'url(' + imageSrc.replace('.jpg','') + '-large.jpg)';
+					$(".zoomContainer .zoomLens").css('background-image', largeImage);
 				});
 
-				$("#zoom-door").elevateZoom({
+				$(".zoom-door").elevateZoom({
 					zoomType	: "lens",
 					lensShape : "round",
 					lensSize : 200

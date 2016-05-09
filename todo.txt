@@ -2,12 +2,12 @@ TO DO
 =========
 - door images remove white
 - vinyl kitchen images
-- acylic bedroom solid colour with gloss
-- New selection when changing
-- Hover glass
 
 DONE
 =========
 - vinyl copy colours to to bedroom
 - vinyl colour back to squares
 - acylic kitchen doors: remove handles (same as the original)
+- acylic bedroom solid colour with gloss
+- New selection when changing
+- Hover glass
