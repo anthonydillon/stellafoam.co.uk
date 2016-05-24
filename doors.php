@@ -402,12 +402,27 @@ include("functions.php");
 			</div>
 			<div class="row stripe-grey is-hidden doors-row" id="bedrooms-piece">
 				<h2>5-Piece bedrooms doors</h2>
+				<div class="twelve-col align-center">
+					<img src="images/doors/bedroom-five-piece-doors.jpg" alt="" />
+				</div>
 			</div>
 			<div class="row stripe-grey is-hidden doors-row" id="bedrooms-painted">
 				<h2>Painted bedrooms doors</h2>
+					<div class="twelve-col align-center">
+						<img src="images/doors/bedroom-painted-finsbury-dust-grey.jpg" alt="" />
+					</div>
+					<div class="twelve-col align-center">
+						<img src="images/doors/bedroom-painted-hyde-stone-grey.jpg" alt="" />
+					</div>
+					<div class="twelve-col align-center">
+						<img src="images/doors/bedroom-painted-reed-light-grey.jpg" alt="" />
+					</div>
 			</div>
 			<div class="row stripe-grey is-hidden doors-row" id="bedroom-veneered">
 				<h2>Veneered bedrooms doors</h2>
+				<div class="twelve-col align-center">
+					<img src="images/doors/bedroom-veneered-doors.jpg" alt="" />
+				</div>
 			</div>
 
 			<div class="row stripe-grey is-hidden doors-row" id="kitchens-vinyl">
@@ -476,7 +491,7 @@ include("functions.php");
 					<p class="door-colour-name">Melon</p>
 				</div>
 				<h3>Colours</h3>
-				<ul class="colour-list">	
+				<ul class="colour-list">
 					<li data-name="Agnola Beech" class="selected"><img src="images/AG.jpg" alt="Agnola Beech" /></li>
 					<li data-name="Brown Avola"><img src="images/BA.jpg" alt="Brown Avola" /></li>
 					<li data-name="Grey Avola"><img src="images/GA.jpg" alt="Grey Avola" /></li>
@@ -532,12 +547,58 @@ include("functions.php");
 			</div>
 			<div class="row stripe-grey is-hidden doors-row" id="kitchens-piece">
 				<h2>5-Piece kitchen doors</h2>
+				<div class="eight-col">
+					<ul class="door-list">
+						<li class="selected" data-name="Empire Pippy Oak" style="height:87px"><img src="images/doors/kitchen-5-piece/empire-pippy-oak.jpg" alt="Empire Pippy Oak" style="height:87px" /></li>
+						<li data-name="Pesaro Legno Cashmere" style="height:87px"><img src="images/doors/kitchen-5-piece/pesaro-legno-cashmere.jpg" alt="Pesaro Legno Cashmere" style="height:87px" /></li>
+						<li data-name="Pesaro Legno Dakar" style="height:87px"><img src="images/doors/kitchen-5-piece/pesaro-legno-dakar.jpg" alt="Pesaro Legno Dakar" style="height:87px" /></li>
+						<li data-name="Pesaro Legno Ivory" style="height:87px"><img src="images/doors/kitchen-5-piece/pesaro-legno-ivory.jpg" alt="Pesaro Legno Ivory" style="height:87px" /></li>
+						<li data-name="Pesaro Legno Mussel" style="height:87px"><img src="images/doors/kitchen-5-piece/pesaro-legno-mussel.jpg" alt="Pesaro Legno Mussel" style="height:87px" /></li>
+						<li data-name="Turin Lissa Oak" style="height:87px"><img src="images/doors/kitchen-5-piece/turin-lissa-oak.jpg" alt="Turin Lissa Oak" style="height:87px" /></li>
+						<li data-name="Tuscany Classic Walnut" style="height:87px"><img src="images/doors/kitchen-5-piece/tuscany-classic-walnut.jpg" alt="Tuscany Classic Walnut" style="height:87px" /></li>
+						<li data-name="Tuscany Golden Walnut" style="height:87px"><img src="images/doors/kitchen-5-piece/tuscany-golden-walnut.jpg" alt="Tuscany Golden Walnut" style="height:87px" /></li>
+						<li data-name="Tuscany Ivory" style="height:87px"><img src="images/doors/kitchen-5-piece/tuscany-ivory.jpg" alt="Tuscany Ivory" style="height:87px" /></li>
+						<li data-name="Tuscany Light Tiepolo" style="height:87px"><img src="images/doors/kitchen-5-piece/tuscany-light-tiepolo.jpg" alt="Tuscany Light Tiepolo" style="height:87px" /></li>
+						<li data-name="Tuscany Lissa Oak" style="height:87px"><img src="images/doors/kitchen-5-piece/tuscany-lissa-oak.jpg" alt="Tuscany Lissa Oak" style="height:87px" /></li>
+					</ul>
+				</div>
+				<div class="four-col last-col align-center">
+					<img class="zoom-door door-image" src="images/doors/kitchen-5-piece/empire-pippy-oak.jpg" data-zoom-image="images/doors/kitchen-5-piece/empire-pippy-oak-large.jpg" alt="" />
+					<p class="door-name">Empire Pippy Oak</p>
+				</div>
 			</div>
 			<div class="row stripe-grey is-hidden doors-row" id="kitchens-painted">
 				<h2>Painted kitchen doors</h2>
+				<div class="eight-col">
+					<ul class="door-list">
+						<li class="selected" data-name="Albany" style="height:87px"><img src="images/doors/kitchen-painted/Albany.jpg" alt="Albany" style="height:87px" /></li>
+						<li data-name="Arena" style="height:87px"><img src="images/doors/kitchen-painted/Arena.jpg" alt="Arena" style="height:87px" /></li>
+						<li data-name="Finsbury" style="height:87px"><img src="images/doors/kitchen-painted/Finsbury.jpg" alt="Finsbury" style="height:87px" /></li>
+						<li data-name="Greenwich" style="height:87px"><img src="images/doors/kitchen-painted/Greenwich.jpg" alt="Greenwich" style="height:87px" /></li>
+						<li data-name="Hampton" style="height:87px"><img src="images/doors/kitchen-painted/Hampton.jpg" alt="Hampton" style="height:87px" /></li>
+						<li data-name="Hartford" style="height:87px"><img src="images/doors/kitchen-painted/Hartford.jpg" alt="Hartford" style="height:87px" /></li>
+						<li data-name="Hyde" style="height:87px"><img src="images/doors/kitchen-painted/Hyde.jpg" alt="Hyde" style="height:87px" /></li>
+					</ul>
+				</div>
+				<div class="four-col last-col align-center">
+					<img class="zoom-door door-image" src="images/doors/kitchen-painted/Albany.jpg" data-zoom-image="images/doors/kitchen-painted/Albany-large.jpg" alt="" />
+					<p class="door-name">Albany</p>
+				</div>
 			</div>
 			<div class="row stripe-grey is-hidden doors-row" id="kitchens-solid">
 				<h2>Solid kitchen doors</h2>
+				<div class="eight-col">
+					<ul class="door-list">
+						<li class="selected" data-name="Harvard" style="height:87px"><img src="images/doors/kitchen-solid/Harvard.jpg" alt="Harvard" style="height:87px" /></li>
+						<li data-name="Princeton" style="height:87px"><img src="images/doors/kitchen-solid/Princeton.jpg" alt="Princeton" style="height:87px" /></li>
+						<li data-name="Shaker" style="height:87px"><img src="images/doors/kitchen-solid/Shaker.jpg" alt="Shaker" style="height:87px" /></li>
+						<li data-name="Yale" style="height:87px"><img src="images/doors/kitchen-solid/Yale.jpg" alt="Yale" style="height:87px" /></li>
+					</ul>
+				</div>
+				<div class="four-col last-col align-center">
+					<img class="zoom-door door-image" src="images/doors/kitchen-solid/Harvard.jpg" data-zoom-image="images/doors/kitchen-solid/Harvard-large.jpg" alt="" />
+					<p class="door-name">Harvard</p>
+				</div>
 			</div>
 		</div>
         <?php
