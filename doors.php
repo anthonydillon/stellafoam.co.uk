@@ -52,6 +52,7 @@ include("functions.php");
 	}
 	.door-image {
 		border: 1px solid #ddd;
+		width: 132px;
 	}
 	.colour-image {
 		width: 200px;
@@ -162,9 +163,8 @@ include("functions.php");
 
 	.door-colour-image {
 		height: 551px;
-		padding: 20px;
+		width: 132px;
 		border: 1px solid #ddd;
-		background: white;
 		box-sizing: border-box;
 	}
 
@@ -555,7 +555,7 @@ include("functions.php");
 					</ul>
 				</div>
 				<div class="four-col last-col align-center">
-					<img class="zoom-door door-image" src="images/doors/gloss-black.jpg" data-zoom-image="images/doors/gloss-black-large.jpg" alt="" />
+					<img class="zoom-door door-image" src="images/doors/gloss-black.jpg" data-zoom-image="images/doors/gloss-black-large.jpg" alt="" style="height:240px;" />
 					<p class="door-name">Gloss Black</p>
 				</div>
 			</div>
@@ -577,7 +577,7 @@ include("functions.php");
 					</ul>
 				</div>
 				<div class="four-col last-col align-center">
-					<img class="zoom-door door-image" src="images/doors/kitchen-5-piece/empire-pippy-oak.jpg" data-zoom-image="images/doors/kitchen-5-piece/empire-pippy-oak-large.jpg" alt="" />
+					<img class="zoom-door door-image" src="images/doors/kitchen-5-piece/empire-pippy-oak.jpg" data-zoom-image="images/doors/kitchen-5-piece/empire-pippy-oak-large.jpg" alt="" style="height:240px;" />
 					<p class="door-name">Empire Pippy Oak</p>
 				</div>
 			</div>
