@@ -53,6 +53,9 @@ include("functions.php");
 	.door-image {
 		border: 1px solid #ddd;
 		width: 132px;
+		filter: brightness(0.9);
+		-webkit-filter: brightness(0.9);
+		-moz-filter: brightness(0.9);
 	}
 	.colour-image {
 		width: 200px;
@@ -95,6 +98,9 @@ include("functions.php");
 		float: left;
 		width: 49px;
 		height: 198px;
+		filter: brightness(0.9);
+		-webkit-filter: brightness(0.9);
+		-moz-filter: brightness(0.9);
 	}
 
 	.colour-list li img {
