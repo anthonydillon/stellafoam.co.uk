@@ -380,12 +380,26 @@ include("functions.php");
 					<li data-name="Tiepolo (Natural)"><img src="images/TI.jpg" alt="Tiepolo (Natural)" /></li>
 					<li data-name="Vintage Oak"><img src="images/VO.jpg" alt="Vintage Oak" /></li>
 					<li data-name="White Matt"><img src="images/white.jpg" alt="White Matt" /></li>
+
+					<li data-name="Gloss Anthracite"><img src="images/doors/gloss-anthracite.jpg" alt="Gloss Anthracite" /></li>
 					<li data-name="Gloss Aubergine"><img src="images/doors/gloss-aubergine.jpg" alt="Gloss Aubergine" /></li>
+					<li data-name="Gloss Beige"><img src="images/doors/gloss-beige.jpg" alt="Gloss Beige" /></li>
+					<li data-name="Gloss Black"><img src="images/bedroom-acrylic/gloss-black.jpg" alt="Gloss Black" /></li>
+					<li data-name="Gloss Burgandy"><img src="images/doors/gloss-burgandy.jpg" alt="Gloss Burgandy" /></li>
 					<li data-name="Gloss Cappuccino"><img src="images/doors/gloss-cappuccino.jpg" alt="Gloss Cappuccino" /></li>
+					<li data-name="Gloss Cashmere"><img src="images/doors/bedroom-acrylic/gloss-cashmere.jpg" alt="Gloss Cashmere" /></li>
 					<li data-name="Gloss Cream"><img src="images/doors/bedroom-acrylic/gloss-cream.jpg" alt="Gloss Cream" /></li>
-					<li data-name="Gloss Black"><img src="images/doors/bedroom-acrylic/gloss-black.jpg" alt="Gloss Black" /></li>
+					<li data-name="Gloss Dakar"><img src="images/doors/gloss-dakar.jpg" alt="Gloss Dakar" /></li>
 					<li data-name="Gloss Ivory"><img src="images/doors/gloss-ivory.jpg" alt="Gloss Ivory" /></li>
+					<li data-name="Gloss Light Grey"><img src="images/doors/bedroom-acrylic/gloss-light-grey.jpg" alt="Gloss Light Grey" /></li>
+					<li data-name="Gloss Mira Cosa"><img src="images/doors/bedroom-acrylic/gloss-mira-cosa.jpg" alt="Gloss Mira Cosa" /></li>
+					<li data-name="Gloss Mussel"><img src="images/doors/bedroom-acrylic/gloss-mussell.jpg" alt="Gloss Mussel" /></li>
+					<li data-name="Gloss Red"><img src="images/doors/gloss-red.jpg" alt="Gloss Red" /></li>
+					<li data-name="Gloss Silver"><img src="images/doors/gloss-silver.jpg" alt="Gloss Silver" /></li>
+					<li data-name="Gloss Sky Blue"><img src="images/doors/gloss-sky-blue.jpg" alt="Gloss Sky Blue" /></li>
+					<li data-name="Gloss Stone Grey"><img src="images/doors/gloss-stone-grey.jpg" alt="Gloss Stone Grey" /></li>
 					<li data-name="Gloss Tiepolo"><img src="images/doors/bedroom-acrylic/gloss-tiepolo.jpg" alt="Gloss Tiepolo" /></li>
+					<li data-name="Gloss Walnut"><img src="images/doors/bedroom-acrylic/gloss-walnut.jpg" alt="Gloss Walnut" /></li>
 					<li data-name="Gloss White"><img src="images/doors/bedroom-acrylic/gloss-white.jpg" alt="Gloss White" /></li>
 				</ul>
 			</div>
@@ -500,7 +514,7 @@ include("functions.php");
 					<p class="door-name">Amsterdam</p>
 				</div>
 				<div class="two-col last-col align-center">
-					<img src="images/AG.jpg" class="door-colour-image" style="height:240px;" alt="" />
+					<img src="images/AG.jpg" class="door-colour-image" style="height:242px;" alt="" />
 					<p class="door-colour-name">Melon</p>
 				</div>
 				<h3>Colours</h3>
@@ -533,12 +547,26 @@ include("functions.php");
 					<li data-name="Tiepolo (Natural)"><img src="images/TI.jpg" alt="Tiepolo (Natural)" /></li>
 					<li data-name="Vintage Oak"><img src="images/VO.jpg" alt="Vintage Oak" /></li>
 					<li data-name="White Matt"><img src="images/white.jpg" alt="White Matt" /></li>
+
+					<li data-name="Gloss Anthracite"><img src="images/doors/gloss-anthracite.jpg" alt="Gloss Anthracite" /></li>
 					<li data-name="Gloss Aubergine"><img src="images/doors/gloss-aubergine.jpg" alt="Gloss Aubergine" /></li>
+					<li data-name="Gloss Beige"><img src="images/doors/gloss-beige.jpg" alt="Gloss Beige" /></li>
+					<li data-name="Gloss Black"><img src="images/doors/gloss-black.jpg" alt="Gloss Black" /></li>
+					<li data-name="Gloss Burgandy"><img src="images/doors/gloss-burgandy.jpg" alt="Gloss Burgandy" /></li>
 					<li data-name="Gloss Cappuccino"><img src="images/doors/gloss-cappuccino.jpg" alt="Gloss Cappuccino" /></li>
+					<li data-name="Gloss Cashmere"><img src="images/doors/bedroom-acrylic/gloss-cashmere.jpg" alt="Gloss Cashmere" /></li>
 					<li data-name="Gloss Cream"><img src="images/doors/bedroom-acrylic/gloss-cream.jpg" alt="Gloss Cream" /></li>
-					<li data-name="Gloss Black"><img src="images/doors/bedroom-acrylic/gloss-black.jpg" alt="Gloss Black" /></li>
+					<li data-name="Gloss Dakar"><img src="images/doors/gloss-dakar.jpg" alt="Gloss Dakar" /></li>
 					<li data-name="Gloss Ivory"><img src="images/doors/gloss-ivory.jpg" alt="Gloss Ivory" /></li>
+					<li data-name="Gloss Light Grey"><img src="images/doors/bedroom-acrylic/gloss-light-grey.jpg" alt="Gloss Light Grey" /></li>
+					<li data-name="Gloss Mira Cosa"><img src="images/doors/bedroom-acrylic/gloss-mira-cosa.jpg" alt="Gloss Mira Cosa" /></li>
+					<li data-name="Gloss Mussel"><img src="images/doors/bedroom-acrylic/gloss-mussell.jpg" alt="Gloss Mussel" /></li>
+					<li data-name="Gloss Red"><img src="images/doors/gloss-red.jpg" alt="Gloss Red" /></li>
+					<li data-name="Gloss Silver"><img src="images/doors/gloss-silver.jpg" alt="Gloss Silver" /></li>
+					<li data-name="Gloss Sky Blue"><img src="images/doors/gloss-sky-blue.jpg" alt="Gloss Sky Blue" /></li>
+					<li data-name="Gloss Stone Grey"><img src="images/doors/gloss-stone-grey.jpg" alt="Gloss Stone Grey" /></li>
 					<li data-name="Gloss Tiepolo"><img src="images/doors/bedroom-acrylic/gloss-tiepolo.jpg" alt="Gloss Tiepolo" /></li>
+					<li data-name="Gloss Walnut"><img src="images/doors/gloss-walnut.jpg" alt="Gloss Walnut" /></li>
 					<li data-name="Gloss White"><img src="images/doors/bedroom-acrylic/gloss-white.jpg" alt="Gloss White" /></li>
 				</ul>
 			</div>
@@ -600,10 +628,31 @@ include("functions.php");
 						<li data-name="Hyde" style="height:87px"><img src="images/doors/kitchen-painted/Hyde.jpg" alt="Hyde" style="height:87px" /></li>
 					</ul>
 				</div>
-				<div class="four-col last-col align-center">
+				<div class="two-col align-center">
 					<img class="zoom-door door-image" src="images/doors/kitchen-painted/Albany.jpg" data-zoom-image="images/doors/kitchen-painted/Albany-large.jpg" alt="" />
 					<p class="door-name">Albany</p>
 				</div>
+				<div class="two-col last-col align-center">
+					<img src="images/doors/dakar.jpg" class="door-colour-image" style="height:242px;" alt="" />
+					<p class="door-colour-name">Dakar</p>
+				</div>
+				<h3>Colours</h3>
+				<ul class="colour-list">
+					<li data-name="Dakar" class="selected"><img src="images/doors/dakar.jpg" alt="Dakar" /></li>
+					<li data-name="Dust Grey"><img src="images/DG.jpg" alt="Dust Grey" /></li>
+					<li data-name="Ice Blue"><img src="images/doors/ice-blue.jpg" alt="Ice Blue" /></li>
+					<li data-name="Ivory"><img src="images/IV.jpg" alt="Ivory" /></li>
+					<li data-name="Kashmir"><img src="images/doors/kashmir.jpg" alt="Kashmir" /></li>
+					<li data-name="Light Grey"><img src="images/LG.jpg" alt="Light Grey" /></li>
+					<li data-name="Magnolia"><img src="images/doors/magnolia.jpg" alt="Magnolia" /></li>
+					<li data-name="Mussel"><img src="images/MU.jpg" alt="Mussel" /></li>
+					<li data-name="Olive"><img src="images/doors/olive.jpg" alt="Olive" /></li>
+					<li data-name="Stone Grey"><img src="images/SG.jpg" alt="Stone Grey" /></li>
+					<li data-name="White"><img src="images/white.jpg" alt="White" /></li>
+					<li data-name="Natural Oak"><img src="images/NO.jpg" alt="Natural Oak" /></li>
+					<li data-name="Anthracite Stain"><img src="images/doors/anthracite-stain.jpg" alt="Anthracite Stain" /></li>
+					<li data-name="Chocolate Stain"><img src="images/doors/chocolate-stain.jpg" alt="Chocolate Stain" /></li>
+				</ul>
 			</div>
 			<div class="row stripe-grey is-hidden doors-row" id="kitchens-solid">
 				<h2>Solid kitchen doors</h2>
