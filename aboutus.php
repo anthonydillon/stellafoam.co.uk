@@ -199,13 +199,13 @@ include("functions.php");
 					</li>
 					<li class="first-row">
 						<div class="product-list__image">
-							<img src="/images/15-duleek-highglosscap.jpg" alt="" />
+							<img src="/images/about/doors.jpg" alt="" />
 						</div>
 						<h3>Doors</h3>
 					</li>
 					<li class="first-row">
 						<div class="product-list__image">
-							<img src="/images/SLI.jpg" alt="" />
+							<img src="/images/about/sliding-doors.jpg" alt="" />
 						</div>
 						<h3>Sliding doors</h3>
 					</li>
@@ -229,13 +229,13 @@ include("functions.php");
 					</li>
 					<li>
 						<div class="product-list__image">
-							<p>Image coming soon</p>
+							<img src="/images/about/worktops.jpg" alt="" />
 						</div>
 						<h3>Worktops</h3>
 					</li>
 					<li>
 						<div class="product-list__image">
-							<p>Image coming soon</p>
+							<img src="/images/about/profiles.jpg" alt="" />
 						</div>
 						<h3>Profiles</h3>
 					</li>
@@ -247,7 +247,7 @@ include("functions.php");
 					</li>
 					<li class="last-item">
 						<div class="product-list__image">
-							<p>Image coming soon</p>
+							<img src="/images/about/edging.jpg" alt="" />
 						</div>
 						<h3>Edging</h3>
 					</li>
