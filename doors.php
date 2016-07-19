@@ -207,6 +207,12 @@ include("functions.php");
 		border: 4px solid #333;
 	}
 
+	.list {
+		list-style: circle;
+		padding-left: 20px;
+		margin-bottom: 30px;
+	}
+
 	.list li {
 		font-size: 14px;
 		line-height: 1.3;
@@ -320,6 +326,7 @@ include("functions.php");
 						<li data-name="Annabelle"><img src="images/doors/annabelle.jpg" alt="Annabelle" /></li>
 						<li data-name="Arch"><img src="images/doors/arch.jpg" alt="Arch" /></li>
 						<li data-name="Auckland"><img src="images/doors/auckland.jpg" alt="Auckland" /></li>
+						<li data-name="Barkby"><img src="images/doors/barkby.jpg" alt="Barkby" /></li>
 						<li data-name="Brisbane"><img src="images/doors/brisbane.jpg" alt="Brisbane" /></li>
 						<li data-name="Bourbon"><img src="images/doors/bourbon.jpg" alt="Bourbon" /></li>
 						<li data-name="Cairo"><img src="images/doors/cairo.jpg" alt="Cairo" /></li>
@@ -483,23 +490,20 @@ include("functions.php");
 					</ul>
 				</div>
 				<div class="twelve-col">
-					<div class="six-col">
+					<div class="twelve-col">
 						<h3>Colours</h3>
 						<ul class="colour-list">
 							<li data-name="Classic Walnut"><img src="images/CW.jpg" alt="Classic Walnut" /></li>
 							<li data-name="Golden Walnut"><img src="images/GW.jpg" alt="Golden Walnut" /></li>
 							<li data-name="Ivory"><img src="images/IV.jpg" alt="Ivory" /></li>
-							<li data-name="Legno Cashmere"><img src="images/LC.jpg" alt="Legno Cashmere" /></li>
-							<li data-name="Legno Dakar"><img src="images/LD.jpg" alt="Legno Dakar" /></li>
-							<li data-name="Legno Ivory"><img src="images/LI.jpg" alt="Legno Ivory" /></li>
+							<li data-name="Legno Cashmere"><img src="images/doors/legno-cashmere.png" alt="Legno Cashmere" /></li>
+							<li data-name="Legno Dakar"><img src="images/doors/legno-dakar.png" alt="Legno Dakar" /></li>
+							<li data-name="Legno Ivory"><img src="images/doors/legno-ivory.png" alt="Legno Ivory" /></li>
 							<li data-name="Legno Mussel"><img src="images/LM.jpg" alt="Legno Mussel" /></li>
 							<li data-name="Lissa Oak"><img src="images/LO.jpg" alt="Lissa Oak" /></li>
 							<li data-name="Pippy Oak"><img src="images/PO.jpg" alt="Pippy Oak" /></li>
 							<li data-name="Tiepolo (Natural)"><img src="images/TI.jpg" alt="Tiepolo (Natural)" /></li>
 						</ul>
-					</div>
-					<div class="six-col last-col">
-						<img src="images/doors/laquered-colours.png" alt="" />
 					</div>
 					<div class="align-center">
 						<img src="images/doors/bedroom-five-piece-doors.jpg" alt="" />
@@ -508,6 +512,19 @@ include("functions.php");
 			</div>
 			<div class="row stripe-grey is-hidden doors-row" id="bedrooms-painted">
 				<h2>Painted bedroom doors</h2>
+					<div class="twelve-col">
+						<ul class="list">
+							<li>Made to measure service</li>
+							<li>Doors are 22mm thick bar 'Hyde' and 'Belair' which are 18mm</li>
+							<li>Matching 18mm or 22mm worktops and panels, along with a huge range of accessories</li>
+							<li>Curved doors available</li>
+							<li>Framed doors supplied with gasket but not glass</li>
+							<li>Painted on  highest quality HDF</li>
+							<li>10 year guarantee</li>
+							<li>2-3 week turnaround</li>
+							<li>Samples available upon request</li>
+						</ul>
+					</div>
 					<div class="twelve-col">
 						<h3>Colours</h3>
 						<ul class="colour-list">
@@ -550,15 +567,12 @@ include("functions.php");
 					</ul>
 				</div>
 				<div class="twelve-col">
-					<div class="six-col">
+					<div class="twelve-col">
 						<h3>Colours</h3>
 						<ul class="colour-list">
 							<li data-name="Natural Oak Unfinished"><img src="images/doors/natural-oak-unfinished.jpg" alt="Natural Oak Unfinished" /></li>
 							<li data-name="Natural Oak Lacquered"><img src="images/doors/natural-oak-lacquered.jpg" alt="Natural Oak Lacquered" /></li>
 						</ul>
-					</div>
-					<div class="six-col last-col">
-						<img src="images/doors/laquered-colours.png" alt="" />
 					</div>
 					<div class="align-center">
 						<img src="images/doors/bedroom-veneered-doors.jpg" alt="" />
@@ -779,7 +793,7 @@ include("functions.php");
 						<li>Made to measure service on Arena, Belair, Finsbury, Hartford &amp; Hyde. Albany (Solid), Greenwich (Solid), Hampton (Solid), Millburn (Solid)  & Luzzi standard kitchen sizes only</li>
 						<li>Only Luzzi available in Gloss Cashmere, Gloss Ivory, Gloss Light Grey &amp; Gloss White (Stock)</li>
 						<li>Only Greenwich &amp; Millburn available lacquered, also available sanded</li>
-						<li>Doors are 22mm thick bar ‘Hyde’ and ‘Belair’ which are 18mm</li>
+						<li>Doors are 22mm thick bar 'Hyde' and 'Belair' which are 18mm</li>
 						<li>Matching 18mm or 22mm worktops and panels as well as accessories available</li>
 						<li>Curved doors available</li>
 						<li>Framed doors supplied with gasket but not glass</li>
@@ -803,17 +817,19 @@ include("functions.php");
 					</ul>
 				</div>
 				<div class="two-col align-center">
-					<img class="zoom-door door-image" src="images/doors/kitchen-painted/Albany.jpg" data-zoom-image="images/doors/kitchen-painted/Albany-large.jpg" alt="" />
+					<img class="zoom-door door-image" src="images/doors/kitchen-painted/Albany.jpg" style="height:242px;" data-zoom-image="images/doors/kitchen-painted/Albany-large.jpg" alt="" />
 					<p class="door-name">Albany</p>
 				</div>
 				<div class="two-col last-col align-center">
-					<img src="images/DA.jpg" class="door-colour-image" style="height:242px;" alt="" />
+					<img src="images/DA.jpg" class="door-colour-image" style="height:244px;" alt="" />
 					<p class="door-colour-name">Dakar</p>
 				</div>
-				<div class="eight-col">
+				<div class="twelve-col">
 					<h3>Colours</h3>
 					<ul class="colour-list">
-						<li data-name="Dakar" class="selected"><img src="images/DA.jpg" alt="Dakar" /></li>
+						<li data-name="Anthracite Lacquer" class="selected"><img src="images/doors/anthracite-lacquer.png" alt="Anthracite Lacquer" /></li>
+						<li data-name="Chocolate Lacquer" class="selected"><img src="images/doors/chocolate-lacquer.png" alt="Chocolate Lacquer" /></li>
+						<li data-name="Dakar"><img src="images/DA.jpg" alt="Dakar" /></li>
 						<li data-name="Denim"><img src="images/doors/denim.png" alt="Denim" /></li>
 						<li data-name="Dust Grey"><img src="images/DG.jpg" alt="Dust Grey" /></li>
 						<li data-name="Graphite"><img src="images/doors/graphite.png" alt="Graphite" /></li>
@@ -823,6 +839,7 @@ include("functions.php");
 						<li data-name="Light Grey"><img src="images/LG.jpg" alt="Light Grey" /></li>
 						<li data-name="Magnolia"><img src="images/doors/magnolia.png" alt="Magnolia" /></li>
 						<li data-name="Mussel"><img src="images/MU.jpg" alt="Mussel" /></li>
+						<li data-name="Natural Lacquer"><img src="images/doors/natural-oak-lacquered.jpg" alt="Natural Lacquer" /></li>
 						<li data-name="Olive"><img src="images/doors/olive.png" alt="Olive" /></li>
 						<li data-name="Stone Grey"><img src="images/SG.jpg" alt="Stone Grey" /></li>
 						<li data-name="White"><img src="images/white.jpg" alt="White" /></li>
@@ -831,9 +848,6 @@ include("functions.php");
 						<li data-name="Gloss Light Grey"><img src="images/doors/bedroom-acrylic/gloss-light-grey.jpg" alt="Gloss Light Grey" /></li>
 						<li data-name="Gloss White"><img src="images/doors/bedroom-acrylic/gloss-white.jpg" alt="Gloss White" /></li>
 					</ul>
-				</div>
-				<div class="four-col last-col">
-					<img src="images/doors/laquered-colours.png" alt="" />
 				</div>
 			</div>
 			<div class="row stripe-grey is-hidden doors-row" id="kitchens-solid">
