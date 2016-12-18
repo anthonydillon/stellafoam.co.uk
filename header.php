@@ -18,6 +18,7 @@
                               <dd><a href="product.php?p=172">Avola White<img src="images/<?php echo get_product_image(172); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=231">Cashmere<img src="images/<?php echo get_product_image(231); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=24">Classic Walnut<img src="images/<?php echo get_product_image(24); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=243">Denim<img src="images/<?php echo get_product_image(243); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=232">Dust Grey<img src="images/<?php echo get_product_image(232); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=233">French Oak<img src="images/<?php echo get_product_image(233); ?>" class="product-image"/></a></dd>
         											<dd><a href="product.php?p=165">Gloss Black<img src="images/<?php echo get_product_image(165); ?>" class="product-image"/></a></dd>
@@ -41,11 +42,12 @@
                               <dd><a href="product.php?p=34">Pamplona Oak<img src="images/<?php echo get_product_image(34); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=207">Pearl Dakar<img src="images/<?php echo get_product_image(207); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=36">Pippy Oak<img src="images/<?php echo get_product_image(36); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=38">Steamed Beech<img src="images/<?php echo get_product_image(38); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=236">Stone Grey<img src="images/<?php echo get_product_image(236); ?>" class="product-image"/></a></dd>
                           </dl>
                           <dl>
                               <dd style="height:20px;"></dd>
-                              <dd><a href="product.php?p=38">Steamed Beech<img src="images/<?php echo get_product_image(38); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=236">Stone Grey<img src="images/<?php echo get_product_image(236); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=242">Textured Ivory<img src="images/<?php echo get_product_image(242); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=45">Textured White<img src="images/<?php echo get_product_image(45); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=42">Tiepolo (Natural)<img src="images/<?php echo get_product_image(42); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=209">Vintage Oak<img src="images/<?php echo get_product_image(209); ?>" class="product-image"/></a></dd>
@@ -57,12 +59,14 @@
                               <dt>3mm MDF Thin-board</dt>
                               <dd><a href="product.php?p=156">Agnola Beech<img src="images/<?php echo get_product_image(156); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=172">Avola White<img src="images/<?php echo get_product_image(172); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=231">Cashmere<img src="images/<?php echo get_product_image(231); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=24">Classic Walnut<img src="images/<?php echo get_product_image(24); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=232">Dust Grey<img src="images/<?php echo get_product_image(232); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=27">Golden Walnut<img src="images/<?php echo get_product_image(27); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=197">Legno Alabaster (Matt)<img src="images/<?php echo get_product_image(197); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=202">Legno Vanilla (Matt)<img src="images/<?php echo get_product_image(202); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=203">Legno White (Matt)<img src="images/<?php echo get_product_image(203); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=204">Light Elm<img src="images/<?php echo get_product_image(204); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=234">Light Grey<img src="images/<?php echo get_product_image(234); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=28">Ivory<img src="images/<?php echo get_product_image(28); ?>" class="product-image"/></a></dd>
 				                      <dd><a href="product.php?p=29">Lissa Oak<img src="images/<?php echo get_product_image(29); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=48">Metallic<img src="images/<?php echo get_product_image(48); ?>" class="product-image"/></a></dd>
@@ -71,6 +75,7 @@
         											<dd><a href="product.php?p=34">Pamplona Oak<img src="images/<?php echo get_product_image(34); ?>" class="product-image"/></a></dd>
         											<dd><a href="product.php?p=36">Pippy Oak<img src="images/<?php echo get_product_image(36); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=38">Steamed Beech<img src="images/<?php echo get_product_image(38); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=236">Stone Grey<img src="images/<?php echo get_product_image(236); ?>" class="product-image"/></a></dd>
 				                      <dd><a href="product.php?p=209">Vintage Oak<img src="images/<?php echo get_product_image(209); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=44">White Matt<img src="images/<?php echo get_product_image(44); ?>" class="product-image"/></a></dd>
                           </dl>
@@ -82,13 +87,14 @@
                               <dd><a href="product.php?p=172">Avola White<img src="images/<?php echo get_product_image(172); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=231">Cashmere<img src="images/<?php echo get_product_image(231); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=24">Classic Walnut<img src="images/<?php echo get_product_image(24); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=243">Denim<img src="images/<?php echo get_product_image(243); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=232">Dust Grey<img src="images/<?php echo get_product_image(232); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=233">French Oak<img src="images/<?php echo get_product_image(233); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=27">Golden Walnut<img src="images/<?php echo get_product_image(27); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=28">Ivory<img src="images/<?php echo get_product_image(28); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=197">Legno Alabaster (Matt)<img src="images/<?php echo get_product_image(197); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=197">Legno Alabaster<img src="images/<?php echo get_product_image(197); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=201">Legno Mussel (Matt)<img src="images/<?php echo get_product_image(201); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=203">Legno White (Matt)<img src="images/<?php echo get_product_image(203); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=203">Legno White<img src="images/<?php echo get_product_image(203); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=204">Light Elm<img src="images/<?php echo get_product_image(204); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=234">Light Grey<img src="images/<?php echo get_product_image(234); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=205">Mali Wenge<img src="images/<?php echo get_product_image(205); ?>" class="product-image"/></a></dd>
@@ -97,8 +103,8 @@
                               <dd><a href="product.php?p=34">Pamplona Oak<img src="images/<?php echo get_product_image(34); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=207">Pearl Dakar<img src="images/<?php echo get_product_image(207); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=36">Pippy Oak<img src="images/<?php echo get_product_image(36); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=38">Steamed Beech<img src="images/<?php echo get_product_image(38); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=236">Stone Grey<img src="images/<?php echo get_product_image(236); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=242">Textured Ivory<img src="images/<?php echo get_product_image(242); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=45">Textured White<img src="images/<?php echo get_product_image(45); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=42">Tiepolo (Natural)<img src="images/<?php echo get_product_image(42); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=209">Vintage Oak<img src="images/<?php echo get_product_image(209); ?>" class="product-image"/></a></dd>
@@ -110,16 +116,18 @@
                               <dd><a href="product.php?p=24">Classic Walnut<img src="images/<?php echo get_product_image(24); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=233">French Oak<img src="images/<?php echo get_product_image(233); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=27">Golden Walnut<img src="images/<?php echo get_product_image(27); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=28">Ivory<img src="images/<?php echo get_product_image(28); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=197">Legno Alabaster (Matt)<img src="images/<?php echo get_product_image(197); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=203">Legno White (Matt)<img src="images/<?php echo get_product_image(203); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=234">Light Grey<img src="images/<?php echo get_product_image(234); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=237">Natural Oak<img src="images/<?php echo get_product_image(237); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=34">Pamplona Oak<img src="images/<?php echo get_product_image(34); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=38">Steamed Beech<img src="images/<?php echo get_product_image(38); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=242">Textured Ivory<img src="images/<?php echo get_product_image(242); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=45">Textured White<img src="images/<?php echo get_product_image(45); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=44">White Matt<img src="images/<?php echo get_product_image(44); ?>" class="product-image"/></a></dd>
                               <dt>8'x4' White Oak Veneer</dt>
-                              <dd><a href="product.php?p=56">2-Sided Chiboard</a></dd>
-                              <dd><a href="product.php?p=56">2-Sided MDF</a></dd>
+                              <dd><a href="product.php?p=56">2-Sided 19mm Chipboard</a></dd>
+                              <dd><a href="product.php?p=56">2-Sided 19mm MDF</a></dd>
+                              <dd><a href="product.php?p=56">2-Sided 16mm MDF</a></dd>
+                              <dd><a href="product.php?p=56">2-Sided 6mm MDF</a></dd>
                               <dt>8'x4' Deep-Rout MDF</dt>
                               <dd><a href="product.php?p=129">6mm</a></dd>
                               <dd><a href="product.php?p=129">9mm</a></dd>
@@ -128,6 +136,7 @@
                               <dd><a href="product.php?p=129">18mm</a></dd>
                               <dd><a href="product.php?p=129">18mm Moisture Resistant</a></dd>
                               <dd><a href="product.php?p=129">22mm</a></dd>
+                              <dd><a href="product.php?p=129">22mm Moisture Resistant</a></dd>
                               <dd><a href="product.php?p=129">25mm</a></dd>
                               <dd><a href="product.php?p=129">25mm (10'x4')</a></dd>
                           </dl>
@@ -339,6 +348,9 @@
                               <dd><a href="product.php?p=192">928mm Corner Base</a></dd>
                               <dd><a href="product.php?p=192">628mm Wall Corner</a></dd>
                               <dd><a href="product.php?p=192">628mm Wall Angled</a></dd>
+                              <dt>Bridging Units</dt>
+                              <dd><a href="product.php?p=192">600mm</a></dd>
+                              <dd><a href="product.php?p=192">900mm</a></dd>
                           </dl>
                           <dl>
                               <dt style="font-size: 10px;">Larder / Fridge-Freezer Housing Unit</dt>
@@ -473,7 +485,7 @@
                     				<dd><a href="product.php?p=121">120&ordm;</a></dd>
                             <dd><a href="product.php?p=121">120&ordm; Unsprung</a></dd>
 				                    <dd><a href="product.php?p=121">135&ordm; Diagonal Mount</a></dd>
-                            <dd><a href="product.php?p=121">155&ordm;</a></dd>
+                            <dd><a href="product.php?p=121">155&ordm; 0&ordm;-Protrusion</a></dd>
 				                    <dd><a href="product.php?p=121">170&ordm;</a></dd>
                             <dd><a href="product.php?p=121">170&ordm; Full Crank</a></dd>
 				                    <dd><a href="product.php?p=121">270&ordm; Bifold Mount</a></dd>
@@ -486,16 +498,19 @@
                             <dd><a href="product.php?p=122">100&ordm; Full Crank</a></dd>
                     				<dt>Soft Close Mounts w/Blumotion</dt>
                     				<dd><a href="product.php?p=123">100&ordm;</a></dd>
+                    				<dd><a href="product.php?p=123">155&ordm; 0&ordm;-Protrusion</a></dd>
                     				<dd><a href="product.php?p=123">170&ordm;</a></dd>
                             <dd><a href="product.php?p=123">Half Crank</a></dd>
                             <dd><a href="product.php?p=123">Full Crank</a></dd>
                             <dd><a href="product.php?p=123">Angle Door Hinges</a></dd>
                             <dd><a href="product.php?p=123">2 Part Door Closer:	Piston &amp; Bracket</a></dd>
-                    				<dt>Blum Top Flap Hinges</dt>
-                    				<dd><a href="product.php?p=124">Aventos Top Flap</a></dd>
-                            <dd><a href="product.php?p=124">Aventos Bi-Fold Top Flap</a></dd>
                     			</dl>
                     			<dl>
+                            <dt>Blum Top Flap Hinges</dt>
+                            <dd><a href="product.php?p=124">Aventos Top Flap</a></dd>
+                            <dd><a href="product.php?p=124">Aventos Top Flap Heavy Duty</a></dd>
+                            <dd><a href="product.php?p=124">Aventos Small Top Flap</a></dd>
+                            <dd><a href="product.php?p=124">Aventos Bi-Fold Top Flap</a></dd>
                     				<dt>Back Plates</dt>
                     				<dd><a href="product.php?p=126">Clip Plate 2pc 0mm</a></dd>
                     				<dd><a href="product.php?p=126">Clip Plate 2pc 3mm</a></dd>
@@ -611,11 +626,12 @@
                                 <dd><a href="product.php?p=136">Agnola Beech</a></dd>
                                 <dd><a href="product.php?p=136">Black</a></dd>
                                 <dd><a href="product.php?p=136">Brown</a></dd>
+                                <dd><a href="product.php?p=136">Dust Grey</a></dd>
                                 <dd><a href="product.php?p=136">Ivory / Cream</a></dd>
+                                <dd><a href="product.php?p=136">Light Grey</a></dd>
                                 <dd><a href="product.php?p=136">Steamed Beech</a></dd>
                                 <dd><a href="product.php?p=136">White</a></dd>
                                 <dt>Oval Hanging Rails &amp; Brackets</dt>
-                                <dd><a href="product.php?p=130">3m Oval Brass</a></dd>
                                 <dd><a href="product.php?p=130">3m Oval Chrome</a></dd>
                                 <dd><a href="product.php?p=130">825 x 825 Corner Unit Rail</a></dd>
                                 <dd><a href="product.php?p=130">End Brackets</a></dd>
@@ -623,6 +639,7 @@
                                 <dd><a href="product.php?p=130">Centre Supports</a></dd>
                                 <dd><a href="product.php?p=130">Tie Rail 375mm</a></dd>
                                 <dd><a href="product.php?p=130">Tie &amp; Belt Rack</a></dd>
+                                <dd><a href="product.php?p=130">Pull Down Hanging Rail 830mm-1150mm</a></dd>
                                 <dt>Adjustable Cabinet Legs</dt>
                                 <dd><a href="product.php?p=134">150mm Adjustable Leg With Bush</a></dd>
                                 <dd><a href="product.php?p=134">100mm Leg &amp; Bush</a></dd>
@@ -635,14 +652,15 @@
                                 <dd><a href="product.php?p=136">Woodwork Adhesive PVA 1KG</a></dd>
                                 <dt>Brackets</dt>
                                 <dd><a href="product.php?p=136">Angle Brackets</a></dd>
-                                <dd><a href="product.php?p=136">Stretcher Brackets</a></dd>
-                                <dd><a href="product.php?p=136">Curved Shelf Brackets</a></dd>
-                                <dd><a href="product.php?p=136">Flush Mounting Brackets</a></dd>
-                                <dd><a href="product.php?p=136">Wall Hanger Brackets &amp; Plates</a></dd>
-                                <dd><a href="product.php?p=136">Door Connector Plates</a></dd>
                                 <dd><a href="product.php?p=136">Cabinets Connector Bolts</a></dd>
+                                <dd><a href="product.php?p=136">Curved Shelf Brackets</a></dd>
+                                <dd><a href="product.php?p=136">Door Connector Plates</a></dd>
+                                <dd><a href="product.php?p=136">Flush Mounting Brackets</a></dd>
+                                <dd><a href="product.php?p=136">Spider Brackets</a></dd>
+                                <dd><a href="product.php?p=136">Stretcher Brackets</a></dd>
                                 <dd><a href="product.php?p=136">Tonk Strip 3.5m</a></dd>
                                 <dd><a href="product.php?p=136">Tonk Shelf Supports</a></dd>
+                                <dd><a href="product.php?p=136">Wall Hanger Brackets &amp; Plates</a></dd>
                                 <dt>Shelf Supports</dt>
                                 <dd><a href="product.php?p=136">Clear</a></dd>
                                 <dd><a href="product.php?p=136">Flat End Steel Bar</a></dd>
@@ -654,22 +672,28 @@
                             </dl>
                             <dl>
                                 <dt>Finishing Products</dt>
-                                <dd><a href="product.php?p=136">Individual Wax Sticks</a></dd>
                                 <dd><a href="product.php?p=136">Decorator Caulk</a></dd>
+                                <dd><a href="product.php?p=136">Individual Wax Sticks</a></dd>
                                 <dd><a href="product.php?p=136">Silicone Sealant 315ml</a></dd>
                                 <dd><a href="product.php?p=136">Vent Grill 440mm x 65mm</a></dd>
+                                <dd><a href="product.php?p=136">Wax Scraper</a></dd>
                                 <dt>Protective Products</dt>
                                 <dd><a href="product.php?p=136">Door Buffers</a></dd>
+                                <dd><a href="product.php?p=136">Door Lock With 2 Keys</a></dd>
                                 <dd><a href="product.php?p=136">Large Door Buffers</a></dd>
                                 <dd><a href="product.php?p=135">Plinth Clip-on Edge 3m x 18mm</a></dd>
                                 <dd><a href="product.php?p=135">Plinth Clip-on Edge 3m x 15mm</a></dd>
                                 <dt>Worktop Accessories</dt>
+                                <dd><a href="product.php?p=136">150ml Worktop Solvent</a></dd>
+                                <dd><a href="product.php?p=136">50m Worktop Double Sided PVC</a></dd>
+                                <dd><a href="product.php?p=136">Colour-fil</a></dd>
                                 <dd><a href="product.php?p=136">Heavy Duty Breakfast Bar Legs 60mm</a></dd>
+                                <dd><a href="product.php?p=136">Jointing Biscuits No.20</a></dd>
                                 <dd><a href="product.php?p=136">Worktop Cable Outlet</a></dd>
                                 <dd><a href="product.php?p=136">Worktop Connector Bolts</a></dd>
                                 <dt>Mirrors</dt>
                                 <dd><a href="product.php?p=133">48&quot; x 12&quot; Polished Edge Un-drilled</a></dd>
-                                <dd style="padding-left:141px;"><a href="product.php?p=133">Drilled</a></dd>
+                                <dd><a href="product.php?p=133">48&quot; x 12&quot; Polished Edge Drilled</a></dd>
                                 <dd><a href="product.php?p=133">Mirror Adhesive Tape 50m x 25mm</a></dd>
                             </dl>
                         </li>

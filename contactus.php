@@ -64,23 +64,21 @@ include("functions.php");
         	<div style="text-align:left;padding:20px 40px 40px 40px;">
 				<div style="margin-top:30px;">
 					<div style="float:right;margin-left:30px;">
-                    <iframe width="600" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.uk/maps?hl=en&amp;safe=off&amp;ie=UTF8&amp;q=Stellafoam+Ltd,+Blackwater+Close,+Fairview+industrial+Park,+Rainham+,Essex,+RM13+8UA&amp;fb=1&amp;gl=uk&amp;hq=Stellafoam+Ltd,+Blackwater+Close,+Fairview+industrial+Park,&amp;hnear=Rainham,+Essex+RM13+8UA&amp;cid=0,0,4589660101991249483&amp;ll=51.515719,0.175869&amp;spn=0.006295,0.006295&amp;iwloc=A&amp;output=embed"></iframe>
-                    </div>
+          	<iframe width="600" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.uk/maps?hl=en&amp;safe=off&amp;ie=UTF8&amp;q=Stellafoam+Ltd,+Blackwater+Close,+Fairview+industrial+Park,+Rainham+,Essex,+RM13+8UA&amp;fb=1&amp;gl=uk&amp;hq=Stellafoam+Ltd,+Blackwater+Close,+Fairview+industrial+Park,&amp;hnear=Rainham,+Essex+RM13+8UA&amp;cid=0,0,4589660101991249483&amp;ll=51.515719,0.175869&amp;spn=0.006295,0.006295&amp;iwloc=A&amp;output=embed"></iframe>
+          </div>
 					<div>
 						<p>There are many ways in which you can get in touch with us... </p><br />
 
-<p>Visit us at:<br/>
-<strong>Stellafoam Ltd.<br/>
-Blackwater Close<br/>
-Fairview industrial Park<br/>
-Rainham<br/>
-Essex RM13 8UA </strong></p><br />
+						<p>Visit us at:<br/>
+						<strong>Stellafoam Ltd.<br/>
+						Blackwater Close<br/>
+						Fairview industrial Park<br/>
+						Rainham<br/>
+						Essex RM13 8UA </strong></p><br />
 
-<p>Telephone: <strong>01708 522551</strong></p><br />
+						<p>Telephone: <strong>01708 522551</strong></p><br />
 
-<p>Email: <a href="mailto:sales@stellafoam.co.uk" title="Email Us">sales@stellafoam.co.uk</a></p><br />
-
-<p><a href="https://www.facebook.com/pages/Stellafoam/279797505497874" class="facebook"><img src="facebook-icon.png" alt="" style="vertical-align:middle; margin-right: 4px;" width="30" height="30" /> Find us on Facebook</a></p>
+						<p>Email: <a href="mailto:sales@stellafoam.co.uk" title="Email Us">sales@stellafoam.co.uk</a></p><br />
 					</div>
 				</div>
 			</div>

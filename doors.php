@@ -430,7 +430,6 @@ include("functions.php");
 						<li data-name="Gloss Mussel"><img src="images/doors/bedroom-acrylic/gloss-mussell.jpg" alt="Gloss Mussel" /></li>
 						<li data-name="Gloss Red"><img src="images/doors/bedroom-acrylic/gloss-red.jpg" alt="Gloss Red" /></li>
 						<li data-name="Gloss Silver"><img src="images/doors/gloss-silver.png" alt="Gloss Silver" /></li>
-						<li data-name="Gloss Sky Blue"><img src="images/doors/gloss-sky-blue.png" alt="Gloss Sky Blue" /></li>
 						<li data-name="Gloss Stone Grey"><img src="images/doors/bedroom-acrylic/gloss-stone-grey.jpg" alt="Gloss Stone Grey" /></li>
 						<li data-name="Gloss Tiepolo"><img src="images/doors/bedroom-acrylic/gloss-tiepolo.jpg" alt="Gloss Tiepolo" /></li>
 						<li data-name="Gloss Walnut"><img src="images/doors/gloss-walnut.jpg" alt="Gloss Walnut" /></li>
@@ -709,7 +708,6 @@ include("functions.php");
 					<li data-name="Gloss Mussel"><img src="images/doors/bedroom-acrylic/gloss-mussell.jpg" alt="Gloss Mussel" /></li>
 					<li data-name="Gloss Red"><img src="images/doors/bedroom-acrylic/gloss-red.jpg" alt="Gloss Red" /></li>
 					<li data-name="Gloss Silver"><img src="images/doors/gloss-silver.png" alt="Gloss Silver" /></li>
-					<li data-name="Gloss Sky Blue"><img src="images/doors/gloss-sky-blue.png" alt="Gloss Sky Blue" /></li>
 					<li data-name="Gloss Stone Grey"><img src="images/doors/bedroom-acrylic/gloss-stone-grey.jpg" alt="Gloss Stone Grey" /></li>
 					<li data-name="Gloss Tiepolo"><img src="images/doors/bedroom-acrylic/gloss-tiepolo.jpg" alt="Gloss Tiepolo" /></li>
 					<li data-name="Gloss Walnut"><img src="images/doors/gloss-walnut.jpg" alt="Gloss Walnut" /></li>

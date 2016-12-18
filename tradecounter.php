@@ -73,7 +73,6 @@ include("functions.php");
 						<tr><th>Thursday</th><td>8.30 - 5.30</td></tr>
 						<tr><th>Friday</th><td>8.30 - 4.30</td></tr>
 						<tr><th>Saturday</th><td>9.00 - 12.00<br />(except Bank holiday weekends)</td></tr>
-						<tr><th>Please note:</th><td>The trade centre is closed between 1 - 1.45pm</td></tr>
 						</table>
 						</p>
 						<p>Blackwater Close, Fairview industrial Park, Rainham, Essex RM13 8UA </p>
