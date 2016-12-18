@@ -146,7 +146,7 @@
           </div>
       </li>
       <li class="doors section">
-          <a href="/door-range.php"><span class="mainNavSection">doors</span></a>
+          <a href="/doors.php"><span class="mainNavSection">doors</span></a>
       </li>
       <li class="sliding-doors section">
           <a href="#" onclick="return false;" style="cursor: default"><span class="mainNavSection">sliding doors</span></a>
