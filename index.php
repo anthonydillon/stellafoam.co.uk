@@ -154,7 +154,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 
 						<div class="new-promo">
             	<h2>OVER 30 COLOURS OF MFC IN STOCK</h2>
-            	<img src="/images/homepage/WA.jpg" class="full" border="0" />
+            	<img src="/images/DN.jpg" class="full" border="0" />
             </div>
 
             <a href="/door-range.php" title="Made To Measure">
