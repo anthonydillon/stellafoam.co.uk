@@ -35,7 +35,6 @@
                               <dd><a href="product.php?p=234">Light Grey<img src="images/<?php echo get_product_image(234); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=29">Lissa Oak<img src="images/<?php echo get_product_image(29); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=205">Mali Wenge<img src="images/<?php echo get_product_image(205); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=48">Metallic<img src="images/<?php echo get_product_image(48); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=235">Mussel<img src="images/<?php echo get_product_image(235); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=237">Natural Oak<img src="images/<?php echo get_product_image(237); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=33">Ontario Maple<img src="images/<?php echo get_product_image(33); ?>" class="product-image"/></a></dd>
@@ -69,7 +68,6 @@
                               <dd><a href="product.php?p=234">Light Grey<img src="images/<?php echo get_product_image(234); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=28">Ivory<img src="images/<?php echo get_product_image(28); ?>" class="product-image"/></a></dd>
 				                      <dd><a href="product.php?p=29">Lissa Oak<img src="images/<?php echo get_product_image(29); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=48">Metallic<img src="images/<?php echo get_product_image(48); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=237">Natural Oak<img src="images/<?php echo get_product_image(237); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=33">Ontario Maple<img src="images/<?php echo get_product_image(33); ?>" class="product-image"/></a></dd>
         											<dd><a href="product.php?p=34">Pamplona Oak<img src="images/<?php echo get_product_image(34); ?>" class="product-image"/></a></dd>
@@ -684,13 +682,13 @@
                                 <dd><a href="product.php?p=135">Plinth Clip-on Edge 3m x 18mm</a></dd>
                                 <dd><a href="product.php?p=135">Plinth Clip-on Edge 3m x 15mm</a></dd>
                                 <dt>Worktop Accessories</dt>
-                                <dd><a href="product.php?p=136">150ml Worktop Solvent</a></dd>
-                                <dd><a href="product.php?p=136">50m Worktop Double Sided PVC</a></dd>
-                                <dd><a href="product.php?p=136">Colour-fil</a></dd>
-                                <dd><a href="product.php?p=136">Heavy Duty Breakfast Bar Legs 60mm</a></dd>
-                                <dd><a href="product.php?p=136">Jointing Biscuits No.20</a></dd>
-                                <dd><a href="product.php?p=136">Worktop Cable Outlet</a></dd>
-                                <dd><a href="product.php?p=136">Worktop Connector Bolts</a></dd>
+                                <dd><a href="product.php?p=244">150ml Worktop Solvent</a></dd>
+                                <dd><a href="product.php?p=244">50m Worktop Double Sided PVC</a></dd>
+                                <dd><a href="product.php?p=244">Colour-fil</a></dd>
+                                <dd><a href="product.php?p=244">Heavy Duty Breakfast Bar Legs 60mm</a></dd>
+                                <dd><a href="product.php?p=244">Jointing Biscuits No.20</a></dd>
+                                <dd><a href="product.php?p=244">Worktop Cable Outlet</a></dd>
+                                <dd><a href="product.php?p=244">Worktop Connector Bolts</a></dd>
                                 <dt>Mirrors</dt>
                                 <dd><a href="product.php?p=133">48&quot; x 12&quot; Polished Edge Un-drilled</a></dd>
                                 <dd><a href="product.php?p=133">48&quot; x 12&quot; Polished Edge Drilled</a></dd>

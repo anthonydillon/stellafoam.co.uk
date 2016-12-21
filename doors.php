@@ -110,10 +110,6 @@ include("functions.php");
 		height: 45px;
 	}
 
-	.door-list li img {
-		filter: contrast(2);
-	}
-
 	.door-list .selected,
 	.colour-list .selected {
 		-webkit-box-shadow: 1px 0px 0px 4px rgba(0, 0, 0, .4);
