@@ -318,62 +318,98 @@ include("functions.php");
 				</div>
 				<div class="eight-col">
 					<ul class="door-list">
-						<li class="selected" data-name="Amsterdam"><img src="images/doors/amsterdam.jpg" alt="Amsterdam" /></li>
-						<li data-name="Annabelle"><img src="images/doors/annabelle.jpg" alt="Annabelle" /></li>
-						<li data-name="Arch"><img src="images/doors/arch.jpg" alt="Arch" /></li>
-						<li data-name="Auckland"><img src="images/doors/auckland.jpg" alt="Auckland" /></li>
-						<li data-name="Barkby"><img src="images/doors/barkby.jpg" alt="Barkby" /></li>
-						<li data-name="Brisbane"><img src="images/doors/brisbane.jpg" alt="Brisbane" /></li>
-						<li data-name="Bourbon"><img src="images/doors/bourbon.jpg" alt="Bourbon" /></li>
-						<li data-name="Cairo"><img src="images/doors/cairo.jpg" alt="Cairo" /></li>
-						<li data-name="Calcutta"><img src="images/doors/calcutta.jpg" alt="Calcutta" /></li>
-						<li data-name="Cologne"><img src="images/doors/cologne.jpg" alt="Cologne" /></li>
-						<li data-name="Copenhagen"><img src="images/doors/copenhagen.jpg" alt="Copenhagen" /></li>
-						<li data-name="Derwent"><img src="images/doors/derwent.jpg" alt="Derwent" /></li>
-						<li data-name="Duleek"><img src="images/doors/duleek.jpg" alt="Duleek" /></li>
-						<li data-name="Euroline"><img src="images/doors/euroline.jpg" alt="Euroline" /></li>
-						<li data-name="Farmhouse Arch"><img src="images/doors/farmhouse-arch.jpg" alt="Farmhouse Arch" /></li>
-						<li data-name="Farmhouse Square"><img src="images/doors/farmhouse-square.jpg" alt="Farmhouse Square" /></li>
-						<li data-name="Florida"><img src="images/doors/florida.jpg" alt="Florida" /></li>
-						<li data-name="Galaxy"><img src="images/doors/galaxy.jpg" alt="Galaxy" /></li>
-						<li data-name="Gallo"><img src="images/doors/gallo.jpg" alt="Gallo" /></li>
-						<li data-name="Glebe"><img src="images/doors/glebe.jpg" alt="Glebe" /></li>
-						<li data-name="Hourglass"><img src="images/doors/hourglass.jpg" alt="Hourglass" /></li>
-						<li data-name="Houston"><img src="images/doors/houston.jpg" alt="Houston" /></li>
-						<li data-name="Letterbox"><img src="images/doors/letterbox.jpg" alt="Letterbox" /></li>
-						<li data-name="Madrid"><img src="images/doors/madrid.jpg" alt="Madrid" /></li>
-						<li data-name="Manhatton"><img src="images/doors/manhattan.jpg" alt="Manhatton" /></li>
-						<li data-name="Melbourne"><img src="images/doors/melbourne.jpg" alt="Melbourne" /></li>
-						<li data-name="Metro"><img src="images/doors/metro.jpg" alt="Metro" /></li>
-						<li data-name="Mona"><img src="images/doors/mona.jpg" alt="Mona" /></li>
-						<li data-name="Morris"><img src="images/doors/morris.jpg" alt="Morris" /></li>
-						<li data-name="Oslo"><img src="images/doors/oslo.jpg" alt="Oslo" /></li>
-						<li data-name="Ottawa"><img src="images/doors/ottawa.jpg" alt="Ottawa" /></li>
-						<li data-name="Paris"><img src="images/doors/paris.jpg" alt="Paris" /></li>
-						<li data-name="Prague"><img src="images/doors/prague.jpg" alt="Prague" /></li>
-						<li data-name="Quebec"><img src="images/doors/quebec.jpg" alt="Quebec" /></li>
-						<li data-name="Ribbed Shaker"><img src="images/doors/ribbed-shaker.jpg" alt="Ribbed Shaker" /></li>
-						<li data-name="Rosapenna"><img src="images/doors/rosapenna.jpg" alt="Rosapenna" /></li>
-						<li data-name="Ruskin"><img src="images/doors/ruskin.jpg" alt="Ruskin" /></li>
-						<li data-name="Scoop"><img src="images/doors/scoop.jpg" alt="Scoop" /></li>
-						<li data-name="Slab"><img src="images/doors/slab.jpg" alt="Slab" /></li>
-						<li data-name="Somerby"><img src="images/doors/somerby.jpg" alt="Somerby" /></li>
-						<li data-name="Springfield"><img src="images/doors/springfield.jpg" alt="Springfield" /></li>
-						<li data-name="Square"><img src="images/doors/square.jpg" alt="Square" /></li>
-						<li data-name="Stamford"><img src="images/doors/stamford.jpg" alt="Stamford" /></li>
-						<li data-name="Stockholm"><img src="images/doors/stockholm.jpg" alt="Stockholm" /></li>
-						<li data-name="Tressel"><img src="images/doors/tressel.jpg" alt="Tressel" /></li>
-						<li data-name="Twin Square"><img src="images/doors/twin-square.jpg" alt="Twin Square" /></li>
-						<li data-name="Vancouver"><img src="images/doors/vancouver.jpg" alt="Vancouver" /></li>
-						<li data-name="Vienna"><img src="images/doors/vienna.jpg" alt="Vienna" /></li>
-						<li data-name="Warsaw"><img src="images/doors/warsaw.jpg" alt="Warsaw" /></li>
-						<li data-name="Windermere"><img src="images/doors/windermere.jpg" alt="Windermere" /></li>
+						<li class="selected" data-name="Amalfi"><img src="images/doors/bedroom-vinyl/amalfi.jpg" alt="Amalfi" /></li>
+						<li data-name="Amsterdam"><img src="images/doors/bedroom-vinyl/amsterdam.jpg" alt="Amsterdam" /></li>
+						<li data-name="Annabelle"><img src="images/doors/bedroom-vinyl/annabelle.jpg" alt="Annabelle" /></li>
+						<li data-name="Argon"><img src="images/doors/bedroom-vinyl/argon.jpg" alt="Argon" /></li>
+						<li data-name="Aukland"><img src="images/doors/bedroom-vinyl/aukland.jpg" alt="Aukland" /></li>
+						<li data-name="Austria"><img src="images/doors/bedroom-vinyl/austria.jpg" alt="Austria" /></li>
+						<li data-name="Belfast Shaker"><img src="images/doors/bedroom-vinyl/belfast-shaker.jpg" alt="Belfast Shaker" /></li>
+						<li data-name="Bourbon"><img src="images/doors/bedroom-vinyl/bourbon.jpg" alt="Bourbon" /></li>
+						<li data-name="Brentford"><img src="images/doors/bedroom-vinyl/brentford.jpg" alt="Brentford" /></li>
+						<li data-name="Brisbane"><img src="images/doors/bedroom-vinyl/brisbane.jpg" alt="Brisbane" /></li>
+						<li data-name="Cairo"><img src="images/doors/bedroom-vinyl/cairo.jpg" alt="Cairo" /></li>
+						<li data-name="Calcutta"><img src="images/doors/bedroom-vinyl/calcutta.jpg" alt="Calcutta" /></li>
+						<li data-name="Canberra"><img src="images/doors/bedroom-vinyl/canberra.jpg" alt="Canberra" /></li>
+						<li data-name="Cathedral Double Arch"><img src="images/doors/bedroom-vinyl/cathedral-double-arch.jpg" alt="Cathedral Double Arch" /></li>
+						<li data-name="Cathedral Single Arch"><img src="images/doors/bedroom-vinyl/cathedral-single-arch.jpg" alt="Cathedral Single Arch" /></li>
+						<li data-name="Chamfered"><img src="images/doors/bedroom-vinyl/chamfered.jpg" alt="Chamfered" /></li>
+						<li data-name="Chamfered & Grooved"><img src="images/doors/bedroom-vinyl/chamfered-grooved.jpg" alt="Chamfered Grooved" /></li>
+						<li data-name="Classic Square"><img src="images/doors/bedroom-vinyl/classic-square.jpg" alt="Classic Square" /></li>
+						<li data-name="Cologne"><img src="images/doors/bedroom-vinyl/cologne.jpg" alt="Cologne" /></li>
+						<li data-name="Danbury"><img src="images/doors/bedroom-vinyl/danbury.jpg" alt="Danbury" /></li>
+						<li data-name="Denton"><img src="images/doors/bedroom-vinyl/denton.jpg" alt="Denton" /></li>
+						<li data-name="Derwent"><img src="images/doors/bedroom-vinyl/derwent.jpg" alt="Derwent" /></li>
+						<li data-name="Duleek"><img src="images/doors/bedroom-vinyl/duleek.jpg" alt="Duleek" /></li>
+						<li data-name="Dundee"><img src="images/doors/bedroom-vinyl/dundee.jpg" alt="Dundee" /></li>
+						<li data-name="Europe"><img src="images/doors/bedroom-vinyl/europe.jpg" alt="Europe" /></li>
+						<li data-name="Florida"><img src="images/doors/bedroom-vinyl/florida.jpg" alt="Florida" /></li>
+						<li data-name="Galaxy"><img src="images/doors/bedroom-vinyl/galaxy.jpg" alt="Galaxy" /></li>
+						<li data-name="Glebe"><img src="images/doors/bedroom-vinyl/glebe.jpg" alt="Glebe" /></li>
+						<li data-name="Hannover"><img src="images/doors/bedroom-vinyl/hannover.jpg" alt="Hannover" /></li>
+						<li data-name="Harriet Single"><img src="images/doors/bedroom-vinyl/harriet-single.jpg" alt="Harriet Single" /></li>
+						<li data-name="Harriett Double"><img src="images/doors/bedroom-vinyl/harriett-double.jpg" alt="Harriett Double" /></li>
+						<li data-name="Hereford"><img src="images/doors/bedroom-vinyl/hereford.jpg" alt="Hereford" /></li>
+						<li data-name="Hour Glass"><img src="images/doors/bedroom-vinyl/hour-glass.jpg" alt="Hour Glass" /></li>
+						<li data-name="Houston"><img src="images/doors/bedroom-vinyl/houston.jpg" alt="Houston" /></li>
+						<li data-name="Hyde"><img src="images/doors/bedroom-vinyl/hyde.jpg" alt="Hyde" /></li>
+						<li data-name="Keeley"><img src="images/doors/bedroom-vinyl/keeley.jpg" alt="Keeley" /></li>
+						<li data-name="Letterbox"><img src="images/doors/bedroom-vinyl/letterbox.jpg" alt="Letterbox" /></li>
+						<li data-name="Madrid"><img src="images/doors/bedroom-vinyl/madrid.jpg" alt="Madrid" /></li>
+						<li data-name="Melbourne"><img src="images/doors/bedroom-vinyl/melbourne.jpg" alt="Melbourne" /></li>
+						<li data-name="Miami"><img src="images/doors/bedroom-vinyl/miami.jpg" alt="Miami" /></li>
+						<li data-name="Modena"><img src="images/doors/bedroom-vinyl/modena.jpg" alt="Modena" /></li>
+						<li data-name="Mona"><img src="images/doors/bedroom-vinyl/mona.jpg" alt="Mona" /></li>
+						<li data-name="Monza"><img src="images/doors/bedroom-vinyl/monza.jpg" alt="Monza" /></li>
+						<li data-name="Morris"><img src="images/doors/bedroom-vinyl/morris.jpg" alt="Morris" /></li>
+						<li data-name="Normandy"><img src="images/doors/bedroom-vinyl/normandy.jpg" alt="Normandy" /></li>
+						<li data-name="Oslo"><img src="images/doors/bedroom-vinyl/oslo.jpg" alt="Oslo" /></li>
+						<li data-name="Ottowa"><img src="images/doors/bedroom-vinyl/ottowa.jpg" alt="Ottowa" /></li>
+						<li data-name="Paris"><img src="images/doors/bedroom-vinyl/paris.jpg" alt="Paris" /></li>
+						<li data-name="Pembrook"><img src="images/doors/bedroom-vinyl/pembrook.jpg" alt="Pembrook" /></li>
+						<li data-name="Planked"><img src="images/doors/bedroom-vinyl/planked.jpg" alt="Planked" /></li>
+						<li data-name="Porto"><img src="images/doors/bedroom-vinyl/porto.jpg" alt="Porto" /></li>
+						<li data-name="Prague"><img src="images/doors/bedroom-vinyl/prague.jpg" alt="Prague" /></li>
+						<li data-name="Quebec"><img src="images/doors/bedroom-vinyl/quebec.jpg" alt="Quebec" /></li>
+						<li data-name="Reymondo"><img src="images/doors/bedroom-vinyl/reymondo.jpg" alt="Reymondo" /></li>
+						<li data-name="Reymondo Archo"><img src="images/doors/bedroom-vinyl/reymondo-archo.jpg" alt="Reymondo Archo" /></li>
+						<li data-name="Ribbed Cologne"><img src="images/doors/bedroom-vinyl/ribbed-cologne.jpg" alt="Ribbed Cologne" /></li>
+						<li data-name="Rio"><img src="images/doors/bedroom-vinyl/rio.jpg" alt="Rio" /></li>
+						<li data-name="Rossapenna"><img src="images/doors/bedroom-vinyl/rossapenna.jpg" alt="Rossapenna" /></li>
+						<li data-name="Ruskin"><img src="images/doors/bedroom-vinyl/ruskin.jpg" alt="Ruskin" /></li>
+						<li data-name="Ryandale"><img src="images/doors/bedroom-vinyl/ryandale.jpg" alt="Ryandale" /></li>
+						<li data-name="Saxon Arch"><img src="images/doors/bedroom-vinyl/saxon-arch.jpg" alt="Saxon Arch" /></li>
+						<li data-name="Saxon Sqaure"><img src="images/doors/bedroom-vinyl/saxon-sqaure.jpg" alt="Saxon Sqaure" /></li>
+						<li data-name="Scoop"><img src="images/doors/bedroom-vinyl/scoop.jpg" alt="Scoop" /></li>
+						<li data-name="Shutter"><img src="images/doors/bedroom-vinyl/shutter.jpg" alt="Shutter" /></li>
+						<li data-name="Shutter Groove"><img src="images/doors/bedroom-vinyl/shutter-groove.jpg" alt="Shutter Groove" /></li>
+						<li data-name="Slab"><img src="images/doors/bedroom-vinyl/slab.jpg" alt="Slab" /></li>
+						<li data-name="Sperran"><img src="images/doors/bedroom-vinyl/sperran.jpg" alt="Sperran" /></li>
+						<li data-name="Square"><img src="images/doors/bedroom-vinyl/square.jpg" alt="Square" /></li>
+						<li data-name="Surrey"><img src="images/doors/bedroom-vinyl/surrey.jpg" alt="Stockholm" /></li>
+						<li data-name="Stockholm"><img src="images/doors/bedroom-vinyl/stockholm.jpg" alt="Surrey" /></li>
+						<li data-name="Tenby"><img src="images/doors/bedroom-vinyl/tenby.jpg" alt="Tenby" /></li>
+						<li data-name="Stockholm"><img src="images/doors/bedroom-vinyl/stockholm.jpg" alt="Stockholm" /></li>
+						<li data-name="Toronto"><img src="images/doors/bedroom-vinyl/toronto.jpg" alt="Toronto" /></li>
+						<li data-name="Tressell"><img src="images/doors/bedroom-vinyl/tressell.jpg" alt="Tressell" /></li>
+						<li data-name="Valencia"><img src="images/doors/bedroom-vinyl/valencia.jpg" alt="Valencia" /></li>
+						<li data-name="Vancouver"><img src="images/doors/bedroom-vinyl/vancouver.jpg" alt="Vancouver" /></li>
+						<li data-name="Verona"><img src="images/doors/bedroom-vinyl/verona.jpg" alt="Verona" /></li>
+						<li data-name="Victoria"><img src="images/doors/bedroom-vinyl/victoria.jpg" alt="Victoria" /></li>
+						<li data-name="Vienna"><img src="images/doors/bedroom-vinyl/vienna.jpg" alt="Vienna" /></li>
+						<li data-name="Warsaw"><img src="images/doors/bedroom-vinyl/warsaw.jpg" alt="Warsaw" /></li>
+						<li data-name="Washington"><img src="images/doors/bedroom-vinyl/washington.jpg" alt="Washington" /></li>
+						<li data-name="Westbury"><img src="images/doors/bedroom-vinyl/westbury.jpg" alt="Westbury" /></li>
+						<li data-name="Windmere"><img src="images/doors/bedroom-vinyl/windmere.jpg" alt="Windmere" /></li>
+						<li data-name="Windsor"><img src="images/doors/bedroom-vinyl/windsor.jpg" alt="Windsor" /></li>
+						<li data-name="Zenith"><img src="images/doors/bedroom-vinyl/zenith.jpg" alt="Zenith" /></li>
+						<li data-name="Zurich"><img src="images/doors/bedroom-vinyl/zurich.jpg" alt="Zurich" /></li>
 					</ul>
 				</div>
 				<div class="four-col last-col">
 					<div class="six-col align-center">
-						<img class="zoom-door door-image" src="images/doors/amsterdam.jpg" style="height:549px" data-zoom-image="images/doors/amsterdam-large.jpg" alt="" />
-						<p class="door-name">Amsterdam</p>
+						<img class="zoom-door door-image" src="images/doors/bedroom-vinyl/amalfi.jpg" style="height:549px" data-zoom-image="images/doors/amalfi.jpg" alt="" />
+						<p class="door-name">Amalfi</p>
 					</div>
 					<div class="six-col last-col align-center">
 						<img src="images/AG.jpg" class="door-colour-image" alt="" />
