@@ -408,7 +408,7 @@ include("functions.php");
 				</div>
 				<div class="four-col last-col">
 					<div class="six-col align-center">
-						<img class="zoom-door door-image" src="images/doors/bedroom-vinyl/amalfi.jpg" style="height:549px" data-zoom-image="images/doors/bedroom-vinyl/amalfi.jpg" alt="" />
+						<img class="zoom-door door-image" src="images/doors/bedroom-vinyl/amalfi-large.jpg" style="height:549px" data-zoom-image="images/doors/bedroom-vinyl/amalfi-large.jpg" alt="" />
 						<p class="door-name">Amalfi</p>
 					</div>
 					<div class="six-col last-col align-center">
