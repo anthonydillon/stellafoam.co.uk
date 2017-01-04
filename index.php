@@ -157,7 +157,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
             	<img src="/images/DN.jpg" class="full" border="0" />
             </div>
 
-            <a href="/door-range.php" title="Made To Measure">
+            <a href="/doors.php" title="Made To Measure">
             <div class="new-promo">
             	<h2>MADE TO MEASURE DOOR SERVICE</h2>
             	<img src="/images/homepage/made-to-measure.jpg" class="full" border="0" />
