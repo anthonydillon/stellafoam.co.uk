@@ -214,7 +214,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 
             <a href="/kitchen-cabinets.php" title="Kitchen cabinents">
 			<div class="new-promo clicbox-promo last-promo ">
-            	<h2 class="smaller">FLAT PACK KITCHEN CABINENTS</h2>
+            	<h2 class="smaller">FLAT PACK KITCHEN CABINETS</h2>
             	<img src="/images/homepage/clicbox-logo.jpg" border="0" />
             </div>
             </a>
