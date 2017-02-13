@@ -310,11 +310,16 @@
                               <dd><a href="product.php?p=192">900mm</a></dd>
                               <dd><a href="product.php?p=192">1000mm</a></dd>
                               <dt>Drawer-Line Base Units</dt>
+                              <dd><a href="product.php?p=192">300mm</a></dd>
+                              <dd><a href="product.php?p=192">400mm</a></dd>
+                              <dd><a href="product.php?p=192">450mm</a></dd>
                               <dd><a href="product.php?p=192">500mm</a></dd>
                               <dd><a href="product.php?p=192">600mm</a></dd>
                               <dd><a href="product.php?p=192">800mm</a></dd>
                               <dd><a href="product.php?p=192">900mm</a></dd>
                               <dd><a href="product.php?p=192">1000mm</a></dd>
+                              <dt>Oven Base Unit</dt>
+                              <dd><a href="product.php?p=192">600mm Under Oven</a></dd>
                           </dl>
                           <dl>
                               <dt>Full Drawer Base Units - 2&amp;1</dt>
@@ -329,8 +334,13 @@
                               <dd><a href="product.php?p=192">800mm</a></dd>
                               <dd><a href="product.php?p=192">900mm</a></dd>
                               <dd><a href="product.php?p=192">1000mm</a></dd>
-                              <dt>Oven Base Unit</dt>
-                              <dd><a href="product.php?p=192">600mm Under Oven</a></dd>
+                              <dt style="font-size: 11px;">* Full Drawer Base Units - 2 Drawer</dt>
+                              <dd><a href="product.php?p=192">500mm</a></dd>
+                              <dd><a href="product.php?p=192">600mm</a></dd>
+                              <dd><a href="product.php?p=192">800mm</a></dd>
+                              <dd><a href="product.php?p=192">900mm</a></dd>
+                              <dd><a href="product.php?p=192">1000mm</a></dd>
+                              <dd style="font-size: 11px;">* Available with hidden cutlery drawer</dd>
                           </dl>
                           <dl>
                               <dt>Wall Units</dt>
@@ -349,19 +359,30 @@
                               <dt>Bridging Units</dt>
                               <dd><a href="product.php?p=192">600mm</a></dd>
                               <dd><a href="product.php?p=192">900mm</a></dd>
+                              <dt>Appliance Housing Towers</dt>
+                              <dd><a href="product.php?p=192">Fridge-Freezer 70/30</a></dd>
+                              <dd><a href="product.php?p=192">Fridge-Freezer 50/50</a></dd>
+                              <dd><a href="product.php?p=192">Single Oven</a></dd>
+                              <dd><a href="product.php?p=192">Single Oven &amp; Microwave</a></dd>
+                              <dd><a href="product.php?p=192">Double Oven</a></dd>
                           </dl>
                           <dl>
-                              <dt style="font-size: 10px;">Larder / Fridge-Freezer Housing Unit</dt>
+                              <dt style="font-size: 11px;">70/30 Larder Units with Shelves</dt>
                               <dd><a href="product.php?p=192">300mm</a></dd>
                               <dd><a href="product.php?p=192">400mm</a></dd>
                               <dd><a href="product.php?p=192">500mm</a></dd>
                               <dd><a href="product.php?p=192">600mm</a></dd>
-                              <dt>Larder Unit Shelf Packs</dt>
+                              <dt style="font-size: 11px;">50/50 Larder Unit with Shelves</dt>
                               <dd><a href="product.php?p=192">300mm</a></dd>
                               <dd><a href="product.php?p=192">400mm</a></dd>
                               <dd><a href="product.php?p=192">500mm</a></dd>
                               <dd><a href="product.php?p=192">600mm</a></dd>
-                              <dt>Space Tower</dt>
+                              <dt>70/30 Space Tower</dt>
+                              <dd><a href="product.php?p=192">300mm</a></dd>
+                              <dd><a href="product.php?p=192">400mm</a></dd>
+                              <dd><a href="product.php?p=192">500mm</a></dd>
+                              <dd><a href="product.php?p=192">600mm</a></dd>
+                              <dt>50/50 Space Tower</dt>
                               <dd><a href="product.php?p=192">300mm</a></dd>
                               <dd><a href="product.php?p=192">400mm</a></dd>
                               <dd><a href="product.php?p=192">500mm</a></dd>
