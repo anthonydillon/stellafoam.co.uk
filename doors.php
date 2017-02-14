@@ -381,7 +381,6 @@ include("functions.php");
 						<li data-name="Saxon Arch"><img src="images/doors/bedroom-vinyl/saxon-arch.jpg" alt="Saxon Arch" /></li>
 						<li data-name="Saxon Sqaure"><img src="images/doors/bedroom-vinyl/saxon-sqaure.jpg" alt="Saxon Sqaure" /></li>
 						<li data-name="Scoop"><img src="images/doors/bedroom-vinyl/scoop.jpg" alt="Scoop" /></li>
-						<li data-name="Shutter"><img src="images/doors/bedroom-vinyl/shutter.jpg" alt="Shutter" /></li>
 						<li data-name="Shutter Groove"><img src="images/doors/bedroom-vinyl/shutter-groove.jpg" alt="Shutter Groove" /></li>
 						<li data-name="Slab"><img src="images/doors/bedroom-vinyl/slab.jpg" alt="Slab" /></li>
 						<li data-name="Sperran"><img src="images/doors/bedroom-vinyl/sperran.jpg" alt="Sperran" /></li>
