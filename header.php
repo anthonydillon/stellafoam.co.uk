@@ -340,7 +340,7 @@
                               <dd><a href="product.php?p=192">800mm<img src="images/kitchen-carcasses/800mm 2-Drawer-min.jpg" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=192">900mm<img src="images/kitchen-carcasses/900mm 2-Drawer-min.jpg" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=192">1000mm<img src="images/kitchen-carcasses/1000mm 2-Drawer-min.jpg" class="product-image"/></a></dd>
-                              <dd style="font-size: 11px;">* Available with hidden cutlery drawer</dd>
+                              <dd style="font-size: 11px;">* Available with hidden cutlery drawer<img src="images/kitchen-carcasses/Base Cabinets (2-Internal 1)-min.jpg" class="product-image"/></dd>
                           </dl>
                           <dl>
                               <dt>Wall Units</dt>
