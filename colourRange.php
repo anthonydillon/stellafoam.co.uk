@@ -82,7 +82,7 @@
 					}
 					echo '<strong>Order List:</strong> '.$amount.' items - ';
 				?>
-                <a href="/cart.php">View List</a>
+                <a href="/cart.php">View basket</a>
         	</div>
         </div>
         <div id="content">

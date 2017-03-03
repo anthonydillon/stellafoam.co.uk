@@ -109,7 +109,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 					}
 					echo '<strong>Order List:</strong> '.$amount.' items - ';
 				?>
-                <a href="/cart.php">View List</a>
+                <a href="/cart.php">View basket</a>
                 <?php
                 if(!$loggedIn) {
                  echo '- <a href="#" class="bread-login">Login</a>';

@@ -43,7 +43,7 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 			if($sid && !$readding){ $amount++; }
 			echo '<strong>Order List:</strong> '.$amount.' items - ';
 		?>
-        <a href="/cart.php">View List</a>
+        <a href="/cart.php">View basket</a>
 	</div>
     <?php
 		include 'crumbuser.php';
