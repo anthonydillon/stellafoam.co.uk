@@ -1,8 +1,8 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', '1');
-ini_set('error_reporting', E_ALL);
-ini_set('error_display', '1');
+// error_reporting(E_ALL);
+// ini_set('display_errors', '1');
+// ini_set('error_reporting', E_ALL);
+// ini_set('error_display', '1');
 include("functions.php");
 if (isset($_COOKIE["stellafoamadmin"])){
 	$splitCookie = explode('_', $_COOKIE["stellafoamadmin"]);
@@ -34,9 +34,9 @@ if(isset($_GET["pid"])){
 if($todo){
 	switch($todo){
 		case 'addStock':
-			if(isset($_POST["name"]) && isset($_POST["code"]) && isset($_POST["type"]) && isset($_POST["pack"]) && isset($_POST["discount"]) && isset($_POST["colour"])){
+			if(isset($_POST["name"]) && isset($_POST["code"]) && isset($_POST["type"]) && isset($_POST["description"]) && isset($_POST["pack"]) && isset($_POST["discount"]) && isset($_POST["colour"])){
 				$inStock = 1;
-				$message = addStock($_POST["name"], $_POST["code"], $_POST["type"],$_POST["pack"],$_POST["discount"], $_POST["price"], $_POST["colour"], $inStock);
+				$message = addStock($_POST["name"], $_POST["code"], $_POST["type"],$_POST["description"],$_POST["pack"],$_POST["discount"], $_POST["price"], $_POST["colour"], $inStock);
 			}else{
 				$message = 'Error with product details';
 			}
@@ -49,9 +49,9 @@ if($todo){
 			}
 		break;
 		case 'editStock':
-			if(isset($_POST["id"]) && isset($_POST["name"]) && isset($_POST["code"]) && isset($_POST["type"]) && isset($_POST["price"]) && isset($_POST["pack"]) && isset($_POST["discount"]) && isset($_POST["colour"])){
+			if(isset($_POST["id"]) && isset($_POST["name"]) && isset($_POST["code"]) && isset($_POST["type"]) && isset($_POST["description"]) && isset($_POST["price"]) && isset($_POST["pack"]) && isset($_POST["discount"]) && isset($_POST["colour"])){
 				$inStock  = 1;
-				$message = editStock($_POST["id"], $_POST["name"], $_POST["code"], $_POST["type"],$_POST["pack"],$_POST["discount"], $_POST["price"], $_POST["colour"],$inStock);
+				$message = editStock($_POST["id"], $_POST["name"], $_POST["code"], $_POST["type"],$_POST["description"],$_POST["pack"],$_POST["discount"], $_POST["price"], $_POST["colour"],$inStock);
 			}else{
 				$message = 'Error with product details';
 			}
@@ -143,6 +143,13 @@ if($todo){
                         <tr align="right" style="width:50%">
                             <td style="width:50%;">Type Name:</td>
                             <td align="left" style="width:50%;"><input type="text" name="type" size="35" value="<?php echo ($details)?$details["Type_Name"]:''; ?>"/></td>
+                        </tr>
+												<tr align="right" style="width:50%;">
+                            <td style="width:50%;">Description:</td>
+                            <td align="left" style="width:50%;">
+															<div style="font-size:11px;color:#999;">To add a new line enter: &lt;br&gt;</div>
+															<textarea rows="5" cols="35" name="description" ><?php echo $details["Stock_Description"]; ?></textarea>
+														</td>
                         </tr>
                          <tr align="right" style="width:50%">
                             <td style="width:50%;">Pack:</td>

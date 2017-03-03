@@ -157,64 +157,87 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 				<div id="details">
 
 						<?php
-							$count = 0;
-							$firstTime = true;
 							$prevType = '';
-							$lastCount = 0;
-							$topForm = '';
+							$firstTime = true;
 							$stock = getProductsStock( $product['Product_ID'] );
-							if($stock){
-								echo '<table id="stock" width="93%">
-								<tr height="34px"><th>Stock</th><th></th><th width="250px">Add to Order List</th></tr>';
-								for($i = 0; $i < count($stock); $i++){
-									if($stock[$i]["Type_Name"] != $prevType){
-										if(!$firstTime){
-											echo '</td><td>';
-											for($p = 0; $p < $count; $p++){
-												$topForm = '';
-												$topForm = ($p==0)?'style="margin-top: 0px;"':'';
-												echo '<div class="stockName" '.$topForm.'>
-														<form action="" method="post">
-															<input type="hidden" name="sid" value="'.$stock[$lastCount]["Stock_ID"].'" />
-															Quantity: <input type="text" name="qty" size="3" maxlength="4" onKeyPress="return numbersonly(this, event)" />
-															<input type="submit" value="Add"/>
-														</form>
-													</div>';
-													$lastCount++;
-											}
-											echo '</td></tr>';
+							if ($stock) {
+								echo '<aside class="filter">';
+									echo '<h2>Refine</h2>';
+									echo '<ul class="filter__list">';
+									for($i = 0; $i < count($stock); $i++) {
+										if ($stock[$i]["Type_Name"] != $prevType) {
+											echo '<li class="filter__list-item">';
+											echo '<a href="#product-'.$stock[$i]["Stock_ID"].'" data-product="'.$stock[$i]["Stock_ID"].'">' . $stock[$i]["Type_Name"] . '</a>';
+											echo '</li>';
 										}
-										$firstTime = false; $count = 0;
-										echo '<tr id="product-'.$stock[$i]["Stock_ID"].'"><td style="vertical-align:text-top;">'.$stock[$i]["Type_Name"].'</td><td style="vertical-align:text-top;">';
-
+										$prevType = $stock[$i]["Type_Name"];
 									}
-									echo '<div class="stockName">'.$stock[$i]["Stock_Name"].'</div>';
+									echo '</ul>';
+								echo '</aside>';
+
+								echo '<div id="stock">';
+								for ($i = 0; $i < count($stock); $i++) {
+									$image = ($stock[$i]["Stock_Image"])?$stock[$i]["Stock_Image"]:'/images/dropdown/sliding-door-MFC.jpg';
+									if ($stock[$i]["Type_Name"] != $prevType) {
+										if (!$firstTime) {
+											echo '</div>';
+										}
+										echo '<div id="product-'.$stock[$i]["Stock_ID"].'">';
+										echo '<div class="stock-name"><h3>'.$stock[$i]["Type_Name"].'</h3></div>';
+									}
+									echo '<div class="stock-row"><div class="stock-image"><img src="'.$image.'" /></div>
+										<div class="stock-description">
+											<h3>'.$stock[$i]["Stock_Name"].'</h3>
+											<p>'.$stock[$i]["Stock_Description"].'</p>
+										</div>
+										<div class="stock-form">
+											<form action="" method="post">
+												<input type="hidden" name="sid" value="'.$stock[$i]["Stock_ID"].'" />
+												Quantity:
+												<input type="number" min="0" max="125" name="qty" value="1" size="3" maxlength="4" onKeyPress="return numbersonly(this, event)" />
+												<input type="submit" value="Add" class="stock-add-button"/>
+											</form>
+										</div>
+									</div>';
 
 									$prevType = $stock[$i]["Type_Name"];
-									$count++;
-
+									$firstTime = false;
 								}
-								echo '</td><td>';
-								for($p = 0; $p < $count; $p++){
-									$topForm = '';
-									$topForm = ($p==0)?'style="margin-top: 0px;"':'';
-									echo '<div class="stockName" '.$topForm.'>
-											<form action="product.php?p='.$_GET["p"].'" method="post">
-												<input type="hidden" name="sid" value="'.$stock[$lastCount]["Stock_ID"].'" />
-												Quantity: <input type="text" name="qty" size="3" maxlength="4" onKeyPress="return numbersonly(this, event)"/>
-												<input type="submit" value="Add" />
-											</form>
-										</div>';
-										$lastCount++;
-								}
-								echo '</td></tr></table>';
-							}else{
+								echo '</div>';
+							} else {
 								echo '<h3 align="center">No Stock available</h3>';
 							}
 						?>
 
 				</div>
 			</div>
+			<script>
+				var filterLinks = document.querySelectorAll('.filter a');
+				var stockContainer = document.querySelector('#stock');
+				function toggleActiveFilter(e) {
+					var i;
+					var isActive = e.target.classList.contains('active');
+					for (i = 0; i < filterLinks.length; i++) {
+						filterLinks[i].classList.remove('active');
+					}
+					if (!isActive) {
+						e.target.classList.add('active');
+						stockContainer.classList.remove('show-all');
+					} else {
+						e.preventDefault();
+						window.location.hash = 'all';
+						stockContainer.classList.add('show-all');
+					}
+				}
+				for (i = 0; i < filterLinks.length; i++) {
+					filterLinks[i].addEventListener('click', toggleActiveFilter, false);
+				}
+				console.log(window.location.hash);
+				if (window.location.hash == '' || window.location.hash == '#' || window.location.hash == '#all') {
+					console.log('add show all');
+					stockContainer.classList.add('show-all');
+				}
+			</script>
 			<div style="clear:both;"></div>
         </div>
         <?php
