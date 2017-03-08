@@ -172,7 +172,7 @@ include("functions.php");
 					}
 					echo '<strong>Order List:</strong> '.$amount.' items - ';
 				?>
-                <a href="/stellafoam/cart.php">View List</a>
+                <a href="/stellafoam/cart.php">Basket</a>
         	</div>
         </div>
         <div id="content">

@@ -3,10 +3,10 @@
 
 include("function.php");
 
-define('s1','293ndjxz9dj564%4£%$%££%£%ids02i09e3j923uicm\iosd;dojdfjidf9e23jioocd');
-define('s2','-bkp$%£Y21mof^£$^sdmiottw%$%£peqc,cr2mi0-crf2j90f4^2nj90erk0-m348n9b');
-define('s3','n"!\d2bfu90g\0-"^%^£-dwd^$%£$uj893gfnh0q4j234njh-cfb-2v1=bv42-bvh349');
-define('s4','h\vc8923j89cjfdjfsdj$%£$£ovfduj53hivfdnhufg[gq=q]=q]=rgn-=qtnq904n82');
+define('s1','293ndjxz9dj564%4ï¿½%$%ï¿½ï¿½%ï¿½%ids02i09e3j923uicm\iosd;dojdfjidf9e23jioocd');
+define('s2','-bkp$%ï¿½Y21mof^ï¿½$^sdmiottw%$%ï¿½peqc,cr2mi0-crf2j90f4^2nj90erk0-m348n9b');
+define('s3','n"!\d2bfu90g\0-"^%^ï¿½-dwd^$%ï¿½$uj893gfnh0q4j234njh-cfb-2v1=bv42-bvh349');
+define('s4','h\vc8923j89cjfdjfsdj$%ï¿½$ï¿½ovfduj53hivfdnhufg[gq=q]=q]=rgn-=qtnq904n82');
 define('sessionlen',20000);
 $loggedIn = false;
 
@@ -116,7 +116,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 					}
 					echo '<strong>Order List:</strong> '.$amount.' items - ';
 				?>
-                <a href="/stellafoam/cart.php">View List</a>
+                <a href="/stellafoam/cart.php">Basket</a>
         	</div>
             <?php
 					if($loggedIn){ echo '<div style="float:right;margin-right:250px;">'.$user[0].' - <a href="/stellafoam/account/logout.php">Logout</a></div>'; }
