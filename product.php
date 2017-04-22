@@ -177,10 +177,9 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 
 								echo '<div id="stock" class="product-page-stock">';
 								for ($i = 0; $i < count($stock); $i++) {
-									echo $stock[$i]["Stock_Code"];
 									$placeholder_image = '/images/stock/placeholder.jpg';
 									$image_filename = '/images/stock/'.$stock[$i]["Stock_Code"].'.jpg';
-									if (file_exists($image_filename)) {
+									if (file_exists($_SERVER['DOCUMENT_ROOT'] . $image_filename)) {
 										$image = $image_filename;
 									} else {
 										$image = $placeholder_image;
