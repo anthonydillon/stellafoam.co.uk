@@ -177,7 +177,14 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 
 								echo '<div id="stock" class="product-page-stock">';
 								for ($i = 0; $i < count($stock); $i++) {
-									$image = ($stock[$i]["Stock_Image"])?$stock[$i]["Stock_Image"]:'/images/dropdown/sliding-door-MFC.jpg';
+									echo $stock[$i]["Stock_Code"];
+									$placeholder_image = '/images/dropdown/sliding-door-MFC.jpg';
+									$image_filename = '/images/stock/'.$stock[$i]["Stock_Code"].'.jpg';
+									if (file_exists($image_filename)) {
+										$image = $image_filename;
+									} else {
+										$image = $placeholder_image;
+									}
 									if ($stock[$i]["Type_Name"] != $prevType) {
 										if (!$firstTime) {
 											echo '</div>';
