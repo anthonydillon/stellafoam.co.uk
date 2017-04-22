@@ -175,7 +175,7 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 									echo '</ul>';
 								echo '</aside>';
 
-								echo '<div id="stock">';
+								echo '<div id="stock" class="product-page-stock">';
 								for ($i = 0; $i < count($stock); $i++) {
 									$image = ($stock[$i]["Stock_Image"])?$stock[$i]["Stock_Image"]:'/images/dropdown/sliding-door-MFC.jpg';
 									if ($stock[$i]["Type_Name"] != $prevType) {

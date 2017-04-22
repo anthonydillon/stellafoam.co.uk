@@ -291,7 +291,7 @@
 	color: #fff;
 }
 
-#stock,
+#stock.product-page-stock,
 #details {
 	font-size:13px;
 	margin-top:20px;
@@ -303,10 +303,24 @@
 	margin-top: 45px;
 }
 
-#stock {
+#stock.product-page-stock {
 	margin: 0;
 	float: right;
 	width: 70%;
+}
+
+#stock td {
+	padding: 20px 10px;
+	border-bottom: 1px dotted #d0d0d0;
+}
+
+#stock th {
+	font-size: 1em;
+	text-align: left;
+	padding: 5px 10px;
+	padding-bottom: 4px;
+	background-color:#ffe8c1;
+	color:#494C4E;
 }
 
 .stock-row {

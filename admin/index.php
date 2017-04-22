@@ -135,7 +135,7 @@ if($todo){
 					<input type="hidden" name="todo" value="editProduct" />
 					<input type="hidden" name="id" value="<?php echo $_GET["id"]; ?>" />
 					<?php echo '<h3>Edit '.$details["Product_Title"].'</h3><br/>
-					<a href="stock.php?pid='.$details["Product_ID"].'">Edit Stock</a>'; ?>
+					<a href="/admin/stock.php?pid='.$details["Product_ID"].'">Edit Stock</a>'; ?>
 
                     <table align="center" style="margin-top:30px;padding-right:150px;" cellpadding="12px" cellspacing="12px">
                         <tr align="right" style="margin-top:10px;">
@@ -220,8 +220,8 @@ if($todo){
 							echo '
 							<tr><td>'.$products[$i]["Product_ID"].'</td>
 							<td>'.$products[$i]["Product_Title"].'</td>
-							<td style="text-align:center;"><a href="?todo=showEditProduct&id='.$products[$i]["Product_ID"].'"><img src="edit.png" border="0"/></a></td>
-							<td style="text-align:center;"><a href="?todo=deleteProduct&id='.$products[$i]["Product_ID"].'" onClick="javascript: return confirm(\'Are you sure you want to delete '.$products[$i]["Product_Title"].'?\');"><img src="delete.png" border="0"/></a></td>
+							<td style="text-align:center;"><a href="?todo=showEditProduct&id='.$products[$i]["Product_ID"].'"><img src="/admin/edit.png" border="0"/></a></td>
+							<td style="text-align:center;"><a href="?todo=deleteProduct&id='.$products[$i]["Product_ID"].'" onClick="javascript: return confirm(\'Are you sure you want to delete '.$products[$i]["Product_Title"].'?\');"><img src="/admin/delete.png" border="0"/></a></td>
 							';
 						}
 					?>
