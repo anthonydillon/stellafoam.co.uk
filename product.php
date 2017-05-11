@@ -195,6 +195,10 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 										<div class="stock-description">
 											<h3>'.$stock[$i]["Stock_Name"].'</h3>
 											<p>'.$stock[$i]["Stock_Description"].'</p>
+											<div class="stock-description--toggle">
+												<a class="stock-description--more" href="#">More</a>
+												<a class="stock-description--less" href="#">Less</a>
+											</div>
 										</div>
 										<div class="stock-form">
 											<form action="" method="post">
@@ -238,10 +242,26 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 				for (i = 0; i < filterLinks.length; i++) {
 					filterLinks[i].addEventListener('click', toggleActiveFilter, false);
 				}
-				console.log(window.location.hash);
 				if (window.location.hash == '' || window.location.hash == '#' || window.location.hash == '#all') {
-					console.log('add show all');
 					stockContainer.classList.add('show-all');
+				}
+
+				var moreLinks = document.querySelectorAll('.stock-description--more');
+				for (i = 0; i < moreLinks.length; i++) {
+					moreLinks[i].addEventListener('click', function (e) {
+						e.preventDefault();
+						var productItem = e.target.closest('.stock-row');
+						productItem.classList.add('show-description');
+					});
+				}
+
+				var lessLinks = document.querySelectorAll('.stock-description--less');
+				for (i = 0; i < lessLinks.length; i++) {
+					lessLinks[i].addEventListener('click', function(e) {
+						e.preventDefault();
+						var productItem = e.target.closest('.stock-row');
+						productItem.classList.remove('show-description');
+					});
 				}
 			</script>
 			<div style="clear:both;"></div>
