@@ -86,9 +86,11 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 				}else{
 			?>
     	<div id="breadcrumb">
-			<a href="/" title="Homepage">Homepage</a> >
-			<?php echo getCategoryName( $product['Category_ID']).' > <a href="/product.php?p='.$product['Product_ID'].'">'.$product['Product_Title'].'</a> > '.$stock['Stock_Name']; ?>
-      <div style="float:right;margin-right:2px;">
+			<div class="breadcrumb-wrapper">
+				<a href="/" title="Homepage">Homepage</a> >
+				<?php echo getCategoryName( $product['Category_ID']).' > <a href="/product.php?p='.$product['Product_ID'].'">'.$product['Product_Title'].'</a> > '.$stock['Stock_Name']; ?>
+      </div>
+			<div style="float:right;margin-right:2px;">
     		<?php
 					$amount = 0;
 					if(isset($_COOKIE["stellafoamorder"])){
@@ -127,7 +129,7 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
           <?php
 						$size = '';
 						$threshold = 18;
-						$strLen = strlen($stock['Stock_Name']);
+						$strLen = strlen($stock['Stock_Name']) + strlen($stock['Stock_Code']);
 						if($strLen >= $threshold){
 							$dif = (($strLen - $threshold)+1)*2;
 							$total = max(24,(40 - $dif) - 2);
@@ -153,6 +155,13 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 							?>
 						</p>
 					</div>
+					<?php
+						if($loggedIn) {
+							echo '<div class="productPrice">
+								<h4>&pound;'.$stock["Price"].' each</h4>
+							</div>';
+						}
+					?>
 					<div class="stock-form">
 						<form action="" method="post">
 							<input type="hidden" name="sid" value="<?php echo $stock["Stock_ID"] ?>" />

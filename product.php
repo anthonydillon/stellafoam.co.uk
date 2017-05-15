@@ -199,11 +199,16 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 											<a href="/stock.php?s='.$stock[$i]["Stock_ID"].'">
 												<h3>'.$stock[$i]["Stock_Name"].'</h3>
 											</a>
-											<p>'.$stock[$i]["Stock_Description"].'</p>';
+											<p class="stock-description--body">'.$stock[$i]["Stock_Description"].'</p>';
 										if(strlen($stock[$i]["Stock_Description"]) >= 157) {
 											echo '<div class="stock-description--toggle">
 												<a class="stock-description--more" href="#">More</a>
 												<a class="stock-description--less" href="#">Less</a>
+											</div>';
+										}
+										if($loggedIn) {
+											echo '<div>
+												<p class="stock-description--price">&pound;'.$stock[$i]["Price"].' each</p>
 											</div>';
 										}
 										echo '</div>
