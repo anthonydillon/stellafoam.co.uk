@@ -177,12 +177,10 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 
 								echo '<div id="stock" class="product-page-stock">';
 								for ($i = 0; $i < count($stock); $i++) {
-									$placeholder_image = '/images/stock/placeholder.png';
+									$image = '/images/stock/placeholder.png';
 									$image_filename = '/images/stock/'.$stock[$i]["Stock_Code"].'.jpg';
 									if (file_exists($_SERVER['DOCUMENT_ROOT'] . $image_filename)) {
 										$image = $image_filename;
-									} else {
-										$image = $placeholder_image;
 									}
 									if ($stock[$i]["Type_Name"] != $prevType) {
 										if (!$firstTime) {
@@ -191,15 +189,24 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 										echo '<div id="product-'.$stock[$i]["Stock_ID"].'">';
 										echo '<div class="stock-name"><h3>'.$stock[$i]["Type_Name"].'</h3></div>';
 									}
-									echo '<div class="stock-row"><div class="stock-image"><img src="'.$image.'" /></div>
+									echo '<div class="stock-row">
+										<div class="stock-image">
+											<a href="/stock.php?s='.$stock[$i]["Stock_ID"].'">
+												<img src="'.$image.'" />
+											</a>
+										</div>
 										<div class="stock-description">
-											<h3>'.$stock[$i]["Stock_Name"].'</h3>
-											<p>'.$stock[$i]["Stock_Description"].'</p>
-											<div class="stock-description--toggle">
+											<a href="/stock.php?s='.$stock[$i]["Stock_ID"].'">
+												<h3>'.$stock[$i]["Stock_Name"].'</h3>
+											</a>
+											<p>'.$stock[$i]["Stock_Description"].'</p>';
+										if(strlen($stock[$i]["Stock_Description"]) >= 157) {
+											echo '<div class="stock-description--toggle">
 												<a class="stock-description--more" href="#">More</a>
 												<a class="stock-description--less" href="#">Less</a>
-											</div>
-										</div>
+											</div>';
+										}
+										echo '</div>
 										<div class="stock-form">
 											<form action="" method="post">
 												<input type="hidden" name="sid" value="'.$stock[$i]["Stock_ID"].'" />

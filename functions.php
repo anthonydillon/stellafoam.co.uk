@@ -297,6 +297,27 @@ function get_product( $id ){
 	}
 }
 
+function get_stock( $id ){
+	$con = mysql_connect(db_hostname,db_username,db_password);
+	if (!$con) {
+	  die('Could not connect: ' . mysql_error());
+	}
+	mysql_select_db(db_name, $con);
+	$SQL = "SELECT * FROM stock WHERE Stock_ID = ".$id;
+
+	$result = mysql_query($SQL);
+	$return_array = array();
+
+	mysql_close($con);
+	if(mysql_num_rows($result) > 0){
+		while($row = mysql_fetch_array($result)) {
+			return $row;
+		}
+	}else{
+		return false;
+	}
+}
+
 function get_product_image( $id ){
 	$con = mysql_connect(db_hostname,db_username,db_password);
 	if (!$con) {
