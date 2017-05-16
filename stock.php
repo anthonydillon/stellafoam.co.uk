@@ -111,7 +111,7 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 				<div id="productImage">
 					<?php
 						$image = '/images/stock/placeholder.png';
-						$image_filename = '/images/stock/'.$stock["Stock_Code"].'.jpg';
+						$image_filename = '/images/stock/'.$stock["Stock_Code"].'.png';
 						if (file_exists($_SERVER['DOCUMENT_ROOT'] . $image_filename)) {
 							$image = $image_filename;
 						}
