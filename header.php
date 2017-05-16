@@ -13,7 +13,6 @@
                               <dt>Cut &amp; Edged 2-Sided 18mm CHIP</dt>
                               <dd><a href="product.php?p=156">Agnola Beech<img src="images/<?php echo get_product_image(156); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=155">Avola Brown<img src="images/<?php echo get_product_image(155); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=173">Avola Champagne<img src="images/<?php echo get_product_image(173); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=174">Avola Grey<img src="images/<?php echo get_product_image(174); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=172">Avola White<img src="images/<?php echo get_product_image(172); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=231">Cashmere<img src="images/<?php echo get_product_image(231); ?>" class="product-image"/></a></dd>
