@@ -367,7 +367,7 @@ function get_KMS_components() {
 	  die('Could not connect: ' . mysql_error());
 	}
 	mysql_select_db(db_name, $con);
-	$SQL = "SELECT Stock_Name, Stock_Code, Type_Name FROM stock WHERE Product_ID = 211 GROUP BY Stock_Name";
+	$SQL = "SELECT Stock_Name, Stock_Code, Type_Name FROM stock WHERE Product_ID = 211 GROUP BY Stock_Name, Stock_Code, Type_Name";
 
 	$result = mysql_query($SQL);
 	$return_array = array();
@@ -392,7 +392,7 @@ function get_KMS_product($id, $type) {
 	  die('Could not connect: ' . mysql_error());
 	}
 	mysql_select_db(db_name, $con);
-	$SQL = "SELECT Stock_Name, Stock_Code, Type_Name FROM stock WHERE Product_ID = $id";
+	$SQL = "SELECT Stock_Name, Stock_Code, Type_Name FROM stock WHERE Product_ID = $id GROUP BY Stock_Name, Stock_Code, Type_Name";
 
 	$result = mysql_query($SQL);
 	$return_array = array();
