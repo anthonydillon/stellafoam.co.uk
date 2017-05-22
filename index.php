@@ -138,14 +138,14 @@ if(isset($_POST['username']) && isset($_POST['password'])){
             </div>
             </a>
 
-            <a href="/product.php?p=239" title="Soft Shelving">
+            <a href="/doors.php" title="Made To Measure">
             <div class="new-promo">
-            	<h2>STELLAFOAM SOFT SHELVING</h2>
-            	<img src="/images/homepage/homepage-soft-shelving.jpg" class="full" border="0" />
+            	<h2>MADE TO MEASURE DOOR SERVICE</h2>
+            	<img src="/images/homepage/made-to-measure.jpg" class="full" border="0" />
             </div>
             </a>
 
-            <a href="/docs/stellafoam-new-handle-brochure.pdf" target="_blank" title="The Handles Collection">
+						<a href="/docs/stellafoam-new-handle-brochure.pdf" target="_blank" title="The Handles Collection">
             <div class="new-promo last-promo">
             	<h2>THE HANDLES COLLECTION</h2>
             	<img src="/images/homepage/handles-collection.png" border="0" />
@@ -157,12 +157,12 @@ if(isset($_POST['username']) && isset($_POST['password'])){
             	<img src="/images/DN.jpg" class="full" border="0" />
             </div>
 
-            <a href="/doors.php" title="Made To Measure">
-            <div class="new-promo">
-            	<h2>MADE TO MEASURE DOOR SERVICE</h2>
-            	<img src="/images/homepage/made-to-measure.jpg" class="full" border="0" />
+						<a href="/kitchens-made-simple.php" title="Kitchens made simple">
+            <div class="new-promo coming-soon">
+            	<h2>KITCHENS MADE SIMPLE</h2>
+            	<img src="/images/homepage/stellafoam-kitchens-made-simple.png" border="0" />
             </div>
-            </a>
+						</a>
 
             <a href="/product.php?p=193" title="Sliding doors">
             <div class="new-promo last-promo">
@@ -181,12 +181,12 @@ if(isset($_POST['username']) && isset($_POST['password'])){
             </div>
             </a>
 
-						<a href="/kitchens-made-simple.php" title="Kitchens made simple">
-            <div class="new-promo coming-soon">
-            	<h2>KITCHENS MADE SIMPLE</h2>
-            	<img src="/images/homepage/stellafoam-kitchens-made-simple.png" border="0" />
+            <a href="/product.php?p=210" title="">
+            <div class="new-promo marketing-promo">
+            	<h2>ORDER MARKETING MATERIAL</h2>
+            	<img src="/images/homepage/marketing-material-promo.jpg" border="0" />
             </div>
-						</a>
+            </a>
 
             <a href="/product.php?p=180" title="Soft close wooden drawer boxes">
             <div class="new-promo last-promo">
@@ -194,8 +194,6 @@ if(isset($_POST['username']) && isset($_POST['password'])){
             	<img src="/images/homepage/wooden-drawer.jpg" class="full" border="0" />
             </div>
             </a>
-
-
 
             <a href="/product.php?p=121" title="Blum hinges">
             <div class="new-promo blum-promo">
@@ -205,21 +203,21 @@ if(isset($_POST['username']) && isset($_POST['password'])){
             </div>
             </a>
 
-            <a href="/product.php?p=210" title="">
-            <div class="new-promo marketing-promo">
-            	<h2>ORDER MARKETING MATERIAL</h2>
-            	<img src="/images/homepage/marketing-material-promo.jpg" border="0" />
+            <a href="/product.php?p=239" title="Soft Shelving">
+            <div class="new-promo">
+            	<h2>STELLAFOAM SOFT SHELVING</h2>
+            	<img src="/images/homepage/homepage-soft-shelving.jpg" class="full" border="0" />
             </div>
             </a>
 
             <a href="/kitchen-cabinets.php" title="Kitchen cabinents">
-			<div class="new-promo clicbox-promo last-promo ">
+						<div class="new-promo clicbox-promo last-promo ">
             	<h2 class="smaller">FLAT PACK KITCHEN CABINETS</h2>
             	<img src="/images/homepage/clicbox-logo.jpg" border="0" />
             </div>
             </a>
 
-		</div>
+				</div>
         <?php
 			include  'footer.php';
     	?>
