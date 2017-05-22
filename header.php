@@ -20,15 +20,11 @@
                               <dd><a href="product.php?p=243">Denim<img src="images/<?php echo get_product_image(243); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=232">Dust Grey<img src="images/<?php echo get_product_image(232); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=233">French Oak<img src="images/<?php echo get_product_image(233); ?>" class="product-image"/></a></dd>
-        											<dd><a href="product.php?p=165">Gloss Black<img src="images/<?php echo get_product_image(165); ?>" class="product-image"/></a></dd>
-        											<dd><a href="product.php?p=176">Gloss Cream<img src="images/<?php echo get_product_image(176); ?>" class="product-image"/></a></dd>
-        											<dd><a href="product.php?p=176">Gloss Ivory<img src="images/<?php echo get_product_image(176); ?>" class="product-image"/></a></dd>
-        											<dd><a href="product.php?p=163">Gloss White<img src="images/<?php echo get_product_image(163); ?>" class="product-image"/></a></dd>
+        					  <dd><a href="product.php?p=163">Gloss White<img src="images/<?php echo get_product_image(163); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=27">Golden Walnut<img src="images/<?php echo get_product_image(27); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=28">Ivory<img src="images/<?php echo get_product_image(28); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=197">Legno Alabaster<img src="images/<?php echo get_product_image(197); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=201">Legno Mussel<img src="images/<?php echo get_product_image(201); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=202">Legno Vanilla<img src="images/<?php echo get_product_image(202); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=203">Legno White<img src="images/<?php echo get_product_image(203); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=204">Light Elm<img src="images/<?php echo get_product_image(204); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=234">Light Grey<img src="images/<?php echo get_product_image(234); ?>" class="product-image"/></a></dd>
