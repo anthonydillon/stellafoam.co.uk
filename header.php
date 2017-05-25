@@ -107,7 +107,7 @@
                               <dd><a href="product.php?p=44">White Matt<img src="images/<?php echo get_product_image(44); ?>" class="product-image"/></a></dd>
                               <dt>Vinyl Wrapped 18mm HDF</dt>
                               <dd><a href="product.php?p=163">Gloss White<img src="images/<?php echo get_product_image(163); ?>" class="product-image"/></a></dd>
-                              <dt>Paint &amp; Lacquered 18mm HDF</dt>
+                              <dt>Painted &amp; Lacquered 18mm HDF</dt>
                               <dd><a href="product.php?p=28">Gloss Ivory<img src="images/<?php echo get_product_image(28); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=234">Gloss Light Grey<img src="images/<?php echo get_product_image(234); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=163">Gloss White<img src="images/<?php echo get_product_image(163); ?>" class="product-image"/></a></dd>

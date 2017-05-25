@@ -65,9 +65,9 @@ include("functions.php");
 						<p>For customers who wish to collect our trade counter is open during the following hours :- </p>
 						<table style="margin:0 auto;" cellpadding="5" cellspacing="10">
 						<tr><th width="40%">Monday</th><td>8.30 - 4.30</td></tr>
-						<tr><th>Tuesday</th><td>8.30 - 4.30</td></tr>
+						<tr><th>Tuesday</th><td>8.30 - 5.30</td></tr>
 						<tr><th>Wednesday</th><td>8.30 - 5.30</td></tr>
-						<tr><th>Thursday</th><td>8.30 - 5.30</td></tr>
+						<tr><th>Thursday</th><td>8.30 - 4.30</td></tr>
 						<tr><th>Friday</th><td>8.30 - 4.30</td></tr>
 						<tr><th>Saturday</th><td>9.00 - 12.00<br />(except Bank holiday weekends)</td></tr>
 						</table>
