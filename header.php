@@ -595,39 +595,34 @@
                   <ul class="subnavContent">
                       <li>
                           <dl>
-                              <dt>Bull-nose Worktops (3m)</dt>
+                              <dt>Bedroom Worktops</dt>
                               <dd><a href="product.php?p=156">Agnola Beech</a></dd>
-                              <dd><a href="product.php?p=172">Avola White</a></dd>
+                              <dd><a href="product.php?p=172">White Avola</a></dd>
                               <dd><a href="product.php?p=231">Cashmere</a></dd>
                               <dd><a href="product.php?p=24">Classic Walnut</a></dd>
-                              <dd><a href="product.php?p=27">Golden Walnut</a></dd>
                               <dd><a href="product.php?p=28">Ivory</a></dd>
-
+                              <dd><a href="product.php?p=29">Lissa Oak</a></dd>
+                              <dd><a href="product.php?p=205">Mali Wenge</a></dd>
                           </dl>
                           <dl>
                               <dd style="height:20px;"></dd>
-                              <dd><a href="product.php?p=29">Lissa Oak</a></dd>
-                              <dd><a href="product.php?p=205">Mali Wenge</a></dd>
                               <dd><a href="product.php?p=36">Pippy Oak</a></dd>
                               <dd><a href="product.php?p=236">Stone Grey</a></dd>
-                              <dd><a href="product.php?p=44">White (Pearl)</a></dd>
+                              <dd><a href="product.php?p=45">Textured White</a></dd>
+                              <dd><a href="product.php?p=44">Matt White</a></dd>
                           </dl>
                           <dl>
-                              <dt>Vinyl Wrapped Work-Tops</dt>
-                              <dd>Made to Measure</dd>
-                              <dd>Max Height 2600</dd>
-                              <dd>Max Width  1200</dd>
-                              <dd>Thickness: 18mm or 22mm</dd>
-                              <dd>Available in Gloss and Individual Shapes</dd>
+                              <dt>Gloss Kitchen Worktops</dt>
+                              <dd><a href="product.php?p=245">Cosmic White</a></dd>
+                              <dd><a href="product.php?p=245">Cosmic Grey</a></dd>
                           </dl>
                           <dl>
-                              <dt>Worktop Accessories</dt>
-                              <dd><a href="product.php?p=151">Connector Bolts</a></dd>
-                              <dd><a href="product.php?p=151">Heavy Duty Bar Legs</a></dd>
-                              <dd><a href="product.php?p=151">Cable Outlets</a></dd>
-                              <dd><a href="product.php?p=151">End Caps</a></dd>
-                              <dd><a href="product.php?p=151">Straight Fillets</a></dd>
-                              <dd><a href="product.php?p=151">Corner Fillets</a></dd>
+                              <dt>Matt Kitchen Worktops</dt>
+                              <dd><a href="product.php?p=246">Premium White</a></dd>
+                              <dd><a href="product.php?p=246">Black Granite</a></dd>
+                              <dd><a href="product.php?p=246">Boston Concrete</a></dd>
+                              <dd><a href="product.php?p=246">Natural Hickory</a></dd>
+                              <dd><a href="product.php?p=246">Truffle Riverside Oak</a></dd>
                           </dl>
                       </li>
                   </ul>
