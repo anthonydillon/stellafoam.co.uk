@@ -603,9 +603,6 @@
                               <dd><a href="product.php?p=28">Ivory</a></dd>
                               <dd><a href="product.php?p=29">Lissa Oak</a></dd>
                               <dd><a href="product.php?p=205">Mali Wenge</a></dd>
-                          </dl>
-                          <dl>
-                              <dd style="height:20px;"></dd>
                               <dd><a href="product.php?p=36">Pippy Oak</a></dd>
                               <dd><a href="product.php?p=236">Stone Grey</a></dd>
                               <dd><a href="product.php?p=45">Textured White</a></dd>
