@@ -44,7 +44,6 @@ include("functions.php");
 		width:100%;
 		font-size:13px;
 		margin-top:20px;
-		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 		border-collapse:collapse;
 	}
 
@@ -82,7 +81,7 @@ include("functions.php");
 	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
 </head>
 <body id="build" style="background-color:#ffffff;" onload="printpage()">
-		<div style="colour:#999;font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;font-size: 13px;width:954px;text-align:center;">--- Printable Version ---</div>
+		<div style="colour:#999;font-size: 13px;width:954px;text-align:center;">--- Printable Version ---</div>
         <img src="header.jpg" style="width:954px;"/>
         <div id="content" style="width:954px;">
         	<div id="title" style="margin-top:30px;margin-bottom:30px;">Door Range</div>

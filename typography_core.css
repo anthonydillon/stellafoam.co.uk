@@ -1,5 +1,8 @@
 
-body { font: 1em/1em Arial, Helvetica, sans-serif; color: #494c4e; }
+body {
+	font-family: 'Signika', sans-serif;
+	color: #494c4e;
+}
 
 h1 { font-size: 2em; }
 #content .heroWrapper h1, #fullWidthContent .fullWidthHeroWrapper h1 { font-weight: normal; }
@@ -85,9 +88,9 @@ span.savePrice { color: #fff; }
 */
 #compareTableBlock th.titleColumn { text-align: right; font-weight: bold; }
 #compareTableBlock th.productPrice span.productName { font-weight: bold; }
-#compareTableBlock tr th p.productPrice span.savePrice { 
-	background: none; 
-	color: #dc241f; 
+#compareTableBlock tr th p.productPrice span.savePrice {
+	background: none;
+	color: #dc241f;
 	font-size: 0.95em;
 }
 #compareTableBlock .productPrice span { font-size: 1.2em; }
@@ -97,10 +100,10 @@ span.savePrice { color: #fff; }
 */
 #fullWidthContent .relatedProducts ul li { text-align: right; }
 #fullWidthContent .relatedProducts ul li span { font-weight: bold;}
-#fullWidthContent .relatedProducts ul li span.title { 
-	text-align: left; 
-	display: block; 
-	width: 210px; 
+#fullWidthContent .relatedProducts ul li span.title {
+	text-align: left;
+	display: block;
+	width: 210px;
 }
 #fullWidthContent .relatedProducts ul li span.nowPrice, #fullWidthContent .relatedProducts ul li span.onlyPrice { font-size: 1em; }
 #fullWidthContent .relatedProducts ul li span.savePrice { color: #fff; }
@@ -149,3 +152,14 @@ body#popup #popup-content p { padding-bottom:1.2em; }
 #contentWrapper .textorange { color: #FF6600; }
 #contentWrapper .text10 { font-size:0.8em; margin-bottom:10px; }
 #contentWrapper .text12red { color: #f00; }
+#pageWrapper input,
+#pageWrapper textarea {
+	font-family: 'Signika', sans-serif;
+	margin-bottom: 10px;
+}
+
+#pageWrapper textarea {
+	box-sizing: border-box;
+	padding: 10px;
+	width: 100%;
+}

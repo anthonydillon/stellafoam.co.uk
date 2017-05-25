@@ -35,7 +35,6 @@ include("functions.php");
 		width:100%;
 		font-size:13px;
 		margin-top:20px;
-		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 		border-collapse:collapse;
 	}
 

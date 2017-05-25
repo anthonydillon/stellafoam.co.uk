@@ -100,7 +100,7 @@ if(isset($_POST["todo"]) && $_POST["todo"] == 'send'){
 <body id="build" style="background-color:#ffffff;" onload="printpage()">
 	<!--<div id="pageWrapper">
         <div style="width:190px;float:right"></div> -->
-		<div style="colour:#999;font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;font-size: 13px;width:954px;text-align:center;">--- Printable Version ---</div>
+		<div style="colour:#999;font-size: 13px;width:954px;text-align:center;">--- Printable Version ---</div>
         <img src="header.jpg" style="width:954px;"/>
         <div id="content" style="width:954px;">
         	<div id="title" style="margin-top:40px;margin-bottom:20px;">Stellafoam Order List</div>
