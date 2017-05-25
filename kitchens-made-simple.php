@@ -108,12 +108,6 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 				<h1><img src="/images/homepage/stellafoam-kitchens-made-simple.png" alt="Kitchens Made Simple" /></h1>
 					<p class="intro">Introducing Stellafoam&rsquo;s new quick and easy way to design, price and order kitchens. With free marketing material, CAD software and samples; (along with all the price savings of seperate component ordering) our customers will have the competitive edge they need to win the kitchen game!</p>
 				</div>
-				<div class="four-col prepend-two last-col box articad-box">
-					<h3>Free ArtiCAD room planner</h3>
-					<p>Plan and submit your customers kitchen to recieve a design specific 3D rendered image.</p>
-					<a href="http://www.articad.net/myroomplan/planner-manager/?id=125&v=2&guid1=32023178&guid2=9044" class="primary-button" target="_blank">Design your kitchen</a>
-				</div>
-				<div style="clear:both"></div>
 			</div>
 
 			<?php
