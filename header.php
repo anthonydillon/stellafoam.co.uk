@@ -525,25 +525,23 @@
                             <dd><a href="product.php?p=124">Aventos Top Flap Heavy Duty</a></dd>
                             <dd><a href="product.php?p=124">Aventos Small Top Flap</a></dd>
                             <dd><a href="product.php?p=124">Aventos Bi-Fold Top Flap</a></dd>
-                    				<dt>Back Plates</dt>
-                    				<dd><a href="product.php?p=126">Clip Plate 2pc 0mm</a></dd>
-                    				<dd><a href="product.php?p=126">Clip Plate 2pc 3mm</a></dd>
-                    				<dd><a href="product.php?p=126">Adjustable Clip Plate 0mm</a></dd>
-                    				<dd><a href="product.php?p=126">Adjustable Clip Plate 3mm</a></dd>
-                    				<dd><a href="product.php?p=126">S/T Adjustable Clip Plate 0mm</a></dd>
-                    				<dd><a href="product.php?p=126">S/T Adjustable Clip Plate 3mm</a></dd>
-                    				<dd><a href="product.php?p=126">Spaced 18mm Clip Plate 2pc 0mm</a></dd>
-                    				<dd><a href="product.php?p=126">Horizontal Clip Plate 2pc 0mm</a></dd>
-                    				<dd><a href="product.php?p=126">Face Fix Plate</a></dd>
+                            <dt>Back Plates</dt>
+                            <dd><a href="product.php?p=126">Clip Plate 2pc 0mm</a></dd>
+                            <dd><a href="product.php?p=126">Clip Plate 2pc 3mm</a></dd>
+                            <dd><a href="product.php?p=126">Adjustable Clip Plate 0mm</a></dd>
+                            <dd><a href="product.php?p=126">Adjustable Clip Plate 3mm</a></dd>
+                            <dd><a href="product.php?p=126">S/T Adjustable Clip Plate 0mm</a></dd>
+                            <dd><a href="product.php?p=126">S/T Adjustable Clip Plate 3mm</a></dd>
+                            <dd><a href="product.php?p=126">Spaced 18mm Clip Plate 2pc 0mm</a></dd>
+                            <dd><a href="product.php?p=126">Horizontal Clip Plate 2pc 0mm</a></dd>
+                            <dd><a href="product.php?p=126">Face Fix Plate</a></dd>
                            </dl>
                            <dl>
-                              <dt>Miscellaneous</dt>
-                              <dd><a href="product.php?p=127">Tip on Touch Catch &amp; Plate</a></dd>
-                              <dd><a href="product.php?p=127">Tip on Touch Cruciform Plate</a></dd>
-                              <dd><a href="product.php?p=127">Door Closer Jig</a></dd>
-                              <dd><a href="product.php?p=127">Clip/Modular Carcase Template</a></dd>
-                              <dd><a href="product.php?p=127">Can Connecting Blocks Brown / White</a></dd>
-              			      </dl>
+                            <dt>Miscellaneous</dt>
+                            <dd><a href="product.php?p=127">Tip on Touch Catch &amp; Plate</a></dd>
+                            <dd><a href="product.php?p=127">Tip on Touch Cruciform Plate</a></dd>
+                            <dd><a href="product.php?p=127">Cam Connecting Blocks Brown / White</a></dd>
+                           </dl>
 		                  </li>
                   </ul>
               </div>
