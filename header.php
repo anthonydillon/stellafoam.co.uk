@@ -49,10 +49,8 @@
                               <dt>8'x4' / 9'x4' 18mm MFC</dt>
                               <dd><a href="product.php?p=156">Agnola Beech<img src="images/<?php echo get_product_image(156); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=155">Avola Brown<img src="images/<?php echo get_product_image(155); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=247">Avola Brown Grey<img src="images/<?php echo get_product_image(247); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=174">Avola Grey<img src="images/<?php echo get_product_image(174); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=172">Avola White<img src="images/<?php echo get_product_image(172); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=248">Black Hacienda<img src="images/<?php echo get_product_image(248); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=231">Cashmere<img src="images/<?php echo get_product_image(231); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=24">Classic Walnut<img src="images/<?php echo get_product_image(24); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=243">Denim<img src="images/<?php echo get_product_image(243); ?>" class="product-image"/></a></dd>
