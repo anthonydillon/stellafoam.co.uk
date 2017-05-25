@@ -96,7 +96,6 @@ if(isset($_POST['username']) && isset($_POST['password'])){
     	?>
 
         <div id="breadcrumb">
-        	Homepage
         	<div style="float:right;margin-right:2px;position:relative;">
              	<?php
 					$amount = 0;
