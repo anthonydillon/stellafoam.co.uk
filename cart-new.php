@@ -187,9 +187,6 @@ if(isset($_GET["sent"])){
 		color:#016bb5;
 		font-size:13px;
 	}
-	dt{
-		background: #fff url(subnav-title-bg.jpg) 0 1px no-repeat;
-	}
 	</style>
 	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />

@@ -29,23 +29,23 @@ ini_set('error_reporting', E_ALL);
 ini_set('error_display', '1');
 
 function generate_hash( $value ){
-		
+
 	$valueLen = strLen( $value );
 
 	$majorPepper = substr(s1,0,$valueLen+1);
-	
+
 	$n=$valueLen;
 	$valuePeppered = '';
 	while( $n-- ){
 		$valuePeppered .= $value[$n].$majorPepper[$n];
 	}
-	
+
 	$h1 = md5( s1 . substr($valuePeppered,0,$valueLen).$valueLen . s2 );
 	$h2 = md5( s3 . substr($valuePeppered,$valueLen).$valueLen . s4 );
-	
+
 	$h = substr( $h1,0,8) . substr( $h2,8,8) . substr( $h1,8,8) . substr( $h2,16,8) . substr( $h1,16,8) . substr( $h2,24,8) . substr( $h1,24,8) . substr( $h2,0,8);
 	return ( $h );
-	
+
 }
 
 function login( $username, $password ){
@@ -65,16 +65,16 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 }
 
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> 
-<head> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
 	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
-	<title>Stellafoam - Account</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Stellafoam - Account</title>
 	<?php
 		include  '../meta.php';
     ?>
-    
+
     <style type="text/css">
 	#content{
 		padding:20px;
@@ -91,23 +91,20 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 		color:#016bb5;
 		font-size:13px;
 	}
-	dt{
-		background: #fff url(subnav-title-bg.jpg) 0 1px no-repeat;
-	}
 	</style>
-	<link rel="stylesheet" type="text/css" href="../style.css" media="all" /> 
-	<link rel="stylesheet" type="text/css" href="../navigation.css" media="all" /> 
+	<link rel="stylesheet" type="text/css" href="../style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="../navigation.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="../typography_core.css" media="all" />
-</head> 
+</head>
 <body id="build">
-	<div id="pageWrapper"> 
+	<div id="pageWrapper">
         <div style="width:190px;float:right"></div>
         <?php
 			include  '../header.php';
     	?>
-    	
+
         <div id="breadcrumb"><a href="/stellafoam/" title="Homepage">Homepage</a> > Account
-        	
+
         	<div style="float:right;margin-right:2px;">
              	<?php
 					$amount = 0;
@@ -122,12 +119,12 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 					if($loggedIn){ echo '<div style="float:right;margin-right:250px;">'.$user[0].' - <a href="/stellafoam/account/logout.php">Logout</a></div>'; }
 			?>
         </div>
-        
+
         <div id="content">
 
-		<?php 
+		<?php
 		if(isset($_POST['username']) && isset($_POST['password'])) {
-			if(!$loginReturn){ 
+			if(!$loginReturn){
 				echo '<p align="center" style=color:red">Username or Password incorrect</p>';
 			}else{
 				echo '<p align="center" style=color:green">Logged in '.$user[0].'</p>';

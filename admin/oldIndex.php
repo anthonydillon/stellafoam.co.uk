@@ -58,17 +58,17 @@ if($todo){
 				$message = 'Error with product details';
 			}
 		break;
-	}	
+	}
 }
 ?>
 <html>
     <head>
     	<title>Stella Foam - Admin</title>
-		<link rel="stylesheet" type="text/css" href="style.css" media="all" /> 
-		<link rel="stylesheet" type="text/css" href="../navigation.css" media="all" /> 
+		<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="../navigation.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="../typography_core.css" media="all" />
-        <meta name="description" content=''/> 
-		<meta name="keywords" content=''/> 
+        <meta name="description" content=''/>
+		<meta name="keywords" content=''/>
         <style type="text/css">
 		#content{
 			padding:20px;
@@ -85,21 +85,18 @@ if($todo){
 			color:#016bb5;
 			font-size:13px;
 		}
-		dt{
-			background: #fff url(subnav-title-bg.jpg) 0 1px no-repeat;
-		}
 		h3 {
 			font-size: 19px;
 		}
 		</style>
     </head>
     <body id="build">
-    	<div id="pageWrapper"> 
+    	<div id="pageWrapper">
     		<div style="width:190px;float:right"></div>
         	<?php
 				include  'header.php';
 			?>
-            <div id="content">			
+            <div id="content">
 				<div style="clear:both;"></div>
                 <?php
 					if($message != ''){
@@ -196,7 +193,7 @@ if($todo){
 							echo '
 							<tr><td>'.$products[$i]["Product_Title"].'</td>
 							<td><a href="?todo=showEditProduct&id='.$products[$i]["Product_ID"].'"><img src="edit.png" border="0"/></s></td>
-							';	
+							';
 						}
 					?>
 				</table>

@@ -78,6 +78,7 @@ div#mifHeroPanelContent:after {
 	padding-bottom: 10px;
 	width: 954px;
 	height: 38px;
+	position: relative;
 }
 #topNav ul li {
 	float: left;
@@ -90,30 +91,17 @@ div#mifHeroPanelContent:after {
 }
 
 #topNav ul#mainNav li {
-	position: relative;
 	margin: 0 0 10px 0;
 	padding: 0 2px 0 0;
 	height: 38px;
+	width: 84.7px;
 }
 
 #topNav ul#mainNav li.admin_back { width: 90px; background: url(/nav-buttons-bg.png) top left no-repeat; }
 #topNav ul#mainNav li.admin_products { width: 90px; background: url(/nav-buttons-bg.png) top left no-repeat; }
 
-#topNav ul#mainNav li.board { width: 85px; background: url(board.png) top left no-repeat; }
-#topNav ul#mainNav li.vinyls { width: 85px; background: url(vinyl.png) top left no-repeat; }
-#topNav ul#mainNav li.doors { width: 85px; background: url(doors.png) top left no-repeat; }
-#topNav ul#mainNav li.draws { width: 85px; background: url(draws.png) top left no-repeat; }
-#topNav ul#mainNav li.blum { width: 85px; background: url(blum.png) top left no-repeat; }
-#topNav ul#mainNav li.handles { width: 85px; background: url(handles.png) top left no-repeat; }
-#topNav ul#mainNav li.edging { width: 85px; background: url(edging.png) top left no-repeat; }
-#topNav ul#mainNav li.sliding-doors { width: 85px; background: url(sliding-doors.png) top left no-repeat; }
-#topNav ul#mainNav li.accessories { width: 84px; background: url(accessories.png) top left no-repeat;padding:0px; }
-#topNav ul#mainNav li.worktops { width: 85px; background: url(worktops.png) top left no-repeat; }
-#topNav ul#mainNav li.profiles { width: 85px; background: url(profiles.png) top left no-repeat; }
-
 #topNav ul#mainNav li.section {
 	background-image: url(nav-buttons-bg.png) !important;
-	width: 84.8px;
 	background-size: cover;
 }
 
@@ -137,28 +125,20 @@ div#mifHeroPanelContent:after {
 	padding: 0 0 14px 0;
 	width: 839px;
 	background: url(subnav-bottom.png) bottom left no-repeat;
+	z-index: 20;
 }
-#topNav ul#mainNav li.board div.subnav { left: 0px; }
-#topNav ul#mainNav li.doors div.subnav { left: -85px; }
-#topNav ul#mainNav li.sliding-doors div.subnav { left: -170px; }
-#topNav ul#mainNav li.draws div.subnav { left: -250px; }
-#topNav ul#mainNav li.blum div.subnav { left: -340px; }
-#topNav ul#mainNav li.edging div.subnav { left: -330px; }
-#topNav ul#mainNav li.vinyls div.subnav { left: -415px; }
-#topNav ul#mainNav li.blum div.subnav { left: -490px; }
-#topNav ul#mainNav li.worktops div.subnav { left: -550px; }
-#topNav ul#mainNav li.profiles div.subnav { left: -600px; }
-#topNav ul#mainNav li.handles div.subnav { left: -700px; }
-#topNav ul#mainNav li.accessories div.subnav { left: -755px; }
+#topNav ul#mainNav li div.subnav {
+	left: 0px;
+}
 
 #topNav ul#mainNav li div .subnavTop {
 	padding-top: 5px;
-	width: 839px;
+	width: 947px;
 }
 
 #topNav ul#mainNav li .subnav ul.subnavContent {
 	padding: 3px 3px 0 1px;
-	width: 834px;
+	width: 100%;
 	background: #fff;
 	list-style: none;
 	border-right: 1px solid #e5e5e5;
@@ -168,7 +148,7 @@ div#mifHeroPanelContent:after {
 	clear: both;
 	margin: 0;
 	padding: 0;
-	width: 835px;
+	width: 100%;
 	height: auto;
 }
 #topNav ul#mainNav li .subnav ul.subnavContent li a:hover,
@@ -177,30 +157,21 @@ div#mifHeroPanelContent:after {
 	float: left;
 	margin: 0 0 0 3px !important;
 	padding: 0 0 6px 9px;
-	width: 196px;
+	width: 224px;
 }
-#topNav ul#mainNav li .subnav dl dt { padding: 4px 0 12px 6px; color:#016BB5; }
+#topNav ul#mainNav li.board .subnav dl {
+	width: 177px;
+}
+#topNav ul#mainNav li .subnav dl dt {
+	padding: 4px 0 6px 6px;
+	color:#016BB5;
+	margin-bottom: 5px;
+	background: #f5f5f5;
+	border-bottom: 2px solid #016BB5;
+}
 #topNav ul#mainNav li .subnav dl dt a { height: 1em; }
 #topNav ul#mainNav li .subnav dl dd { padding: 0 0 6px 6px; position: relative; }
 #topNav ul#mainNav li .subnav dl dd a { height: 1%; }
-
-#topNav ul#mainNav li.profiles .subnav dl {
-	/*width: 392px;*/
-}
-
-#topNav ul#mainNav li.vinyls .subnav  dl dt,
-#topNav ul#mainNav li.profiles .subnav dl dt {
-	border-radius: 2px;
-	background: #F1F1F1;
-	border-bottom: 1px solid #333;
-	margin: 2px 0 10px 0;
-	padding: 2px 6px 2px 6px;
-}
-
-#topNav ul#mainNav li.vinyls .subnav  dl dt,
-#topNav ul#mainNav li.vinyls .subnav  dl dd {
-	font-size: 12px;
-}
 
 .product-image {
 	display: none;

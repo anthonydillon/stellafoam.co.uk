@@ -27,9 +27,6 @@ include("functions.php");
 		color:#016bb5;
 		font-size:13px;
 	}
-	dt{
-		background: #fff url(subnav-title-bg.jpg) 0 1px no-repeat;
-	}
 	p {
 		margin-top:20px;
 		margin-bottom:20px;

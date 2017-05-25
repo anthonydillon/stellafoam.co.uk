@@ -24,16 +24,16 @@ if(isset($_COOKIE['stellafoamuser'])){
 }
 
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> 
-<head> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
-	<title>Stellafoam - <?php echo $user[0] ?>'s Downloads</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Stellafoam - <?php echo $user[0] ?>'s Downloads</title>
 	<?php
 		include  'meta.php';
     ?>
-    
+
     <style type="text/css">
 	#content{
 		padding:20px;
@@ -50,26 +50,23 @@ if(isset($_COOKIE['stellafoamuser'])){
 		color:#016bb5;
 		font-size:13px;
 	}
-	dt{
-		background: #fff url(subnav-title-bg.jpg) 0 1px no-repeat;
-	}
 	</style>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" /> 
-	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" /> 
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
     <?php
 		include  'analytics.php';
     ?>
-</head> 
+</head>
 <body id="build">
-	<div id="pageWrapper"> 
+	<div id="pageWrapper">
         <div style="width:190px;float:right"></div>
         <?php
 			include  'header.php';
     	?>
-    	
+
         <div id="breadcrumb"><a href="/" title="Homepage">Homepage</a> > Downloads
-        	
+
         	<div style="float:right;margin-right:2px;">
              	<?php
 					$amount = 0;
@@ -84,7 +81,7 @@ if(isset($_COOKIE['stellafoamuser'])){
 					if($loggedIn){ echo '<div style="float:right;margin-right:250px;">'.$user[0].' - <a href="logout.php">Logout</a></div>'; }
 			?>
         </div>
-        
+
         <div id="content">
 			<h3 style="font-size: 19px;">Your Downloads</h3>
 			<div id="downloads">

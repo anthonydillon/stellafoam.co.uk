@@ -31,40 +31,40 @@ if(isset($_POST["todo"]) && $_POST["todo"] == 'send'){
              </table>
              <table id="stock" width="93%" style="margin-top:30px;text-align:left;">
                 <tr><th>Stock Code</th><th>Stock Description</th><th>Quantity</th></tr>';
-				
+
 		if(isset($_COOKIE["stellafoamorder"])){
 			$orderList = explode('|',$_COOKIE["stellafoamorder"]);
 		}
 		for($i = 0; $i < count($orderList); $i++){
 			$orderDetail = explode('-',$orderList[$i]);
 			$info = getStockInfo($orderDetail[0]);
-			
+
 			$message .= '<tr><td>'.$info["Stock_Code"].'</td><td>'.$info["Stock_Name"].'</td><td>'.$orderDetail[1].'</td></tr>';
 		}
-		
+
     $message .= '</table></div></body></html>';
-	
+
 	$headers  = 'MIME-Version: 1.0' . "\r\n";
 	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-	
+
 	$headers .= 'To: Stellafoam Sales <sales@stellafoam.co.uk>, Anthony Dillon <anthony_dillon@hotmail.com>, Mark Reed <Mark@stellafoam.co.uk>' . "\r\n";
 	$headers .= 'From: Stellafoam Website <no-reply@anthonydillon.com>' . "\r\n";
-	
+
 	$sent = mail($to, $subject, $message, $headers);
 	if($sent){
 		header('Location: /cart.php?sent');
 	}else{
 		header('Location: /cart.php?notsent');
 	}
-	
+
 }
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> 
-<head> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
-	<title>Stellafoam - Print Order List</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Stellafoam - Print Order List</title>
 	<?php
 		include  'meta.php';
     ?>
@@ -92,14 +92,11 @@ if(isset($_POST["todo"]) && $_POST["todo"] == 'send'){
 		color:#016bb5;
 		font-size:13px;
 	}
-	dt{
-		background: #fff url(subnav-title-bg.jpg) 0 1px no-repeat;
-	}
 	</style>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" /> 
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
-</head> 
+</head>
 <body id="build" style="background-color:#ffffff;" onload="printpage()">
 	<!--<div id="pageWrapper">
         <div style="width:190px;float:right"></div> -->
@@ -124,12 +121,12 @@ if(isset($_POST["todo"]) && $_POST["todo"] == 'send'){
 					for($i = 0; $i < count($orderList); $i++){
 						$orderDetail = explode('-',$orderList[$i]);
 						$info = getStockInfo($orderDetail[0]);
-						
+
 						echo '<tr><td>'.$info["Stock_Code"].'</td><td>'.$info["Stock_Name"].'</td><td>'.$orderDetail[1].'</td></tr>';
 					}
-					
+
 				?>
             </table>
 		</div>
- </body> 
-</html> 
+ </body>
+</html>

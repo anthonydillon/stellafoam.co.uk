@@ -1,16 +1,16 @@
 <?php
 include("functions.php");
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> 
-<head> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
-	<title>Stellafoam - Workshop</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Stellafoam - Workshop</title>
 	<?php
 		include  'meta.php';
     ?>
-    
+
     <style type="text/css">
 	#content{
 		padding:20px;
@@ -27,24 +27,21 @@ include("functions.php");
 		color:#016bb5;
 		font-size:13px;
 	}
-	dt{
-		background: #fff url(subnav-title-bg.jpg) 0 1px no-repeat;
-	}
 	</style>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" /> 
-	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" /> 
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
     <?php
 		include  'analytics.php';
     ?>
-</head> 
+</head>
 <body id="build">
-	<div id="pageWrapper"> 
+	<div id="pageWrapper">
         <div style="width:190px;float:right"></div>
         <?php
 			include  'header.php';
     	?>
-    	
+
         <div id="breadcrumb"><a href="/" title="Homepage">Homepage</a> > Workshop
         	<div style="float:right;margin-right:2px;">
              	<?php
@@ -82,7 +79,7 @@ include("functions.php");
 				<h2>To Book</h2><br/>
 				<p>Please ring the trade centre on <strong>01708 522 551</strong> if you would like to book. The workshop is hired in 30 minute increments up to a full day of 8 hours.</p>
 			</div>
-			
+
 			<div style="padding:40px 40px 40px 40px;">
 				<div style="float:right;text-align:left;width:45%;">
 					<div style="margin-top:30px;">
@@ -92,7 +89,7 @@ include("functions.php");
 						</div>
 					</div>
 				</div>
-				
+
 				<div style="text-align:left;width:45%;">
 					<div style="float:left;margin-top:30px;">
 						<div style="float:left;margin-right:10px;"><img src="explanation-mark.jpg" alt="Explanation Mark" width="100px" /></div>
@@ -103,13 +100,13 @@ include("functions.php");
 				</div>
 			</div>
 			<div style="clear:both;height:30px;padding-top:30px;"><a href="docs/Saw-Safety-Procedure.pdf" target="_blank">Download Usage Terms</a></div>
-		</div> 
+		</div>
         <?php
 			include  'footer.php';
     	?>
     </div>
     <?php
 		include  'copyright.php';
-   	?>									
-</body> 
-</html> 
+   	?>
+</body>
+</html>

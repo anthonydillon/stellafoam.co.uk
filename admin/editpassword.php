@@ -42,18 +42,18 @@ if($todo){
 				header('Location: /admin/users.php?sp=0');
 			}
 		break;
-	}	
+	}
 }
 ?>
 <html>
     <head>
     	<title>Stella Foam - Users Admin</title>
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
-		<link rel="stylesheet" type="text/css" href="../style.css" media="all" /> 
-		<link rel="stylesheet" type="text/css" href="../navigation.css" media="all" /> 
+		<link rel="stylesheet" type="text/css" href="../style.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="../navigation.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="../typography_core.css" media="all" />
-        <meta name="description" content=''/> 
-		<meta name="keywords" content=''/> 
+        <meta name="description" content=''/>
+		<meta name="keywords" content=''/>
         <style type="text/css">
 		#content{
 			padding:20px;
@@ -70,26 +70,23 @@ if($todo){
 			color:#016bb5;
 			font-size:13px;
 		}
-		dt{
-			background: #fff url(subnav-title-bg.jpg) 0 1px no-repeat;
-		}
 		h3 {
 			font-size: 19px;
 		}
 		</style>
     </head>
     <body id="build">
-    	<div id="pageWrapper"> 
+    	<div id="pageWrapper">
     		<div style="width:190px;float:right"></div>
         	<?php
 				include 'header.php';
 			?>
-            <div id="content">			
+            <div id="content">
 				<div style="clear:both;"></div>
                 <form method="post">
 					<input type="hidden" name="todo" value="editPassword" />
 					<h3>Edit Password</h3><br/>
-					
+
                     <table align="center" style="margin-top:30px;padding-right:150px;" cellpadding="12px" cellspacing="12px">
                         <tr align="right" style="margin-top:10px;">
                             <td style="width:50%;">New Password:</td>
@@ -98,7 +95,7 @@ if($todo){
                         <tr height="30px;">
                             <td>&nbsp;</td>
                             <td>
-                            	<input type="submit" value="Edit Password" style="padding:2px 10px;" /> 
+                            	<input type="submit" value="Edit Password" style="padding:2px 10px;" />
 								<a href="/admin/users.php">Cancel</a>
 							</td>
                         </tr>

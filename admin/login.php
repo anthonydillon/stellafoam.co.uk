@@ -29,11 +29,11 @@ if(isset($_POST['username']) && isset($_POST['password'])){
     <head>
     	<title>Stella Foam - Admin</title>
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
-		<link rel="stylesheet" type="text/css" href="style.css" media="all" /> 
-		<link rel="stylesheet" type="text/css" href="../navigation.css" media="all" /> 
+		<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="../navigation.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="../typography_core.css" media="all" />
-        <meta name="description" content=''/> 
-		<meta name="keywords" content=''/> 
+        <meta name="description" content=''/>
+		<meta name="keywords" content=''/>
         <style type="text/css">
 		#content{
 			padding:20px;
@@ -50,13 +50,10 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 			color:#016bb5;
 			font-size:13px;
 		}
-		dt{
-			background: #fff url(subnav-title-bg.jpg) 0 1px no-repeat;
-		}
 		</style>
     </head>
     <body id="build">
-    	<div id="pageWrapper"> 
+    	<div id="pageWrapper">
     		<div style="width:190px;float:right"></div>
         	<?php
 				include  'header.php';

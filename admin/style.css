@@ -14,17 +14,17 @@
 	font-size:12px;
 }
 #welcome{
-	margin-left:20px; 
-	margin-bottom:20px; 
+	margin-left:20px;
+	margin-bottom:20px;
 	background-image:url(welcome.jpg);
-	width:860px; 
+	width:860px;
 	height:277px;
 	padding:10px;
 }
 #welcome #information{
 	text-align:left;
-	width:400px; 
-	margin-left:30px; 
+	width:400px;
+	margin-left:30px;
 	margin-top:70px;
 	color:#333;
 }
@@ -33,15 +33,15 @@
 }
 
 #info{
-	width:550px; 
-	margin-top:10px; 
-	margin-right:35px; 
+	width:550px;
+	margin-top:10px;
+	margin-right:35px;
 	float:right;
 	font-family: league-gothic-1, league-gothic-2, 'helvetica neue', helvetica, arial, sans-serif;
 }
 
 #links{
-	width:150px; 
+	width:150px;
 	float:right;
 }
 #title{
@@ -113,11 +113,6 @@
 #low_content{
 	text-align:center;
 	color:#666;
-	font-size:12px; 
+	font-size:12px;
 	padding:6px;
-}
-
-dt{
-	background: #fff url(subnav-title-bg.jpg) 0 1px no-repeat;
-	color:#016BB5;
 }

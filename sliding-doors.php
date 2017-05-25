@@ -1,16 +1,16 @@
 <?php
 include("functions.php");
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> 
-<head> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
-	<title>Stellafoam - Sliding Doors</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Stellafoam - Sliding Doors</title>
 	<?php
 		include  'meta.php';
     ?>
-    
+
     <style type="text/css">
 	#content{
 		padding:20px;
@@ -27,24 +27,21 @@ include("functions.php");
 		color:#016bb5;
 		font-size:13px;
 	}
-	dt{
-		background: #fff url(subnav-title-bg.jpg) 0 1px no-repeat;
-	}
 	</style>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" /> 
-	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" /> 
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
     <?php
 		include  'analytics.php';
     ?>
-</head> 
+</head>
 <body id="build">
-	<div id="pageWrapper"> 
+	<div id="pageWrapper">
         <div style="width:190px;float:right"></div>
         <?php
 			include  'header.php';
     	?>
-    	
+
         <div id="breadcrumb"><a href="/" title="Homepage">Homepage</a> > Sliding Doors
         	<div style="float:right;margin-right:2px;">
              	<?php
@@ -62,7 +59,7 @@ include("functions.php");
         	<div style="margin-bottom:30px;">
             	Our Sliding Door systems are available to your own colour combination from the choices below. Sizes also to your specification in 2, 3, 4 or 5 door runs.<br/>Soft closing doors are available.<br/>Please call sales office for information <strong>01708 522551</strong>.
             </div>
-            
+
             <div style="float:right; width:450px; text-align:left;">
             	<h3>Solid Panel Colours</h3>
             	<table width="100%" cellpadding="10" cellspacing="10">
@@ -128,17 +125,17 @@ include("functions.php");
             </div>
             <?php
 				$imgDir = "flash/sliding-doors/";
-				$images = scandir($imgDir); 
+				$images = scandir($imgDir);
 				$ignore = array( ".", ".." );
 				$imageList = '';
 				$$sep = '';
-				
-				for($i = 0; $i < count($images); $i++) { 
+
+				for($i = 0; $i < count($images); $i++) {
 					if(strpos(strtolower($images[$i]), ".jpg")){
-						$imageList .= $sep.'sliding-doors/'.$images[$i]; 
+						$imageList .= $sep.'sliding-doors/'.$images[$i];
 						$sep = ',';
 					}
-				}  
+				}
 			?>
             <div style="width:450px; height:338px; margin:0px 10px 20px 10px;">
             <object type="application/x-shockwave-flash"  width="450" height="338" data="flash/showroom.swf">
@@ -149,13 +146,13 @@ include("functions.php");
             </object>
             <!--<img src="sliding-doors.jpg" width="350px" alt="Sliding Doors"/>-->
             </div>
-		</div> 
+		</div>
         <?php
 			include  'footer.php';
     	?>
     </div>
 	<?php
 		include  'copyright.php';
-	?>										
-</body> 
-</html> 
+	?>
+</body>
+</html>
