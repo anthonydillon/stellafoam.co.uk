@@ -510,13 +510,13 @@
                               <dd><a href="product.php?p=89"><span class="width">900mm</span></a></dd>
                               <dd><a href="product.php?p=89"><span class="width">1000mm</span></a></dd>
                               <dt style="padding-left: 3px;text-align: left;">Cutlery Trays</dt>
-                              <dd><a href="product.php?p=89"><span class="width">400mm</span></a></dd>
-                              <dd><a href="product.php?p=89"><span class="width">450mm</span></a></dd>
-                              <dd><a href="product.php?p=89"><span class="width">500mm</span></a></dd>
-                              <dd><a href="product.php?p=89"><span class="width">600mm</span></a></dd>
-                              <dd><a href="product.php?p=89"><span class="width">800mm</span></a></dd>
-                              <dd><a href="product.php?p=89"><span class="width">900mm</span></a></dd>
-                              <dd><a href="product.php?p=89"><span class="width">1000mm</span></a></dd>
+                              <dd><a href="product.php?p=96"><span class="width">400mm</span></a></dd>
+                              <dd><a href="product.php?p=96"><span class="width">450mm</span></a></dd>
+                              <dd><a href="product.php?p=96"><span class="width">500mm</span></a></dd>
+                              <dd><a href="product.php?p=96"><span class="width">600mm</span></a></dd>
+                              <dd><a href="product.php?p=96"><span class="width">800mm</span></a></dd>
+                              <dd><a href="product.php?p=96"><span class="width">900mm</span></a></dd>
+                              <dd><a href="product.php?p=96"><span class="width">1000mm</span></a></dd>
                           </dl>
                       </li>
                   </ul>
