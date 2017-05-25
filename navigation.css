@@ -122,9 +122,8 @@ div#mifHeroPanelContent:after {
 	position: absolute;
 	top: 34px;
 	left: 0px;
-	padding: 0 0 14px 0;
-	width: 839px;
-	background: url(subnav-bottom.png) bottom left no-repeat;
+	width: 100%;
+	border-bottom: 5px solid #016BB5;
 	z-index: 20;
 }
 #topNav ul#mainNav li div.subnav {
