@@ -158,7 +158,8 @@ div#mifHeroPanelContent:after {
 	padding: 0 0 6px 9px;
 	width: 224px;
 }
-#topNav ul#mainNav li.board .subnav dl {
+#topNav ul#mainNav li.board .subnav dl,
+#topNav ul#mainNav li.draws .subnav dl {
 	width: 177px;
 }
 #topNav ul#mainNav li .subnav dl dt {
