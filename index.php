@@ -199,10 +199,10 @@ if(isset($_POST['username']) && isset($_POST['password'])){
             </div>
             </a>
 
-            <a href="/product.php?p=239" title="Soft Shelving">
+            <a href="/product.php?p=246" title="Kitchen worktops">
             <div class="new-promo">
-            	<h2>STELLAFOAM SOFT SHELVING</h2>
-            	<img src="/images/homepage/homepage-soft-shelving.jpg" class="full" border="0" />
+            	<h2>KITCHEN WORKTOPS</h2>
+            	<img src="/images/homepage/homepage-worktops.jpg" class="full" border="0" />
             </div>
             </a>
 
