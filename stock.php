@@ -71,6 +71,7 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
+ 	<link rel="stylesheet" href="/vendor/venobox/venobox.css" type="text/css" media="screen" />
 	<script src="scripts.js" type="text/javascript"></script>
     <?php
 		include  'analytics.php';
@@ -115,8 +116,10 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 						if (file_exists($_SERVER['DOCUMENT_ROOT'] . $image_filename)) {
 							$image = $image_filename;
 						}
+						echo '<a class="venobox venobox--expand" title="'.$stock["Stock_Name"].'" href="'.$image.'">
+							<img src="'.$image.'" alt="'.$stock[$i]["Stock_Name"].'" />
+						</a>';
 					?>
-					<img src="<?php echo $image ?>" />
 				</div>
 				<div id="info">
 					<div id="links">
@@ -178,6 +181,15 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 			}
 		?>
   </div>
+	<!-- Venobox - lightbox plugin -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="/vendor/venobox/venobox.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.venobox').venobox();
+		});
+	</script>
+	<!-- End Venobox -->
 	<?php
 		include  'copyright.php';
 	?>

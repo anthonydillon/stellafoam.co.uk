@@ -70,6 +70,7 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
+	<link rel="stylesheet" href="/vendor/venobox/venobox.css" type="text/css" media="screen" />
 	<script src="scripts.js" type="text/javascript"></script>
     <?php
 		include  'analytics.php';
@@ -107,7 +108,12 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 			<div style="clear:both;"></div>
 			<div id="product" style="margin-top:10px;">
 				<div id="productImage">
-					<img src="images/<?php echo $product['Product_Image'] ?>" />
+				<?php
+					$productImage = 'images/' . $product['Product_Image'];
+					echo '<a class="venobox venobox--expand" title="'.$product['Product_Title'].'" href="'.$productImage.'">
+						<img src="'.$productImage.'" />
+					</a>';
+				?>
 				</div>
 				<div id="info">
 					<div id="links">
@@ -123,7 +129,7 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 							</a>
 						</span>
 					</div>
-                    <?php
+          <?php
 						$size = '';
 						$threshold = 18;
 						$strLen = strlen($product['Product_Title']) + strlen($product['Product_Code']);
@@ -191,8 +197,8 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 									}
 									echo '<div class="stock-row">
 										<div class="stock-image">
-											<a href="/stock.php?s='.$stock[$i]["Stock_ID"].'">
-												<img src="'.$image.'" />
+											<a class="venobox venobox--expand" title="'.$stock[$i]["Stock_Name"].'" href="'.$image.'">
+												<img src="'.$image.'" alt="'.$stock[$i]["Stock_Name"].'" />
 											</a>
 										</div>
 										<div class="stock-description">
@@ -233,6 +239,17 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 
 				</div>
 			</div>
+
+			<!-- Venobox - lightbox plugin -->
+			<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+			<script type="text/javascript" src="/vendor/venobox/venobox.min.js"></script>
+			<script>
+				$(document).ready(function(){
+					$('.venobox').venobox();
+				});
+			</script>
+			<!-- End Venobox -->
+
 			<script>
 				var filterLinks = document.querySelectorAll('.filter a');
 				var stockContainer = document.querySelector('#stock');
