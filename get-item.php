@@ -1,6 +1,6 @@
 <?php
 
-include("config.php");
+include("config/config.php");
 define('sessionlen',20000);
 if(isset($_REQUEST["q"]) && $_REQUEST["q"] != ''){
 	if(isset($_REQUEST["design"]) && $_REQUEST["design"] == '1'){

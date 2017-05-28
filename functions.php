@@ -1,6 +1,6 @@
 <?php
 
-include("config.php");
+include("config/config.php");
 define('sessionlen',20000);
 
 function generate_hash( $value ){
