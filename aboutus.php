@@ -147,9 +147,9 @@ include("functions.php");
 		margin-top: 40px;
 	}
 	</style>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
     <?php
 		include  'analytics.php';
     ?>
@@ -178,7 +178,7 @@ include("functions.php");
 				<div>
 					<h1>About us</h1>
 					<h2>Our story</h2>
-					<div class="hero-image"><img src="aboutus.jpg" alt="About Us Image" /></div>
+					<div class="hero-image"><img src="/images/aboutus.jpg" alt="About Us Image" /></div>
 					<div>
 						<p>Founded in 1960 by Leslie Jarvis, Stellafoam began trading supplying foam, rubber and plastics to the furniture industry. Now in its 3rd generation, Stellafoam has become a leading importer and distributor to the industry. Trading from its custom built 30,000 square foot premises just outside of London and delivering using its own fleet of vehicles, Stellafoam has become a one-stop shop to both sole traders and large industrial clients alike. </p>
 					</div>
@@ -191,7 +191,7 @@ include("functions.php");
 				<ul class="product-list">
 					<li class="first-row">
 						<div class="product-list__image">
-							<img src="/images/RV.jpg" alt="" />
+							<img src="/images/AG.jpg" alt="" />
 						</div>
 						<h3>Boards</h3>
 					</li>

@@ -198,7 +198,7 @@
 		</table>
 		<div class="button-group">
 			<div class="print-button">
-				<a href="" class="secondary-button"><img src="print_icon.gif" alt=""></a>
+				<a href="" class="secondary-button"><img src="/images/icons/print_icon.gif" alt=""></a>
 			</div>
 			<div class="submit-button">
 				<a href="" class="primary-button">Submit to cart</a>

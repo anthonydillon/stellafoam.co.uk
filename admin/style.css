@@ -16,7 +16,7 @@
 #welcome{
 	margin-left:20px;
 	margin-bottom:20px;
-	background-image:url(welcome.jpg);
+	background-image:url('/images/welcome.jpg');
 	width:860px;
 	height:277px;
 	padding:10px;

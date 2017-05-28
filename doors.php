@@ -213,10 +213,10 @@ include("functions.php");
 
 
 	</style>
-	<link rel="stylesheet" type="text/css" href="kms-styles.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/kms-styles.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
     <?php
 		include  'analytics.php';
     ?>
@@ -243,7 +243,7 @@ include("functions.php");
                  echo '- <a href="#" class="bread-login">Login</a>';
                 }
 
-				include 'crumbuser3.php';
+				include 'crumbuser.php';
 			?>
         	</div>
         </div>

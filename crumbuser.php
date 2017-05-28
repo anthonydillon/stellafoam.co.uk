@@ -13,7 +13,16 @@ if(isset($_COOKIE['stellafoamuser'])){
 }
 
 if($loggedIn){
-	echo '<div style="float:right;width: 425px;">'.$user[0].' - <a href="downloads.php">User Downloads</a> - <a href="logout.php">Logout</a></div>';
+	echo '<div style="float:left;width: 425px;">'.$user[0].' - <a href="downloads.php">User Downloads</a> - <a href="logout.php">Logout</a></div>';
+}else{
+	echo '<div class="login-form">
+			<a href="#" class="login-close">Close</a>
+			<form method="post">
+				<label for="username">Username: </label><input type="text" name="username" id="username" />
+				<label for="password">Password: </label><input type="password" name="password" id="password" />
+				<input type="submit" value="Login" />
+			</form>
+		  </div>';
 }
 
 ?>

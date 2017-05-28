@@ -1,6 +1,6 @@
 
 <div id="header">
-  <a href="/" title="Back to Homepage"></h2><img src="/header.jpg" style="width:954px;" border="0"/></a>
+  <a href="/" title="Back to Homepage"></h2><img src="/images/header.jpg" style="width:954px;" border="0"/></a>
   <div id="topNav">
     <ul id="mainNav">
       <li class="board section">

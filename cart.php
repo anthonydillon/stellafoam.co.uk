@@ -164,7 +164,7 @@ if(isset($_GET["sent"])){
 										description = description.substring(description.indexOf('#') + 1);
 								}
 
-								$( ".new-item" ).html(' <td>'+id+'</td><td>'+colour+'</td><td>'+description+'</td><td>&#163;'+price+'</td><td><form action="/cart.php" method="get"><input type="text" class="new-item-qty" style="width:40px" name="qty" /><input type="hidden" name="sid" value="'+component.Stock_ID+'" /></form></td><td>'+component.Pack+'</td><td class="new-item-quantity"></td><td align="center"><a title="Delete Product" href=""><img border="0" src="delete_icon.gif"></a></td>');
+								$( ".new-item" ).html(' <td>'+id+'</td><td>'+colour+'</td><td>'+description+'</td><td>&#163;'+price+'</td><td><form action="/cart.php" method="get"><input type="text" class="new-item-qty" style="width:40px" name="qty" /><input type="hidden" name="sid" value="'+component.Stock_ID+'" /></form></td><td>'+component.Pack+'</td><td class="new-item-quantity"></td><td align="center"><a title="Delete Product" href=""><img border="0" src="/images/icons//images/icons/delete_icon.gif"></a></td>');
 								$('.new-item-qty').focus().on('keyup', function(e){
 									this.value = this.value.replace(/[^0-9\.]/g,'');
 									if ( e.which == 13 ) {
@@ -186,7 +186,7 @@ if(isset($_GET["sent"])){
 										description = description.substring(description.indexOf('#') + 1);
 								}
 
-								$( ".new-item" ).html(' <td>'+data['Stock_Code']+'</td><td>'+data['Product_Title']+'</td><td>'+description+'</td><td>&#163;'+price+'</td><td><form action="/cart.php" method="get"><input type="text" class="new-item-qty" style="width:40px" name="qty" /><input type="hidden" name="sid" value="'+data.Stock_ID+'" /></form></td><td>'+data.Pack+'</td><td class="new-item-quantity"></td><td align="center"><a title="Delete Product" href=""><img border="0" src="delete_icon.gif"></a></td>');
+								$( ".new-item" ).html(' <td>'+data['Stock_Code']+'</td><td>'+data['Product_Title']+'</td><td>'+description+'</td><td>&#163;'+price+'</td><td><form action="/cart.php" method="get"><input type="text" class="new-item-qty" style="width:40px" name="qty" /><input type="hidden" name="sid" value="'+data.Stock_ID+'" /></form></td><td>'+data.Pack+'</td><td class="new-item-quantity"></td><td align="center"><a title="Delete Product" href=""><img border="0" src="/images/icons//images/icons/delete_icon.gif"></a></td>');
 								$('.new-item-qty').focus().on('keyup', function(e){
 									this.value = this.value.replace(/[^0-9\.]/g,'');
 									if ( e.which == 13 ) {
@@ -220,9 +220,9 @@ if(isset($_GET["sent"])){
 		font-size:13px;
 	}
 	</style>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
     <?php
 		include  'analytics.php';
     ?>
@@ -307,7 +307,7 @@ if(isset($_GET["sent"])){
 				?>
 				<span>
                     <a href="#" onclick="showConfirm();" title="Send Order Form">
-                        <img src="email_icon.gif" style="vertical-align:middle;" width="20px" border="0" /> Email this
+                        <img src="/images/icons/email_icon.gif" style="vertical-align:middle;" width="20px" border="0" /> Email this
                     </a>
                 </span>
 				<?php
@@ -315,7 +315,7 @@ if(isset($_GET["sent"])){
 				?>
                 <span style="margin-left:50px;">
                 	<a href="#" onclick="gotoPrint();" title="Print Order Form">
-                    	<img src="print_icon.gif" style="vertical-align:middle;" width="20px" border="0" /> Printable version
+                    	<img src="/images/icons/print_icon.gif" style="vertical-align:middle;" width="20px" border="0" /> Printable version
                     </a>
                 </span>
              </form>
@@ -382,7 +382,7 @@ if(isset($_GET["sent"])){
 									<td>'.$orderDetail[1].'</td>
 									<td>'.$pack.'</td>
 									<td>&pound;'.number_format($total, 2).'</td>
-									<td align="center"><a href="?did='.$i.'" title="Delete Product"><img src="delete_icon.gif" border="0"/></a></td>
+									<td align="center"><a href="?did='.$i.'" title="Delete Product"><img src="/images/icons/delete_icon.gif" border="0"/></a></td>
 								  </tr>';
 							}else{
 								$info = getStockInfo($orderDetail[0]);
@@ -416,7 +416,7 @@ if(isset($_GET["sent"])){
 											<td>'.$orderDetail[1].'</td>
 											<td>'.$pack.'</td>
 											<td>&pound;'.number_format($total, 2) . $discountDisplay.'</td>
-											<td align="center"><a href="?did='.$i.'" title="Delete Product"><img src="delete_icon.gif" border="0"/></a></td>
+											<td align="center"><a href="?did='.$i.'" title="Delete Product"><img src="/images/icons/delete_icon.gif" border="0"/></a></td>
 										  </tr>';
 								}
 							}
@@ -472,7 +472,7 @@ if(isset($_GET["sent"])){
 							}
 							echo '
 									<td>&pound;'.number_format($total, 2) . $discountDisplay.'</td>
-									<td align="center"><a href="?did='.$i.'" title="Delete Product"><img src="delete_icon.gif" border="0"/></a></td>
+									<td align="center"><a href="?did='.$i.'" title="Delete Product"><img src="/images/icons/delete_icon.gif" border="0"/></a></td>
 								  </tr>';
 						}
 					?>
@@ -531,7 +531,7 @@ if(isset($_GET["sent"])){
 									<td>'.$colour['Stock_Name'].'</td>
 									<td>'.$info["Stock_Name"].'</td>
 									<td>'.$orderDetail[1].'</td>
-									<td><a href="?did='.$i.'" title="Delete Product"><img src="delete_icon.gif" border="0"/></a></td>
+									<td><a href="?did='.$i.'" title="Delete Product"><img src="/images/icons/delete_icon.gif" border="0"/></a></td>
 								  </tr>';
 							}else{
 								$info = getStockInfo($orderDetail[0]);
@@ -541,7 +541,7 @@ if(isset($_GET["sent"])){
 									<td>'.$category["Product_Title"].'</td>
 									<td>'.$info["Stock_Name"].'</td>
 									<td>'.$orderDetail[1].'</td>
-									<td><a href="?did='.$i.'" title="Delete Product"><img src="delete_icon.gif" border="0"/></a></td>
+									<td><a href="?did='.$i.'" title="Delete Product"><img src="/images/icons/delete_icon.gif" border="0"/></a></td>
 								  </tr>';
 							}
 						}

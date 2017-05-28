@@ -50,11 +50,11 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 		include  'meta.php';
     ?>
 
-    <link rel="stylesheet" type="text/css" href="kms-styles.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="kms-styles-print.css" media="print" />
+    <link rel="stylesheet" type="text/css" href="/css/kms-styles.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/css/kms-styles-print.css" media="print" />
     <?php
 		include  'analytics.php';
     ?>
@@ -98,7 +98,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
                  echo '- <a href="#" class="bread-login">Login</a>';
                 }
 
-				include 'crumbuser3.php';
+				include 'crumbuser.php';
 			?>
         	</div>
         </div>

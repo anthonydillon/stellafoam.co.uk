@@ -34,9 +34,9 @@ include("functions.php");
 		color:#016bb5;
 	}
 	</style>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
     <?php
 		include  'analytics.php';
     ?>

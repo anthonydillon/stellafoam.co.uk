@@ -63,13 +63,13 @@ div#mifHeroPanelContent:after {
 #pageWrapper #header {
 	padding: 0 5px;
 	width: 954px;
-	background: #fff url(nav-bg.png) bottom left repeat-x;
+	background: #fff url('/images/nav-bg.png') bottom left repeat-x;
 }
 
 #header #topNav {
 	float: left;
 	width: 954px;
-	background: #fff url(nav-bg.png) bottom left repeat-x;
+	background: #fff url('/images/nav-bg.png') bottom left repeat-x;
 }
 #topNav ul { width: 100%; }
 #topNav ul#mainNav {
@@ -97,11 +97,11 @@ div#mifHeroPanelContent:after {
 	width: 84.7px;
 }
 
-#topNav ul#mainNav li.admin_back { width: 90px; background: url(/nav-buttons-bg.png) top left no-repeat; }
-#topNav ul#mainNav li.admin_products { width: 90px; background: url(/nav-buttons-bg.png) top left no-repeat; }
+#topNav ul#mainNav li.admin_back { width: 90px; background: url('/images/nav-buttons-bg.png') top left no-repeat; }
+#topNav ul#mainNav li.admin_products { width: 90px; background: url('/images/nav-buttons-bg.png') top left no-repeat; }
 
 #topNav ul#mainNav li.section {
-	background-image: url(nav-buttons-bg.png) !important;
+	background-image: url('/images/nav-buttons-bg.png') !important;
 	background-size: cover;
 }
 

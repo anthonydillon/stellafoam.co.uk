@@ -36,7 +36,7 @@ if(isset($_POST["prods"])){
 	if($_POST["prods"] != -1){
 		$prods = $_POST["prods"];
 	}
-} 
+}
 if(isset($_POST["cols"])){
 	if($_POST["cols"] != -1){
 		$cols = $_POST["cols"];
@@ -47,7 +47,7 @@ if(isset($_POST["cols"])){
 <html>
     <head>
     	<title>Stella Foam</title>
-		<link rel="stylesheet" href="style.css" type="text/css" /> 
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
     </head>
     <body>
     	<div id="container">
@@ -73,7 +73,7 @@ if(isset($_POST["cols"])){
 					<?php
 					$coloursList = getColours();
 					$productsList = getProducts();
-					
+
 					switch($todo){
 						case 'edit':
 							if($id && isset($_POST["name"]) && $_POST["name"] != '' && isset($_POST["sizes"]) && $prods && $cols){
@@ -106,7 +106,7 @@ if(isset($_POST["cols"])){
 						break;
 						default:
 							if(isset($_POST["name"]) && $_POST["name"] != '' && isset($_POST["sizes"]) && $prods && $cols){
-								echo addItem($_POST["name"], $_POST["sizes"], $prods, $cols);	
+								echo addItem($_POST["name"], $_POST["sizes"], $prods, $cols);
 							}
 							?>
                             <h3>Add Item</h3>

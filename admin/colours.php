@@ -36,7 +36,7 @@ if(isset($_POST["cols"])){
 <html>
     <head>
     	<title>Stella Foam</title>
-        <link rel="stylesheet" href="style.css" type="text/css" /> 
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
     </head>
     <body>
     	<div id="container">
@@ -57,7 +57,7 @@ if(isset($_POST["cols"])){
 				<div style="float:left;"><a href="/stellafoam/admin" ><strong>Back</strong></a></div>
 				<div style="float:right;"><a href="logout.php" ><strong>Logout</strong></a></div>
 				<div style="clear:both;"></div>
-				<table align="center"><tr><td align="center">  
+				<table align="center"><tr><td align="center">
 				<form name="input" action="" method="post">
 					<?php
 						switch($todo){
@@ -99,7 +99,7 @@ if(isset($_POST["cols"])){
 						break;
 						}
 					$coloursList = getColours();
-					?>                  
+					?>
                         <table>
                             <tr><td>Name:</td><td><input type="text" name="name" value="<?php if($colourInfo != null){echo $colourInfo["Colour_Name"];} ?>" /></td></tr>
                             <tr><td>Image:</td><td><input type="text" name="image" value="<?php if($colourInfo != null){echo $colourInfo["Colour_Image"];} ?>" /></td></tr>

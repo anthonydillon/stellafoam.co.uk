@@ -76,19 +76,19 @@ include("functions.php");
 		margin-bottom:20px;
 	}
 	</style>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
 </head>
 <body id="build" style="background-color:#ffffff;" onload="printpage()">
 		<div style="colour:#999;font-size: 13px;width:954px;text-align:center;">--- Printable Version ---</div>
-        <img src="header.jpg" style="width:954px;"/>
+        <img src="images/header.jpg" style="width:954px;"/>
         <div id="content" style="width:954px;">
         	<div id="title" style="margin-top:30px;margin-bottom:30px;">Door Range</div>
         	<p>Stellafoam has a huge range of door colours and designs to meet all of your client's requirements. Coupled with our efficient and reliable <strong>'made to measure'</strong> service even the most challenging bedroom and kitchen spaces will be no problem!</p>
             <div><span style="padding-right:50px">Max height 2700mm</span> <span style="padding-right:50px">Max width 1200mm</span> <span>Angle Doors Also Available</span></div>
             <p>We also keep in stock our bedroom range of Ontario Maple Canberra and Golden Walnut Slab doors for those jobs that require.</p>
-            <p><img src="21-Tuscany-Ivory.jpg" border="0" alt="Tuscany Ivory Bedroom"/></p>
+            <p><img src="/images/21-Tuscany-Ivory.jpg" border="0" alt="Tuscany Ivory Bedroom"/></p>
             <p>If you wish to use standard sized doors and drawers, please see below tables. A printable version of this page is also available (See icon). All dimensions are in mm.</p>
             <div style="text-align:left;">
                 <h2>Bedroom Range</h2>

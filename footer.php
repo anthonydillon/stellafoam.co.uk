@@ -4,5 +4,5 @@
         	<a href="/tradecounter.php" title="Trade Center" style="margin-right:80px;">Trade Centre</a>
         	<a href="/showroom.php" title="Our Showroom" style="margin-right:80px;">Our Showroom</a>
         	<a href="/contactus.php" title="Contact Us" style="margin-right:80px;">Contact Us</a>
-        	<a href="/Terms-and-Conditions.pdf" title="Terms and Conditions">Terms &amp; Conditions</a>
+        	<a href="/docs/Terms-and-Conditions.pdf" title="Terms and Conditions">Terms &amp; Conditions</a>
 </div>

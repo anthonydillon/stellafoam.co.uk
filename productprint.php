@@ -39,13 +39,13 @@ if(isset($_GET["p"])){
 		font-size:13px;
 	}
 	</style>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
 </head>
 <body id="build" style="background-color:#ffffff;" onload="printpage()">
 		<div style="colour:#999;font-size: 13px;width:954px;text-align:center;">--- Printable Version ---</div>
-        <img src="header.jpg" style="width:954px;"/>
+        <img src="images/header.jpg" style="width:954px;"/>
         <div id="content" style="width:954px;">
         	<div id="product" style="margin-top:10px;">
 				<div style="float:left;margin-left:30px;font-size:13px;">

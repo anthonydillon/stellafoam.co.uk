@@ -181,7 +181,7 @@
 		</table>
 		<div class="button-group">
 			<div class="print-button">
-				<a href="" class="secondary-button"><img src="print_icon.gif" alt=""></a>
+				<a href="" class="secondary-button"><img src="/images/icons/print_icon.gif" alt=""></a>
 			</div>
 			<div class="clear-button">
 				<a href="" class="secondary-button">Clear all</a>

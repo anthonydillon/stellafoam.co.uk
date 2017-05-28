@@ -67,9 +67,9 @@ include("functions.php");
 		margin-bottom:20px;
 	}
 	</style>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
     <?php
 		include  'analytics.php';
     ?>
@@ -96,7 +96,7 @@ include("functions.php");
         <div id="content" style="margin:0px 30px 0px 30px;">
         	<div style="float:right;">
                 <a href="madetomeasureprint.php" title="Print Door Range">
-                    <img src="print_icon.gif" style="vertical-align:middle;" width="20px" border="0" /> Printable version
+                    <img src="/images/icons/print_icon.gif" style="vertical-align:middle;" width="20px" border="0" /> Printable version
                 </a>
             </div>
 			<div id="title" style="margin-top:30px;margin-bottom:30px;">Door Range</div>
@@ -114,7 +114,7 @@ include("functions.php");
             <p>
             	We also keep in stock bedroom doors in; Gloss White Duleek and Ivory Shaker.
             </p>
-            <p><a href="http://www.poshkitchens.com/" title="Posh Kitchens Cosy Bedrooms" target="_blank"><img src="21-Tuscany-Ivory.jpg" border="0" alt="Tuscany Ivory Bedroom"/><br/>Click picture for full range</a></p>
+            <p><a href="http://www.poshkitchens.com/" title="Posh Kitchens Cosy Bedrooms" target="_blank"><img src="/images/21-Tuscany-Ivory.jpg" border="0" alt="Tuscany Ivory Bedroom"/><br/>Click picture for full range</a></p>
         </div>
         <?php
 			include  'footer.php';

@@ -67,11 +67,11 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 		font-size:13px;
 	}
 	</style>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
 	<link rel="stylesheet" href="/vendor/venobox/venobox.css" type="text/css" media="screen" />
-	<script src="scripts.js" type="text/javascript"></script>
+	<script src="/js/numbersonly.js" type="text/javascript"></script>
     <?php
 		include  'analytics.php';
     ?>
@@ -119,13 +119,13 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 					<div id="links">
 						<span>
 							<a href="mailto:?subject=Stellafoam - <?php echo $product['Product_Title']?>&body=<?php echo $product['Product_Title'].' %0A%0AVisit: http://www.stellafoam.co.uk/product.php?p='. $product['Product_ID'] .' %0A%0A'. $product['Product_Description'] .'%0A%0ASent Via http://www.stellafoam.com'?>">
-								<img src="email_icon.gif" style="vertical-align:middle;" width="20px" border="0" /> Email this
+								<img src="/images/icons/email_icon.gif" style="vertical-align:middle;" width="20px" border="0" /> Email this
 							</a>
 						</span>
 						<br/><br/>
 						<span>
 							<a href="productprint.php?p=<?php echo $product['Product_ID']; ?>">
-								<img src="print_icon.gif" style="vertical-align:middle;" width="20px" border="0" /> Printable version
+								<img src="/images/icons/print_icon.gif" style="vertical-align:middle;" width="20px" border="0" /> Printable version
 							</a>
 						</span>
 					</div>

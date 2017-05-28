@@ -67,9 +67,9 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 		font-size:13px;
 	}
 	</style>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
     <?php
 		include  'analytics.php';
     ?>
@@ -110,15 +110,12 @@ if(isset($_POST['username']) && isset($_POST['password'])){
                  echo '- <a href="#" class="bread-login">Login</a>';
                 }
 
-				include 'crumbuser3.php';
+				include 'crumbuser.php';
 			?>
         	</div>
         </div>
 
         <div id="content">
-			<!--<div id="news">
-				<div>Latest News:</div> <marquee><?php echo get_news(); ?></marquee>
-			</div>-->
         	<div id="welcome">
                 <div id="information">
                     <p>Welcome to the Stellafoam website. We are a specialist importer and distributor to the cabinet making industry. </p>

@@ -31,9 +31,9 @@ include("functions.php");
 		font-size:13px;
 	}
 	</style>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
     <?php
 		include  'analytics.php';
     ?>
@@ -63,9 +63,8 @@ include("functions.php");
 				<p>Please find below 2 availability charts which give a quick general guide to most of our stock range. These do not however cover our full range of stock products so if you do not see the item you require please go to the more specific product pages of this site or again contact our sales office.</p><br />
 
 <p>These pages can be downloaded to use as a quick reference guide.</p><br />
-				<div style="text-align:center; padding-bottom:20px;"><img src="avail_board1.jpg"/><br /><a href="docs/availablitychart.pdf">Download these charts</a> (pdf)</div>
-                <div style="text-align:center; padding-bottom:20px;"><img src="avail_board2.jpg"/><br /><a href="docs/availablitychart.pdf">Download these charts</a> (pdf)</div>
-                <!--<div style="text-align:center;"><img src="avail_general.jpg"/><br /><a href="docs/avail_general.pdf">Download this chart</a> (pdf)</div>-->
+				<div style="text-align:center; padding-bottom:20px;"><img src="/images/avail_board1.jpg"/><br /><a href="docs/availablitychart.pdf">Download these charts</a> (pdf)</div>
+                <div style="text-align:center; padding-bottom:20px;"><img src="/images/avail_board2.jpg"/><br /><a href="docs/availablitychart.pdf">Download these charts</a> (pdf)</div>
 			</div>
 		</div>
         <?php

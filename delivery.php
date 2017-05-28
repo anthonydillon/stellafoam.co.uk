@@ -31,9 +31,9 @@ include("functions.php");
 		font-size:13px;
 	}
 	</style>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
     <?php
 		include  'analytics.php';
     ?>
@@ -61,14 +61,14 @@ include("functions.php");
 			<div id="title" style="margin-top:30px;">Delivery</div>
         	<div style="text-align:left;padding:20px 40px 40px 40px;">
 				<div style="margin-top:30px;">
-					<div style="float:right;margin-left:30px;"><img src="delivery.jpg" alt="Delivery Image" /></div>
+					<div style="float:right;margin-left:30px;"><img src="/images/delivery.jpg" alt="Delivery Image" /></div>
 					<div>
 						<p>We have our own fleet of purpose built Lorries and only use our own drivers with them. This enables us to give our customers a reliable and fast delivery service, within 48hrs in most cases. Should you be outside our normal delivery area we will pleased to quote you based on the order.</p>
 					</div>
 				</div>
                 <div style="clear:both;"/></div>
                 <div style="margin-top:30px;">
-					<div style="float:left;margin-right:30px;"><img src="delivery-map.jpg" alt="Delivery Image" /></div>
+					<div style="float:left;margin-right:30px;"><img src="/images/delivery-map.jpg" alt="Delivery Image" /></div>
 					<div style="padding-top:200px;">
 						<p style="margin-bottom:20px;">Deliveries within our area are free on orders over &pound;150 excluding VAT. </p>						<div>
                             <div style="background-color:#00a2e8;height:30px;width:30px;float:left;margin-right:10px;"></div><p style="font-weight:bold;padding-top:8px;margin-left:60px;height:23px">Standard</p>

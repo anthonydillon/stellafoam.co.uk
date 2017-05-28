@@ -55,7 +55,7 @@ if(isset($_POST["todo"]) && $_POST["todo"] == 'send'){
 	$subject = 'Order from Stellafoam Website';
 	$message = '<html><head><title>Order from Stellafoam Website</title></head>
 	<body>
-	  <img src="http://www.stellafoam.co.uk/header.jpg" style="width:600px;"/>
+	  <img src="http://www.stellafoam.co.uk/images/header.jpg" style="width:600px;"/>
         <div id="content" style="width:600px;">
         	<div id="title" style="margin-top:40px;margin-bottom:20px;">Stellafoam Order List</div>
             <table id="stock" style="margin-top:40px;margin-bottom:10px;text-align:left;">
@@ -254,13 +254,13 @@ if(isset($_POST["todo"]) && $_POST["todo"] == 'send'){
 		font-size:13px;
 	}
 	</style>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
 </head>
 <body id="build" style="background-color:#ffffff;" onload="printpage()">
 		<div style="colour:#999;font-size: 13px;width:954px;text-align:center;">--- Printable Version ---</div>
-        <img src="header.jpg" style="width:954px;"/>
+        <img src="images/header.jpg" style="width:954px;"/>
         <div id="content" style="width:954px;">
         	<div id="title" style="margin-top:40px;margin-bottom:20px;">Stellafoam Order List</div>
             <table id="stock" width="93%" style="text-align:left;">

@@ -28,9 +28,9 @@ include("functions.php");
 		font-size:13px;
 	}
 	</style>
-	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="navigation.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="typography_core.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
     <?php
 		include  'analytics.php';
     ?>
@@ -58,7 +58,7 @@ include("functions.php");
 			<div id="title" style="margin-top:30px;">Workshop</div>
         	<div style="text-align:left;padding:0px 40px 0px 40px;">
 				<div style="margin-top:30px;">
-					<div style="float:right;margin-left:10px;"><img src="saw.jpg" alt="Saw" /></div>
+					<div style="float:right;margin-left:10px;"><img src="/images/saw.jpg" alt="Saw" /></div>
 					<div  style="padding-top:80px;">
 						<h2>Altendorf F45 Saw</h2><br/>
 						<p>Panel sizing saw with scribe blade and 3m beam. Full dust extractor, loading area, waste disposal and recycling service.</p>
@@ -67,7 +67,7 @@ include("functions.php");
 			</div>
 			<div style="text-align:left;padding:40px 40px 0px 40px;">
 				<div style="margin-top:30px;">
-					<div style="float:left;margin-right:20px;"><img src="drilling-machine.jpg" alt="Blum Drilling Machine" /></div>
+					<div style="float:left;margin-right:20px;"><img src="/images/drilling-machine.jpg" alt="Blum Drilling Machine" /></div>
 					<div  style="padding-top:120px;">
 						<h2>Blum Drilling Machine</h2><br/>
 						<p>Blum pneumatic hinge hole drilling machine, set with 35mm diameter bit.</p>
@@ -83,7 +83,7 @@ include("functions.php");
 			<div style="padding:40px 40px 40px 40px;">
 				<div style="float:right;text-align:left;width:45%;">
 					<div style="margin-top:30px;">
-						<div style="float:left;margin-right:10px;"><img src="safety-sign.jpg" alt="Safty Sign" width="120px"/></div>
+						<div style="float:left;margin-right:10px;"><img src="/images/safety-sign.jpg" alt="Safty Sign" width="120px"/></div>
 						<div style="padding-top:10px;">
 							<p>Goggles, dust masks and ear plugs are provided.</p>
 						</div>
@@ -92,7 +92,7 @@ include("functions.php");
 
 				<div style="text-align:left;width:45%;">
 					<div style="float:left;margin-top:30px;">
-						<div style="float:left;margin-right:10px;"><img src="explanation-mark.jpg" alt="Explanation Mark" width="100px" /></div>
+						<div style="float:left;margin-right:10px;"><img src="/images/explanation-mark.jpg" alt="Explanation Mark" width="100px" /></div>
 						<div style="padding-top:15px;">
 							<p>To hire these machines you must be a trade customer familiar with light panel cutting machinery and first have an introduction and guide on using this model. Usage terms below to be read and signed.</p>
 						</div>
