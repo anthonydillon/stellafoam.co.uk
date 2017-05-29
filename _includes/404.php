@@ -58,6 +58,6 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 </div>
 
         <?php
-			include  'footer.php';
+			include '_includes/footer.php';
     	?>
 </div></div>

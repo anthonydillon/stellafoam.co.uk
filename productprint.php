@@ -13,7 +13,7 @@ if(isset($_GET["p"])){
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<title>Stellafoam - Print <?php echo $product['Product_Title']?></title>
 	<?php
-		include  'meta.php';
+		include '_includes/meta.php';
     ?>
     <script language="Javascript1.2">
 	  <!--

@@ -227,7 +227,7 @@ if(isset($_POST["todo"]) && $_POST["todo"] == 'send'){
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<title>Stellafoam - Print Order List</title>
 	<?php
-		include  'meta.php';
+		include '_includes/meta.php';
     ?>
     <script language="Javascript1.2">
 	  <!--

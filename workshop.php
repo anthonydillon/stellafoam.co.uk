@@ -8,7 +8,7 @@ include("functions.php");
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<title>Stellafoam - Workshop</title>
 	<?php
-		include  'meta.php';
+		include '_includes/meta.php';
     ?>
 
     <style type="text/css">
@@ -32,14 +32,14 @@ include("functions.php");
 	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
     <?php
-		include  '_includes/analytics.php';
+		include '_includes/analytics.php';
     ?>
 </head>
 <body id="build">
 	<div id="pageWrapper">
         <div style="width:190px;float:right"></div>
         <?php
-			include  '_includes/header.php';
+			include '_includes/header.php';
     	?>
 
         <div id="breadcrumb"><a href="/" title="Homepage">Homepage</a> > Workshop
@@ -102,11 +102,11 @@ include("functions.php");
 			<div style="clear:both;height:30px;padding-top:30px;"><a href="docs/Saw-Safety-Procedure.pdf" target="_blank">Download Usage Terms</a></div>
 		</div>
         <?php
-			include  'footer.php';
+			include '_includes/footer.php';
     	?>
     </div>
     <?php
-		include  'copyright.php';
+		include '_includes/copyright.php';
    	?>
 </body>
 </html>

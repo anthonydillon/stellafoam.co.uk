@@ -31,7 +31,7 @@ if(isset($_COOKIE['stellafoamuser'])){
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<title>Stellafoam - <?php echo $user[0] ?>'s Downloads</title>
 	<?php
-		include  'meta.php';
+		include '_includes/meta.php';
     ?>
 
     <style type="text/css">
@@ -55,14 +55,14 @@ if(isset($_COOKIE['stellafoamuser'])){
 	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
     <?php
-		include  '_includes/analytics.php';
+		include '_includes/analytics.php';
     ?>
 </head>
 <body id="build">
 	<div id="pageWrapper">
         <div style="width:190px;float:right"></div>
         <?php
-			include  '_includes/header.php';
+			include '_includes/header.php';
     	?>
 
         <div id="breadcrumb"><a href="/" title="Homepage">Homepage</a> > Downloads
@@ -92,7 +92,7 @@ if(isset($_COOKIE['stellafoamuser'])){
 			</div>
 		</div>
 			<?php
-				include  'copyright.php';
+				include '_includes/copyright.php';
 			?>
 		</div>
     </body>

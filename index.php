@@ -212,11 +212,11 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 
 				</div>
         <?php
-			include  'footer.php';
+			include '_includes/footer.php';
     	?>
     </div>
 	<?php
-		include  'copyright.php';
+		include '_includes/copyright.php';
 	?>
 </body>
 </html>

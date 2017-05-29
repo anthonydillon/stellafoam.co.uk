@@ -49,7 +49,7 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<title>Stellafoam - <?php if($notfound) { echo '404'; } else { echo $stock['Stock_Name']; } ?></title>
 	<?php
-		include  'meta.php';
+		include '_includes/meta.php';
     ?>
 
     <style type="text/css">
@@ -74,16 +74,16 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
  	<link rel="stylesheet" href="/vendor/venobox/venobox.css" type="text/css" media="screen" />
 	<script src="/js/numbersonly.js" type="text/javascript"></script>
     <?php
-		include  '_includes/analytics.php';
+		include '_includes/analytics.php';
     ?>
 </head>
 <body id="build">
 	<div id="pageWrapper">
     <div style="width:190px;float:right"></div>
 			<?php
-				include  '_includes/header.php';
+				include '_includes/header.php';
 				if($notfound) {
-					include  '404.php';
+					include '_includes/404.php';
 				}else{
 			?>
     	<div id="breadcrumb">
@@ -191,7 +191,7 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 	</script>
 	<!-- End Venobox -->
 	<?php
-		include  'copyright.php';
+		include '_includes/copyright.php';
 	?>
 </body>
 </html>

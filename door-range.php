@@ -8,7 +8,7 @@ include("functions.php");
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<title>Stellafoam - Door Range</title>
 	<?php
-		include  'meta.php';
+		include '_includes/meta.php';
     ?>
 
     <style type="text/css">
@@ -71,14 +71,14 @@ include("functions.php");
 	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
     <?php
-		include  '_includes/analytics.php';
+		include '_includes/analytics.php';
     ?>
 </head>
 <body id="build">
 	<div id="pageWrapper">
         <div style="width:190px;float:right"></div>
         <?php
-			include  '_includes/header.php';
+			include '_includes/header.php';
     	?>
 
         <div id="breadcrumb"><a href="/" title="Homepage">Homepage</a> > Door Range
@@ -117,11 +117,11 @@ include("functions.php");
             <p><a href="http://www.poshkitchens.com/" title="Posh Kitchens Cosy Bedrooms" target="_blank"><img src="/images/21-Tuscany-Ivory.jpg" border="0" alt="Tuscany Ivory Bedroom"/><br/>Click picture for full range</a></p>
         </div>
         <?php
-			include  'footer.php';
+			include '_includes/footer.php';
     	?>
     </div>
 	<?php
-		include  '_includes/analytics.php';
+		include '_includes/analytics.php';
     ?>
 </body>
 </html>

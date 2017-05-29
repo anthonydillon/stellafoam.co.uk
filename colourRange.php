@@ -1,5 +1,5 @@
 <?php
-	include  'functions.php';
+	include 'functions.php';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
@@ -8,7 +8,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<title>Stellafoam - Colour Range</title>
 	<?php
-		include  'meta.php';
+		include '_includes/meta.php';
     ?>
 
     <style type="text/css">
@@ -60,14 +60,14 @@
 	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
     <?php
-		include  '_includes/analytics.php';
+		include '_includes/analytics.php';
     ?>
 </head>
 <body id="build">
 	<div id="pageWrapper">
         <div style="width:190px;float:right"></div>
         <?php
-			include  '_includes/header.php';
+			include '_includes/header.php';
     	?>
 
         <div id="breadcrumb"><a href="/" title="Homepage">Homepage</a> > Colour Range
@@ -108,11 +108,11 @@
 			</div>
 		</div>
         <?php
-			include  'footer.php';
+			include '_includes/footer.php';
     	?>
     </div>
 	<?php
-		include  'copyright.php';
+		include '_includes/copyright.php';
 	?>
 </body>
 </html>

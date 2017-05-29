@@ -52,7 +52,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<title>Stellafoam - Account</title>
 	<?php
-		include  'meta.php';
+		include '_includes/meta.php';
     ?>
 
     <style type="text/css">
@@ -83,7 +83,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 	<div id="pageWrapper">
         <div style="width:190px;float:right"></div>
         <?php
-			include  '_includes/header.php';
+			include '_includes/header.php';
     	?>
 
         <div id="breadcrumb"><a href="/" title="Homepage">Homepage</a> > Account
@@ -127,7 +127,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 		</form>
 		</div>
 			<?php
-				include  'copyright.php';
+				include '_includes/copyright.php';
 			?>
 		</div>
     </body>

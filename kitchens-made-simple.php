@@ -47,7 +47,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<title>Stellafoam - Kitchens Made Simple</title>
 	<?php
-		include  'meta.php';
+		include '_includes/meta.php';
     ?>
 
     <link rel="stylesheet" type="text/css" href="/css/kms-styles.css" media="all" />
@@ -56,7 +56,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="/css/kms-styles-print.css" media="print" />
     <?php
-		include  '_includes/analytics.php';
+		include '_includes/analytics.php';
     ?>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script type="text/javascript">
@@ -80,7 +80,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 	<div id="pageWrapper">
         <div style="width:190px;float:right"></div>
         <?php
-			include  '_includes/header.php';
+			include '_includes/header.php';
     	?>
 
         <div id="breadcrumb"><a href="/" title="Homepage">Homepage</a> > Kitchens Made Simple
@@ -112,19 +112,19 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 
 			<?php
 			if($loggedIn) {
-				include  'kms-logged-in.php';
+				include '_includes/kms-logged-in.php';
 			} else {
-				include  'kms-logged-out.php';
+				include '_includes/kms-logged-out.php';
 			}
 		    ?>
 
 		</div>
         <?php
-			include  'footer.php';
+			include '_includes/footer.php';
     	?>
     </div>
 	<?php
-		include  'copyright.php';
+		include '_includes/copyright.php';
    	?>
    	<script src="js/js-cookie.js"></script>
 </body>
