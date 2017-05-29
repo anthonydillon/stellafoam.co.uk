@@ -56,7 +56,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="/css/kms-styles-print.css" media="print" />
     <?php
-		include  'analytics.php';
+		include  '_includes/analytics.php';
     ?>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script type="text/javascript">
@@ -80,7 +80,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 	<div id="pageWrapper">
         <div style="width:190px;float:right"></div>
         <?php
-			include  'header.php';
+			include  '_includes/header.php';
     	?>
 
         <div id="breadcrumb"><a href="/" title="Homepage">Homepage</a> > Kitchens Made Simple
@@ -98,7 +98,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
                  echo '- <a href="#" class="bread-login">Login</a>';
                 }
 
-				include 'crumbuser.php';
+				include '_includes/crumbuser.php';
 			?>
         	</div>
         </div>

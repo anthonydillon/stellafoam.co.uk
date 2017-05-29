@@ -73,14 +73,14 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 	<link rel="stylesheet" href="/vendor/venobox/venobox.css" type="text/css" media="screen" />
 	<script src="/js/numbersonly.js" type="text/javascript"></script>
     <?php
-		include  'analytics.php';
+		include  '_includes/analytics.php';
     ?>
 </head>
 <body id="build">
 	<div id="pageWrapper">
         <div style="width:190px;float:right"></div>
         <?php
-			include  'header.php';
+			include  '_includes/header.php';
 			if($notfound) {
 				include  '404.php';
 			}else{
@@ -101,7 +101,7 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
                 <a href="/cart.php">View basket</a>
         	</div>
             <?php
-				include 'crumbuser.php';
+				include '_includes/crumbuser.php';
 			?>
 		</div>
         <div id="content">

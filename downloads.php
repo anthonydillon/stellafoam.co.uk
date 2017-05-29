@@ -55,14 +55,14 @@ if(isset($_COOKIE['stellafoamuser'])){
 	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
     <?php
-		include  'analytics.php';
+		include  '_includes/analytics.php';
     ?>
 </head>
 <body id="build">
 	<div id="pageWrapper">
         <div style="width:190px;float:right"></div>
         <?php
-			include  'header.php';
+			include  '_includes/header.php';
     	?>
 
         <div id="breadcrumb"><a href="/" title="Homepage">Homepage</a> > Downloads

@@ -47,7 +47,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Stellafoam</title>
 	<?php
-		include 'meta.php';
+		include '_includes/meta.php';
     ?>
 
     <style type="text/css">
@@ -70,10 +70,10 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/navigation.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/typography_core.css" media="all" />
-    <?php
-		include  'analytics.php';
-    ?>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<?php
+		include '_includes/analytics.php';
+	?>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script type="text/javascript">
 	$( document ).ready(function() {
 		$('#breadcrumb .bread-login').click(function(e) {
@@ -92,7 +92,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 	<div id="pageWrapper">
         <div style="width:190px;float:right"></div>
         <?php
-			include 'header.php';
+			include '_includes/header.php';
     	?>
 
         <div id="breadcrumb">
@@ -110,7 +110,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
                  echo '- <a href="#" class="bread-login">Login</a>';
                 }
 
-				include 'crumbuser.php';
+				include '_includes/crumbuser.php';
 			?>
         	</div>
         </div>

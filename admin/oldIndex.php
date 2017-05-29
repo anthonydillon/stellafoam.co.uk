@@ -94,7 +94,7 @@ if($todo){
     	<div id="pageWrapper">
     		<div style="width:190px;float:right"></div>
         	<?php
-				include  'header.php';
+				include  '_includes/header.php';
 			?>
             <div id="content">
 				<div style="clear:both;"></div>
