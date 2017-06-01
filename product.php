@@ -184,9 +184,10 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 								echo '<div id="stock" class="product-page-stock">';
 								for ($i = 0; $i < count($stock); $i++) {
 									$image = '/images/stock/placeholder.png';
-									$image_filename = '/images/stock/'.strtolower($stock[$i]["Stock_Code"]).'.jpg';
-									if (file_exists($_SERVER['DOCUMENT_ROOT'] . $image_filename)) {
-										$image = $image_filename;
+									$image_filename = '/images/stock/'.strtolower($stock[$i]["Stock_Code"]).'.png';
+									$image_thumbnail = '/images/stock/thumbs/'.strtolower($stock[$i]["Stock_Code"]).'.png';
+									if (file_exists($_SERVER['DOCUMENT_ROOT'] . $image_thumbnail)) {
+										$image = $image_thumbnail;
 									}
 									if ($stock[$i]["Type_Name"] != $prevType) {
 										if (!$firstTime) {
@@ -197,7 +198,7 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 									}
 									echo '<div class="stock-row">
 										<div class="stock-image">
-											<a class="venobox venobox--expand" title="'.$stock[$i]["Stock_Name"].'" href="'.$image.'">
+											<a class="venobox venobox--expand" title="'.$stock[$i]["Stock_Name"].'" href="'.$image_filename.'">
 												<img src="'.$image.'" alt="'.$stock[$i]["Stock_Name"].'" />
 											</a>
 										</div>
