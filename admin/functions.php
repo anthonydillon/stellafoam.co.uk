@@ -59,13 +59,13 @@ function addUser($username, $password, $name, $company, $address, $deliveryaddre
 	}
 }
 
-function addStock($name, $code, $type, $description, $pack, $discount, $price, $colour, $inStock){
+function addStock($name, $code, $type, $description, $pack, $discount, $price, $colour, $inStock, $order){
 	$con = mysql_connect(db_hostname,db_username,db_password);
 	if (!$con) {
 	  die('Could not connect: ' . mysql_error());
 	}
 	mysql_select_db(db_name, $con);
-	$SQL = "INSERT INTO stock (Stock_Name, Stock_Code, Type_Name, Stock_Description, Pack, Discount, Price, Product_ID, In_Stock) VALUES ('".$name."','".$code."','".$type."','".$description."','".$pack."','".$discount."','".$price."',".$colour.",".$inStock.")";
+	$SQL = "INSERT INTO stock (Stock_Name, Stock_Code, Type_Name, Stock_Description, Pack, Discount, Price, Product_ID, In_Stock, Display_Order) VALUES ('".$name."','".$code."','".$type."','".$description."','".$pack."','".$discount."','".$price."',".$colour.",".$inStock.".".$order.")";
 
 	$result = mysql_query($SQL);
 
@@ -290,14 +290,14 @@ function editPassword($id, $pw){
 	}
 }
 
-function editStock($id, $name, $code, $type, $description, $pack, $discount, $price, $colour,$inStock){
+function editStock($id, $name, $code, $type, $description, $pack, $discount, $price, $colour, $inStock, $order){
 	$con = mysql_connect(db_hostname,db_username,db_password);
 	if (!$con) {
 	  die('Could not connect: ' . mysql_error());
 	}
 	mysql_select_db(db_name, $con);
 
-	$SQL = "UPDATE stock SET Stock_Name = '".$name."', Stock_Code = '".$code."', Type_Name = '".$type."', Stock_Description = '".$description."', Pack = '".$pack."', Discount = '".$discount."', Price = '".$price."', Product_ID = '".$colour."', In_Stock = '".$inStock."' WHERE Stock_ID = '".$id."'";
+	$SQL = "UPDATE stock SET Stock_Name = '".$name."', Stock_Code = '".$code."', Type_Name = '".$type."', Stock_Description = '".$description."', Pack = '".$pack."', Discount = '".$discount."', Price = '".$price."', Product_ID = '".$colour."', In_Stock = '".$inStock."', Display_Order = '".$order."' WHERE Stock_ID = '".$id."'";
 	$result = mysql_query($SQL);
 
 	mysql_close($con);

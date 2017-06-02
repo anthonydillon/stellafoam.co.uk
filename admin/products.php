@@ -62,7 +62,7 @@ if(isset($_POST["title"]) && isset($_POST["category"]) && isset($_POST["code"]) 
     	<div id="pageWrapper">
     		<div style="width:190px;float:right"></div>
         	<?php
-				include '_includes/header.php';
+				include 'header.php';
 			?>
             <div id="content">
 				<div style="clear:both;"></div>

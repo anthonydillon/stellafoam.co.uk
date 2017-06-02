@@ -216,7 +216,7 @@ function getProductsStock( $id ){
 	  die('Could not connect: ' . mysql_error());
 	}
 	mysql_select_db(db_name, $con);
-	$SQL = "SELECT * FROM stock WHERE Product_ID = ".$id." ORDER BY Type_Name";
+	$SQL = "SELECT * FROM stock WHERE Product_ID = ".$id." ORDER BY Type_Name, Display_Order DESC";
 
 	$result = mysql_query($SQL);
 	$return_array = array();

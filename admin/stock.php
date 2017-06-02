@@ -34,9 +34,9 @@ if(isset($_GET["pid"])){
 if($todo){
 	switch($todo){
 		case 'addStock':
-			if(isset($_POST["name"]) && isset($_POST["code"]) && isset($_POST["type"]) && isset($_POST["description"]) && isset($_POST["pack"]) && isset($_POST["discount"]) && isset($_POST["colour"])){
+			if(isset($_POST["name"]) && isset($_POST["code"]) && isset($_POST["type"]) && isset($_POST["description"]) && isset($_POST["pack"]) && isset($_POST["discount"]) && isset($_POST["colour"]) && isset($_POST["order"])){
 				$inStock = 1;
-				$message = addStock($_POST["name"], $_POST["code"], $_POST["type"],$_POST["description"],$_POST["pack"],$_POST["discount"], $_POST["price"], $_POST["colour"], $inStock);
+				$message = addStock($_POST["name"], $_POST["code"], $_POST["type"],$_POST["description"],$_POST["pack"],$_POST["discount"], $_POST["price"], $_POST["colour"], $inStock, $_POST["order"]);
 			}else{
 				$message = 'Error with product details';
 			}
@@ -49,9 +49,9 @@ if($todo){
 			}
 		break;
 		case 'editStock':
-			if(isset($_POST["id"]) && isset($_POST["name"]) && isset($_POST["code"]) && isset($_POST["type"]) && isset($_POST["description"]) && isset($_POST["price"]) && isset($_POST["pack"]) && isset($_POST["discount"]) && isset($_POST["colour"])){
+			if(isset($_POST["id"]) && isset($_POST["name"]) && isset($_POST["code"]) && isset($_POST["type"]) && isset($_POST["description"]) && isset($_POST["price"]) && isset($_POST["pack"]) && isset($_POST["discount"]) && isset($_POST["colour"]) && isset($_POST["order"])){
 				$inStock  = 1;
-				$message = editStock($_POST["id"], $_POST["name"], $_POST["code"], $_POST["type"],$_POST["description"],$_POST["pack"],$_POST["discount"], $_POST["price"], $_POST["colour"],$inStock);
+				$message = editStock($_POST["id"], $_POST["name"], $_POST["code"], $_POST["type"],$_POST["description"],$_POST["pack"],$_POST["discount"], $_POST["price"], $_POST["colour"], $inStock, $_POST["order"]);
 			}else{
 				$message = 'Error with product details';
 			}
@@ -100,7 +100,7 @@ if($todo){
     	<div id="pageWrapper">
     		<div style="width:190px;float:right"></div>
         	<?php
-				include '_includes/header.php';
+				include 'header.php';
 			?>
             <div id="content">
 				<div style="clear:both;"></div>
@@ -159,6 +159,10 @@ if($todo){
                         <tr align="right" style="width:50%">
                             <td style="width:50%;">Price:</td>
                             <td align="left" style="width:50%;"><input type="text" name="price" size="35" value="<?php echo ($details)?$details["Price"]:''; ?>"/></td>
+                        </tr>
+                        <tr align="right" style="width:50%">
+                            <td style="width:50%;">Display Order:</td>
+                            <td align="left" style="width:50%;"><input type="number" name="order" size="35" value="<?php echo ($details)?$details["Display_Order"]:''; ?>"/></td>
                         </tr>
 
                         <tr height="30px;">
