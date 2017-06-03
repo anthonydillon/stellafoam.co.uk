@@ -65,8 +65,7 @@ function addStock($name, $code, $type, $description, $pack, $discount, $price, $
 	  die('Could not connect: ' . mysql_error());
 	}
 	mysql_select_db(db_name, $con);
-	$SQL = "INSERT INTO stock (Stock_Name, Stock_Code, Type_Name, Stock_Description, Pack, Discount, Price, Product_ID, In_Stock, Display_Order) VALUES ('".$name."','".$code."','".$type."','".$description."','".$pack."','".$discount."','".$price."',".$colour.",".$inStock.".".$order.")";
-
+	$SQL = "INSERT INTO stock (Stock_Name, Stock_Code, Type_Name, Stock_Description, Pack, Discount, Price, Product_ID, In_Stock, Display_Order) VALUES ('".$name."','".$code."','".$type."','".$description."','".$pack."','".$discount."','".$price."',".$colour.",".$inStock.",".$order.")";
 	$result = mysql_query($SQL);
 
 	mysql_close($con);
