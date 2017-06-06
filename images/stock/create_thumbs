@@ -1,0 +1,13 @@
+#! /usr/bin/env bash
+
+GREEN='\033[0;32m'
+NC='\033[0m' # No Color
+
+echo -e "Removing current thumbnails"
+rm -rf thumbs
+mkdir thumbs
+echo -e "${GREEN}All thumbs removed${NC}"
+echo -e "Creating thumbnails..."
+mogrify -path thumbs -thumbnail 500x500 *.png
+echo -e "${GREEN}All done!${NC} all images have been scaled into thumbnails"
+
