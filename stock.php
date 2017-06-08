@@ -112,12 +112,24 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 				<div id="productImage">
 					<?php
 						$image = '/images/stock/placeholder.png';
-						$image_filename = '/images/stock/'.strtolower($stock["Stock_Code"]).'.png';
-						if (file_exists($_SERVER['DOCUMENT_ROOT'] . $image_filename)) {
-							$image = $image_filename;
-						}
-						echo '<a class="venobox venobox--expand" title="'.$stock["Stock_Name"].'" href="'.$image.'">
-							<img src="'.$image.'" alt="'.$stock[$i]["Stock_Name"].'" />
+							$image_filename_png = '/images/stock/'.strtolower($stock["Stock_Code"]).'.png';
+							$image_filename_jpg = '/images/stock/'.strtolower($stock["Stock_Code"]).'.jpg';
+							$image_thumbnail_png = '/images/stock/thumbs/'.strtolower($stock["Stock_Code"]).'.png';
+							$image_thumbnail_jpg = '/images/stock/thumbs/'.strtolower($stock["Stock_Code"]).'.jpg';
+							if (file_exists($_SERVER['DOCUMENT_ROOT'] . $image_filename_png)) {
+								$image_filename = $image_filename_png;
+							} else if (file_exists($_SERVER['DOCUMENT_ROOT'] . $image_filename_jpg)) {
+								$image_filename = $image_filename_jpg;
+							} else {
+								$image_filename = $image;
+							}
+							if (file_exists($_SERVER['DOCUMENT_ROOT'] . $image_thumbnail_png)) {
+								$image = $image_thumbnail_png;
+							} else if (file_exists($_SERVER['DOCUMENT_ROOT'] . $image_thumbnail_jpg)) {
+								$image = $image_thumbnail_jpg;
+							}
+						echo '<a class="venobox venobox--expand" title="'.$stock["Stock_Name"].'" href="'.$image_filename.'">
+							<img src="'.$image.'" alt="'.$stock["Stock_Name"].'" />
 						</a>';
 					?>
 				</div>
