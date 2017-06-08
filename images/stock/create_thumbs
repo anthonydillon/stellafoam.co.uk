@@ -8,6 +8,6 @@ rm -rf thumbs
 mkdir thumbs
 echo -e "${GREEN}All thumbs removed${NC}"
 echo -e "Creating thumbnails..."
-mogrify -path thumbs -thumbnail 500x500 *.png
+mogrify -path thumbs -thumbnail 500x500 *.png *.jpg
 echo -e "${GREEN}All done!${NC} all images have been scaled into thumbnails"
 

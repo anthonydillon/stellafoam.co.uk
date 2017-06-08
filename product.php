@@ -184,10 +184,21 @@ if(isset($_POST["sid"]) && isset($_POST["qty"]) && $_POST["sid"] != '' && $_POST
 								echo '<div id="stock" class="product-page-stock">';
 								for ($i = 0; $i < count($stock); $i++) {
 									$image = '/images/stock/placeholder.png';
-									$image_filename = '/images/stock/'.strtolower($stock[$i]["Stock_Code"]).'.png';
-									$image_thumbnail = '/images/stock/thumbs/'.strtolower($stock[$i]["Stock_Code"]).'.png';
-									if (file_exists($_SERVER['DOCUMENT_ROOT'] . $image_thumbnail)) {
-										$image = $image_thumbnail;
+									$image_filename_png = '/images/stock/'.strtolower($stock[$i]["Stock_Code"]).'.png';
+									$image_filename_jpg = '/images/stock/'.strtolower($stock[$i]["Stock_Code"]).'.jpg';
+									$image_thumbnail_png = '/images/stock/thumbs/'.strtolower($stock[$i]["Stock_Code"]).'.png';
+									$image_thumbnail_jpg = '/images/stock/thumbs/'.strtolower($stock[$i]["Stock_Code"]).'.jpg';
+									if (file_exists($_SERVER['DOCUMENT_ROOT'] . $image_filename_png)) {
+										$image_filename = $image_filename_png;
+									} else if (file_exists($_SERVER['DOCUMENT_ROOT'] . $image_filename_jpg)) {
+										$image_filename = $image_filename_jpg;
+									} else {
+										$image_filename = $image;
+									}
+									if (file_exists($_SERVER['DOCUMENT_ROOT'] . $image_thumbnail_png)) {
+										$image = $image_thumbnail_png;
+									} else if (file_exists($_SERVER['DOCUMENT_ROOT'] . $image_thumbnail_jpg)) {
+										$image = $image_thumbnail_jpg;
 									}
 									if ($stock[$i]["Type_Name"] != $prevType) {
 										if (!$firstTime) {
