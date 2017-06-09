@@ -162,7 +162,7 @@ if($todo){
                         </tr>
                         <tr align="right" style="width:50%">
                             <td style="width:50%;">Display Order:</td>
-                            <td align="left" style="width:50%;"><input type="number" name="order" size="35" value="<?php echo ($details)?$details["Display_Order"]:''; ?>"/></td>
+                            <td align="left" style="width:50%;"><input type="number" name="order" size="35" value="<?php echo ($details)?$details["Display_Order"]:'0'; ?>"/></td>
                         </tr>
 
                         <tr height="30px;">
