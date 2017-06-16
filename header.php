@@ -334,8 +334,13 @@
                               <dd>Where N = 54mm</dd>
                               <dd><a href="product.php?p=87">320N / 450mm</a></dd>
                               <dt>Metabox Extras</dt>
-                              <dd><a href="product.php?p=87">Blumotion Metabox Soft Close</a></dd>
-                              <dd><a href="product.php?p=87">Blum Metabox File Kit</a></dd>
+                              <dd><a href="product.php?p=88">Blumotion Metabox Soft Close</a></dd>
+                              <dd><a href="product.php?p=88">Blum Metabox File Kit</a></dd>
+                              <dt>Blum Jigs</dt>
+                              <dd><a href="product.php?p=120">65.1051.01</a></dd>
+                              <dd><a href="product.php?p=120">65.5300</a></dd>
+                              <dd><a href="product.php?p=120">65.3300</a></dd>
+                              <dd><a href="product.php?p=120">65.501</a></dd>
                           </dl>
                       </li>
                   </ul>
@@ -703,13 +708,9 @@
                                 <dd><a href="product.php?p=134">150mm Adjustable Leg With Bush</a></dd>
                                 <dd><a href="product.php?p=134">100mm Leg &amp; Bush</a></dd>
                                 <dd><a href="product.php?p=134">Twin Caster &amp; Plate</a></dd>
-                                <dt>Kitchen Wirework</dt>
-                                <dd><a href="product.php?p=254">Lake Corner LH</a></dd>
-                                <dd><a href="product.php?p=254">Lake Corner RH</a></dd>
-                                <dd><a href="product.php?p=254">Magic Corner</a></dd>
-                            </dl>
-                            <dl>
-                                <dt>Adhesives</dt>
+          										</dl>
+          										<dl>
+          											<dt>Adhesives</dt>
                                 <dd><a href="product.php?p=136">Mitre Bond Adhestives</a></dd>
                                 <dd><a href="product.php?p=136">Mitre Bond Activator</a></dd>
                                 <dd><a href="product.php?p=136">Woodwork Adhesive PVA 1KG</a></dd>
