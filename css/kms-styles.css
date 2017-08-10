@@ -1,3 +1,13 @@
+img {
+	border: 0;
+	height: auto;
+	max-width: 100%;
+}
+.kms-hero-image {
+	position: absolute;
+	top: 0;
+	width: 50%;
+}
 #content{
 	font-weight: 300;
 	padding:20px;
