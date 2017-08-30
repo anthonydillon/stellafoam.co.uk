@@ -1,7 +1,6 @@
 <?php
 
 include("config/config.php");
-define('sessionlen',20000);
 
 function generate_hash( $value ){
 
@@ -339,14 +338,14 @@ function get_product_image( $id ){
 	}
 }
 
-function get_KMS_designs( ) {
+function get_KMS_categorys( $id ) {
 	$con = mysql_connect(db_hostname,db_username,db_password);
 	$return = '';
 	if (!$con) {
 	  die('Could not connect: ' . mysql_error());
 	}
 	mysql_select_db(db_name, $con);
-	$SQL = "SELECT Stock_Code, Stock_Name, Type_Name FROM stock WHERE Product_ID = 215";
+	$SQL = "SELECT * FROM products WHERE Product_ID = ".$id;
 
 	$result = mysql_query($SQL);
 	$return_array = array();
@@ -354,7 +353,7 @@ function get_KMS_designs( ) {
 	mysql_close($con);
 	if (mysql_num_rows($result) > 0){
 		while($row = mysql_fetch_array($result)) {
-			$return .= '<option value="'.$row['Stock_Code'].'" data-image="'.$row['Type_Name'].'" data-type="component">'.$row['Stock_Name'].'</option>';
+			$return .= '<option value="'.$row['Product_Code'].'" data-image="'.$row['Product_Image'].'" data-type="'.$row['Product_ID'].'">'.$row['Product_Title'].'</option>';
 		}
 	}
 	return $return;
@@ -385,7 +384,7 @@ function get_KMS_components() {
 	return $return;
 }
 
-function get_KMS_product($id, $type) {
+function get_KMS_products($id) {
 	$con = mysql_connect(db_hostname,db_username,db_password);
 	$return = '';
 	if (!$con) {
@@ -403,9 +402,9 @@ function get_KMS_product($id, $type) {
 			$stockName = $row['Stock_Name'];
 			if (strpos($stockName,'#') !== false) {
 				$stockName = explode('#', $stockName);
-				$return .= '<option value="'.$row['Stock_Code'].'" data-image="'.$row['Type_Name'].'" data-type="'.$type.'">'.$stockName[1].'</option>';
+				$return .= '<option value="'.$row['Stock_Code'].'" data-image="'.$row['Type_Name'].'" data-type="'.$id.'">'.$stockName[1].'</option>';
 			} else {
-				$return .= '<option value="'.$row['Stock_Code'].'" data-image="'.$row['Type_Name'].'" data-type="'.$type.'">'.$row['Stock_Name'].'</option>';
+				$return .= '<option value="'.$row['Stock_Code'].'" data-image="'.$row['Type_Name'].'" data-type="'.$id.'">'.$row['Stock_Name'].'</option>';
 			}
 		}
 	}

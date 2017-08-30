@@ -143,6 +143,7 @@ img {
 }
 .select-unit__input,
 .select-design__input,
+.select-colour__input,
 .select-quantity__input {
 	font-weight: 300;
 	width: 100%;
@@ -156,7 +157,8 @@ img {
 }
 
 .select-quantity__input {
-	width: 100%;
+	width: auto;
+	margin: 0 10px;
 }
 
 .select-unit,

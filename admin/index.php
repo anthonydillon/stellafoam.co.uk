@@ -191,7 +191,7 @@ if($todo){
                 <br/>
                 <div style="width:70%; margin:0px auto; text-align:left;">
                 <div style="float:right; width:75px;padding-top: 8px;">
-                	<a href="products.php">Add Product</a>
+                	<a href="/admin/products.php">Add Product</a>
                 </div>
 				<?php
 				if(count($categories) > 0){

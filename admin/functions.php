@@ -1,6 +1,5 @@
 <?php
 include("../config/config.php");
-define('sessionlen',20000);
 
 function addProduct($title, $code, $image, $description, $category, $override, $pack = 0, $discount = 0){
 	$con = mysql_connect(db_hostname,db_username,db_password);
