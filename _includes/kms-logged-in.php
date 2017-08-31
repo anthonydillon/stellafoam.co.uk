@@ -14,7 +14,7 @@
 						echo get_KMS_categorys(256);
 					?>
 				</select>
-				<img src="" alt="" class="select-unit__image" />
+				<img src="/images/homepage/stellafoam-kitchens-made-simple.png" alt="" class="select-unit__image" />
 			</div>
 		</div>
 
@@ -33,16 +33,18 @@
 
 		<div class="three-col">
 			<h3 class="step"><span>3</span> Colour</h3>
-			<select class="select-colour__input">
-				<option value="CI" data-image="cologne-ivory">Cologne Ivory</option>
-				<option value="GGW" data-image="gallo-gloss-white">Gallo Gloss White</option>
-				<option value="AGW" data-image="argon-gloss-white">Argon Gloss White</option>
-				<option value="PLM" data-image="pesaro-legno-mussel">Pesaro Legno Mussel</option>
-				<option value="PLA" data-image="pesaro-legno-alabaster">Pesaro Legno Alabaster</option>
-				<option value="TCW" data-image="tuscany-classic-walnut">Tuscany Classic Walnut</option>
-				<option value="EPO" data-image="empire-pippy-oak">Empire Pippy Oak</option>
-			</select>
-			<img src="" alt="" class="select-colour__image" />
+			<div class="select-colour">
+				<select class="select-colour__input">
+					<option value="CI" data-image="cologne-ivory">Cologne Ivory</option>
+					<option value="GGW" data-image="gallo-gloss-white">Gallo Gloss White</option>
+					<option value="AGW" data-image="argon-gloss-white">Argon Gloss White</option>
+					<option value="PLM" data-image="pesaro-legno-mussel">Pesaro Legno Mussel</option>
+					<option value="PLA" data-image="pesaro-legno-alabaster">Pesaro Legno Alabaster</option>
+					<option value="TCW" data-image="tuscany-classic-walnut">Tuscany Classic Walnut</option>
+					<option value="EPO" data-image="empire-pippy-oak">Empire Pippy Oak</option>
+				</select>
+				<img src="" alt="" class="select-colour__image" />
+			</div>
 		</div>
 
 		<div class="three-col last-col">
@@ -173,7 +175,7 @@
 			<thead>
 				<tr>
 					<th>Component</th>
-					<th>Design</th>
+					<th>Colour</th>
 					<th>Unit price</th>
 					<th>Quantity</th>
 					<th>Price</th>
@@ -218,11 +220,13 @@
 		var unitInput = $('.select-unit__input'),
 			designInput = $('.select-design__input'),
 			colourInput = $('.select-colour__input'),
-			quantityInput = $('.select-quantity__input'),
-			unitImage = $('.select-unit__image'),
+			quantityInput = $('.select-quantity__input');
+
+		var unitImage = $('.select-unit__image'),
 			colourImage = $('.select-colour__image'),
-			designImage = $('.select-design__image'),
-			summaryUnit = $('.summary-list__unit span'),
+			designImage = $('.select-design__image');
+
+		var summaryUnit = $('.summary-list__unit span'),
 			summaryUnitPrice = $('.summary-list__unit-price span'),
 			summaryColourList = $('.summary-list__colour'),
 			summaryColour = $('.summary-list__colour span'),
@@ -251,7 +255,7 @@
 		unitInput.change(function() {
 			var imageName = unitInput.find(':selected').data('image');
 			var selected = unitInput.find(':selected').text();
-			unitImage.attr("src", imagePath + imageName + imageExtension);
+			// unitImage.attr("src", imagePath + imageName + imageExtension);
 			summaryUnit.text(selected);
 
 			type = unitInput.find(':selected').data('type');
@@ -273,18 +277,20 @@
 			var imageName = designInput.find(':selected').data('image');
 			var selected = designInput.find(':selected').text();
 			var selectedType = designInput.find(':selected').data('type');
-			if (selectedType == 'corner-post' || selectedType == 'tall-end-panel-matt' || selectedType == 'tall-end-panel-gloss' || selectedType == 'wall-end-panel' || selectedType == 'base-end-panel' || selectedType == 'plinth' || selectedType == 'profiles') {
-				designImage.attr("src", 'images/' + imageName);
-			} else {
-				designImage.attr("src", imagePath + 'doors/' + imageName + imageExtension);
-			}
+			designImage.attr("src", imagePath + imageName + imageExtension);
 			summaryDesign.text(selected);
 			updatePrice();
 		});
 
+		colourInput.change(function() {
+			var imageName = colourInput.find(':selected').data('image');
+			var selected = colourInput.find(':selected').text();
+			colourImage.attr("src", imagePath + 'doors/' + imageName + imageExtension);
+			summaryColour.text(selected);
+			updatePrice();
+		});
+
 		quantityInput.change(function() {
-			var selected = quantityInput.find(':selected').text();
-			summaryQty.text(selected);
 			updatePrice();
 		});
 
@@ -295,22 +301,14 @@
 		}
 
 		function updatePrice() {
+			colour = colourInput.find(':selected').val();
+			colourName = colourInput.find(':selected').text();
 			qty = quantityInput.find(':selected').val();
 			design = designInput.find(':selected').val();
 			component = unitInput.find(':selected').val();
 			designName = designInput.find(':selected').text();
 
-			if (type == 'component') {
-				var code = component + '-' + design;
-				input = code.substring(0, code.length - 1);
-			} else if (type == 'corner-post' || type == 'tall-end-panel-matt' || type == 'tall-end-panel-gloss' || type == 'wall-end-panel' || type == 'base-end-panel' || type == 'plinth' || type == 'profiles') {
-				input = design;
-			} else {
-				input = component;
-				design = '';
-				designName = '';
-			}
-			$.getJSON( "/get-item.php?q="+input, function( data ) {
+			$.getJSON( "/get-item.php?q="+design, function( data ) {
 				price = data.Price;
 				summaryUnitPrice.html('&pound;' + price);
 				summaryPrice.html('&pound;' + (price * qty).toFixed(2));
@@ -321,7 +319,7 @@
 			e.preventDefault();
 			var item = component + '-' + design;
 			cart += item + '>' + qty + '|';
-			displayInCart(unitInput.find(':selected').text(), design, qty, price);
+			displayInCart(design, colourName, qty, price);
 		});
 
 		clearAllBtn.click(function(e) {
@@ -364,7 +362,7 @@
 			});
 		}
 
-		function displayInCart(name, design, qty, price) {
+		function displayInCart(name, colourName, qty, price) {
 			var dupIndex = -1;
 			for(var i = 0; i < cartArray.length; i++) {
 				if ((cartArray[i].code + '-' + cartArray[i].design) == component + '-' + design) {
@@ -378,6 +376,7 @@
 				cartArray.push({
 					'code': component,
 					'name': name,
+					'colourName': colourName,
 					'design': design,
 					'designName': designName,
 					'qty': qty,
@@ -396,10 +395,11 @@
 					if ( name.indexOf('#') != -1) {
 						name = name.substring(name.indexOf('#') + 1);
 					}
+					console.log(cartArray[i]);
 					designList.append(
 						'<tr>' +
-							'<td>'+name+'</td>' +
 							'<td>'+cartArray[i].designName+'</td>' +
+							'<td>'+cartArray[i].colourName+'</td>' +
 							'<td>&pound;'+cartArray[i].price+'</td>' +
 							'<td>'+cartArray[i].qty+'</td>' +
 							'<td>&pound;'+(cartArray[i].price * cartArray[i].qty).toFixed(2)+'</td>' +
@@ -461,7 +461,6 @@
 				var storedItem = itemFull[0].split('~');
 				var itemID = storedItem[0].replace('KMS', 'KMS-');
 				if( storedItem[1] != '' ) {
-					// itemID += '-' + storedItem[1].substring(0, 1);
 					itemID += '-' + storedItem[1];
 				}
 				if (storedItem[1] === '') {
@@ -510,6 +509,7 @@
 		unitInput.change();
 		designInput.change();
 		quantityInput.change();
+		colourInput.change();
 		init();
 	});
 </script>

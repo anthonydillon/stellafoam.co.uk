@@ -162,16 +162,21 @@ img {
 }
 
 .select-unit,
-.select-design {
+.select-design,
+.select-colour {
 	margin-bottom: 30px;
 	text-align: center;
 }
 
 .select-unit__image {
 	width: 100%;
+	background: white;
+	padding-top: 75px;
+	padding-bottom: 75px;
 }
 
-.select-design__image {
+.select-design__image,
+.select-colour__image {
 	height: 206px;
 	margin: 0 auto;
 }
