@@ -373,9 +373,11 @@
 			if (dupIndex !== -1) {
 				cartArray[dupIndex].qty = (parseInt(cartArray[dupIndex].qty) + parseInt(qty));
 			} else {
+				console.log('colour',colour);
 				cartArray.push({
 					'code': component,
 					'name': name,
+					'colour': colour,
 					'colourName': colourName,
 					'design': design,
 					'designName': designName,
@@ -395,7 +397,6 @@
 					if ( name.indexOf('#') != -1) {
 						name = name.substring(name.indexOf('#') + 1);
 					}
-					console.log(cartArray[i]);
 					designList.append(
 						'<tr>' +
 							'<td>'+cartArray[i].designName+'</td>' +
@@ -427,19 +428,15 @@
 			var grandTotal = 0;
 			var cookieValue = '';
 			for(var i = 0; i < cartArray.length; i++) {
-				if (cartArray[i].design.indexOf('KMS-') != -1) {
-					cookieValue += cartArray[i].design.replace('KMS-','KMS') + '~-' + cartArray[i].qty + '|';
-				} else {
-					cookieValue += cartArray[i].code.replace('-','') + '~' + cartArray[i].design.replace('KMS-','KMS') + '-' + cartArray[i].qty + '|';
-				}
+				cookieValue += cartArray[i].design.replace('KMS-','KMS') + '~' + cartArray[i].colour + '-' + cartArray[i].qty + '|';
 				grandTotal += parseInt(cartArray[i].price * cartArray[i].qty);
 			}
+			console.log('cookieValue',cookieValue);
 			var vat = grandTotal * 0.2;
 			$('.sub-total').html('&pound;' + grandTotal.toFixed(2));
 			$('.vat').html('&pound;' + vat.toFixed(2));
 			$('.total').html('&pound;' + (grandTotal + vat).toFixed(2));
 			if (initFinished) {
-				console.log(cookieValue);
 				Cookies.set('kms-cart', cookieValue);
 			}
 		}
@@ -457,10 +454,14 @@
 
 		function displayStoredItem(q) {
 			if (storedItems[q]) {
+				console.log(storedItems[q]);
 				var itemFull = storedItems[q].split('-');
+				console.log('itemFull', itemFull);
 				var storedItem = itemFull[0].split('~');
+				console.log('storedItem', storedItem);
 				var itemID = storedItem[0].replace('KMS', 'KMS-');
-				if( storedItem[1] != '' ) {
+				console.log('itemID', storedItem);
+				if (storedItem[1] != '') {
 					itemID += '-' + storedItem[1];
 				}
 				if (storedItem[1] === '') {
