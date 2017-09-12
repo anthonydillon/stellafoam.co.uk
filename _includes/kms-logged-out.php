@@ -35,13 +35,16 @@
 		<h3 class="step"><span>3</span> Colour</h3>
 		<div class="select-colour">
 			<select class="select-colour__input">
-				<option value="CI" data-image="cologne-ivory">Cologne Ivory</option>
-				<option value="GGW" data-image="gallo-gloss-white">Gallo Gloss White</option>
-				<option value="AGW" data-image="argon-gloss-white">Argon Gloss White</option>
-				<option value="PLM" data-image="pesaro-legno-mussel">Pesaro Legno Mussel</option>
-				<option value="PLA" data-image="pesaro-legno-alabaster">Pesaro Legno Alabaster</option>
-				<option value="TCW" data-image="tuscany-classic-walnut">Tuscany Classic Walnut</option>
-				<option value="EPO" data-image="empire-pippy-oak">Empire Pippy Oak</option>
+				<option value="CW" data-image="cologne-white">Gloss White</option>
+				<option value="CI" data-image="cologne-ivory">Gloss Ivory</option>
+				<option value="CLG" data-image="cologne-light-grey">Gloss Light Grey</option>
+				<option value="CG" data-image="cologne-graphite">Gloss Graphite</option>
+				<option value="CC" data-image="cologne-cashmere">Gloss Cashmere</option>
+				<option value="CDG" data-image="cologne-dust-grey">Gloss Dust Grey</option>
+				<option value="CS" data-image="cologne-stone">Gloss Stone</option>
+				<option value="CP" data-image="cologne-pavilion">Gloss Pavilion</option>
+				<option value="CPO" data-image="cologne-porcelain">Gloss Porcelain</option>
+				<option value="CA" data-image="cologne-anthracite">Gloss Anthracite</option>
 			</select>
 			<img src="" alt="" class="select-colour__image" />
 		</div>
