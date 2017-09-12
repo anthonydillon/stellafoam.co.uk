@@ -71,61 +71,61 @@ if(isset($_GET["sent"])){
 
     <script language="Javascript1.2">
 	  function gotoEmail() {
-		var error = false;
-		if ( document.personalDetails.name.value == "" ){
-			document.getElementById('errorMessage').style.visibility = "visible";
-			document.getElementById('nameField').style.color = "red";
-			error = true;
-		}else{
-			document.getElementById('nameField').style.color = "#494C4E";
-		}
-		if ( document.personalDetails.company.value == "" ){
-			document.getElementById('errorMessage').style.visibility = "visible";
-			document.getElementById('companyField').style.color = "red";
-			error = true;
-		}else{
-			document.getElementById('companyField').style.color = "#494C4E";
-		}
-		if ( document.personalDetails.telephone.value == "" ){
-			document.getElementById('errorMessage').style.visibility = "visible";
-			document.getElementById('telephoneField').style.color = "red";
-			error = true;
-		}else{
-			document.getElementById('telephoneField').style.color = "#494C4E";
-		}
-		if(!error){
-			document.personalDetails.todo.value = 'send';
-			document.personalDetails.submit();
-		}
+			var error = false;
+			if ( document.personalDetails.name.value == "" ){
+				document.getElementById('errorMessage').style.visibility = "visible";
+				document.getElementById('nameField').style.color = "red";
+				error = true;
+			}else{
+				document.getElementById('nameField').style.color = "#494C4E";
+			}
+			if ( document.personalDetails.company.value == "" ){
+				document.getElementById('errorMessage').style.visibility = "visible";
+				document.getElementById('companyField').style.color = "red";
+				error = true;
+			}else{
+				document.getElementById('companyField').style.color = "#494C4E";
+			}
+			if ( document.personalDetails.telephone.value == "" ){
+				document.getElementById('errorMessage').style.visibility = "visible";
+				document.getElementById('telephoneField').style.color = "red";
+				error = true;
+			}else{
+				document.getElementById('telephoneField').style.color = "#494C4E";
+			}
+			if(!error){
+				document.personalDetails.todo.value = 'send';
+				document.personalDetails.submit();
+			}
 	  }
 
 	  function gotoPrint() {
-		var error = false;
-		if ( document.personalDetails.name.value == "" ){
-			document.getElementById('errorMessage').style.visibility = "visible";
-			document.getElementById('nameField').style.color = "red";
-			error = true;
-		}else{
-			document.getElementById('nameField').style.color = "#494C4E";
-		}
-		if ( document.personalDetails.company.value == "" ){
-			document.getElementById('errorMessage').style.visibility = "visible";
-			document.getElementById('companyField').style.color = "red";
-			error = true;
-		}else{
-			document.getElementById('companyField').style.color = "#494C4E";
-		}
-		if ( document.personalDetails.telephone.value == "" ){
-			document.getElementById('errorMessage').style.visibility = "visible";
-			document.getElementById('telephoneField').style.color = "red";
-			error = true;
-		}else{
-			document.getElementById('telephoneField').style.color = "#494C4E";
-		}
-		if(!error){
-			document.personalDetails.todo.value = 'print';
-			document.personalDetails.submit();
-		}
+			var error = false;
+			if ( document.personalDetails.name.value == "" ){
+				document.getElementById('errorMessage').style.visibility = "visible";
+				document.getElementById('nameField').style.color = "red";
+				error = true;
+			}else{
+				document.getElementById('nameField').style.color = "#494C4E";
+			}
+			if ( document.personalDetails.company.value == "" ){
+				document.getElementById('errorMessage').style.visibility = "visible";
+				document.getElementById('companyField').style.color = "red";
+				error = true;
+			}else{
+				document.getElementById('companyField').style.color = "#494C4E";
+			}
+			if ( document.personalDetails.telephone.value == "" ){
+				document.getElementById('errorMessage').style.visibility = "visible";
+				document.getElementById('telephoneField').style.color = "red";
+				error = true;
+			}else{
+				document.getElementById('telephoneField').style.color = "#494C4E";
+			}
+			if(!error){
+				document.personalDetails.todo.value = 'print';
+				document.personalDetails.submit();
+			}
 	  }
 	  //-->
 	</script>
@@ -281,35 +281,35 @@ if(isset($_GET["sent"])){
 				$userDetails = getUserDetails($user[1]);
 			}
 			?>
-			<?php
-				if($loggedIn) {
-			?>
-            <form name="personalDetails" action="printable-new.php" method="post">
-            <?php
-            	}else{
-            ?>
-            <form name="personalDetails" action="printable.php" method="post">
-            <?php
-            	}
-            ?>
-            <input type="hidden" name="todo" />
-            <table id="details" style="margin-top:20px;margin-bottom:10px;text-align:left;">
-            	<tr><th width="150px" id="nameField">Name: *</th><td width="280px"><input type="text" name="name" size="38" <?php echo ($loggedIn)?'value="'.$userDetails[0].'"':''; ?> /></td></tr>
-                <tr><th id="companyField">Company Name: *</th><td><input type="text" name="company" size="38" <?php echo ($loggedIn)?'value="'.$userDetails[1].'"':''; ?> /></td></tr>
-                <tr><th style="vertical-align:text-top;" id="addressField">Invoice Address:</th><td><textarea name="address" rows="4" cols="33"><?php echo ($loggedIn)?$userDetails[2]:''; ?></textarea></td></tr>
-                <tr><th style="vertical-align:text-top;" id="deliveryAddressField">Delivery Address:</th><td><textarea name="deliveryaddress" rows="4" cols="33"><?php echo ($loggedIn)?$userDetails[5]:''; ?></textarea></td></tr>
-                <tr><th id="telephoneField">Telephone: *</th><td><input type="text" name="telephone" size="38" <?php echo ($loggedIn)?'value="'.$userDetails[3].'"':''; ?> /></td></tr>
-                <tr><th id="emailField">Email:</th><td><input type="text" name="email" size="38" <?php echo ($loggedIn)?'value="'.$userDetails[4].'"':''; ?> /></td></tr>
-				<tr><th style="vertical-align:text-top;">Additional Information:</th><td><textarea name="additional" rows="4" cols="33"></textarea></td></tr>
-             </table>
+				<?php
+					if($loggedIn) {
+				?>
+				<form name="personalDetails" action="printable-new.php" method="post">
+				<?php
+					}else{
+				?>
+				<form name="personalDetails" action="printable.php" method="post">
+				<?php
+					}
+				?>
+				<input type="hidden" name="todo" />
+				<table id="details" style="margin-top:20px;margin-bottom:10px;text-align:left;">
+					<tr><th width="150px" id="nameField">Name: *</th><td width="280px"><input type="text" name="name" size="38" <?php echo ($loggedIn)?'value="'.$userDetails[0].'"':''; ?> /></td></tr>
+					<tr><th id="companyField">Company Name: *</th><td><input type="text" name="company" size="38" <?php echo ($loggedIn)?'value="'.$userDetails[1].'"':''; ?> /></td></tr>
+					<tr><th style="vertical-align:text-top;" id="addressField">Invoice Address:</th><td><textarea name="address" rows="4" cols="33"><?php echo ($loggedIn)?$userDetails[2]:''; ?></textarea></td></tr>
+					<tr><th style="vertical-align:text-top;" id="deliveryAddressField">Delivery Address:</th><td><textarea name="deliveryaddress" rows="4" cols="33"><?php echo ($loggedIn)?$userDetails[5]:''; ?></textarea></td></tr>
+					<tr><th id="telephoneField">Telephone: *</th><td><input type="text" name="telephone" size="38" <?php echo ($loggedIn)?'value="'.$userDetails[3].'"':''; ?> /></td></tr>
+					<tr><th id="emailField">Email:</th><td><input type="text" name="email" size="38" <?php echo ($loggedIn)?'value="'.$userDetails[4].'"':''; ?> /></td></tr>
+					<tr><th style="vertical-align:text-top;">Additional Information:</th><td><textarea name="additional" rows="4" cols="33"></textarea></td></tr>
+        </table>
 				<?php
 					if($loggedIn) {
 				?>
 				<span>
-                    <a href="#" onclick="showConfirm();" title="Send Order Form">
-                        <img src="/images/icons/email_icon.gif" style="vertical-align:middle;" width="20px" border="0" /> Email this
-                    </a>
-                </span>
+					<a href="#" onclick="showConfirm();" title="Send Order Form">
+						<img src="/images/icons/email_icon.gif" style="vertical-align:middle;" width="20px" border="0" /> Email this
+					</a>
+				</span>
 				<?php
 					}
 				?>
@@ -329,22 +329,24 @@ if(isset($_GET["sent"])){
 					if($loggedIn) {
 				?>
 			 	<table id="stock" width="93%" style="text-align:left;">
-			 		<thead><tr>
-	                	<th>Stock Code</th>
-	                	<th>Category/Colour</th>
-	                	<th>Stock Description</th>
-	                	<th>Price</th>
-	                	<th>Quantity</th>
-	                	<th>Pack</th>
-	                	<th>Total</th>
-	                	<th width="50px">Delete</th>
-	                </tr></thead>
-	                <tbody>
-	                <?php
-	                	if($added) {
-	                		$orderList = explode('|',$added);
-	                		echo '<script>window.location.replace("/cart.php");</script>';
-	                	}else{
+			 		<thead>
+						<tr>
+							<th>Stock Code</th>
+							<th>Category/Colour</th>
+							<th>Stock Description</th>
+							<th>Price</th>
+							<th>Quantity</th>
+							<th>Pack</th>
+							<th>Total</th>
+							<th width="50px">Delete</th>
+						</tr>
+					</thead>
+					<tbody>
+					<?php
+						if($added) {
+							$orderList = explode('|',$added);
+							echo '<script>window.location.replace("/cart.php");</script>';
+						}else{
 							if(isset($_COOKIE["stellafoamorder"])){
 								$orderList = explode('|',$_COOKIE["stellafoamorder"]);
 							}
@@ -354,32 +356,23 @@ if(isset($_GET["sent"])){
 						$saving = 0;
 						$overrideArray = array();
 						for($i = 0; $i < count($orderList); $i++) {
-							$orderDetail = explode('-',$orderList[$i]);
+							$orderDetail = explode('~',$orderList[$i]);
 							$stockID = $orderDetail[0];
 							if(strpos($stockID, 'KMS') === 0) {
-								$stockID = str_replace('KMS', 'KMS-', $stockID);
-								$colour = explode('~', $stockID);
-								$colour = getStockInfoString($colour[1]);
-								$stockID = substr($stockID, 0, -1);
-								$stockID = str_replace('~', '-', $stockID);
+								$colour = explode('-', $orderDetail[1])[0];
+								$quantity = explode('-', $orderDetail[1])[1];
 								$info = getStockInfoString($stockID);
 								$pack = ($info["Pack"] != 0)?$info["Pack"]:'&ndash;';
-								$total = ($info["Price"] * $orderDetail[1]);
-								$originial += $info["Price"] * $orderDetail[1];
+								$total = $info["Price"] * $quantity;
+								$originial += $info["Price"] * $quantity;
 								$grandtotal += $total;
-								$category = $colour["Stock_Name"];
 								$stockDesc = $info["Stock_Name"];
-								if (!$category) {
-									// $category = $info["Product_Title"];
-									$stockDesc = $info["Product_Title"];
-									$category = $info["Stock_Name"];
-								}
 								echo '<tr>
 									<td>'.$info["Stock_Code"].'</td>
-									<td>'.$category.'</td>
+									<td>'.$colour.'</td>
 									<td>'.$stockDesc.'</td>
 									<td>&pound;'.number_format($info["Price"], 2).'</td>
-									<td>'.$orderDetail[1].'</td>
+									<td>'.$quantity.'</td>
 									<td>'.$pack.'</td>
 									<td>&pound;'.number_format($total, 2).'</td>
 									<td align="center"><a href="?did='.$i.'" title="Delete Product"><img src="/images/icons/delete_icon.gif" border="0"/></a></td>
@@ -517,22 +510,24 @@ if(isset($_GET["sent"])){
 							$orderList = explode('|',$_COOKIE["stellafoamorder"]);
 						}
 						for($i = 0; $i < count($orderList); $i++){
-							$orderDetail = explode('-',$orderList[$i]);
+							$orderDetail = explode('~',$orderList[$i]);
 							$stockID = $orderDetail[0];
 							if(strpos($stockID, 'KMS') === 0) {
-								$stockID = str_replace('KMS', 'KMS-', $stockID);
-								$colour = explode('~', $stockID);
-								$colour = getStockInfoString($colour[1]);
-								$stockID = substr($stockID, 0, -1);
-								$stockID = str_replace('~', '-', $stockID);
+								$colour = explode('-', $orderDetail[1])[0];
+								$quantity = explode('-', $orderDetail[1])[1];
 								$info = getStockInfoString($stockID);
+								$pack = ($info["Pack"] != 0)?$info["Pack"]:'&ndash;';
+								$total = $info["Price"] * $quantity;
+								$originial += $info["Price"] * $quantity;
+								$grandtotal += $total;
+								$stockDesc = $info["Stock_Name"];
 								echo '<tr>
 									<td>'.$info["Stock_Code"].'</td>
-									<td>'.$colour['Stock_Name'].'</td>
-									<td>'.$info["Stock_Name"].'</td>
-									<td>'.$orderDetail[1].'</td>
-									<td><a href="?did='.$i.'" title="Delete Product"><img src="/images/icons/delete_icon.gif" border="0"/></a></td>
-								  </tr>';
+									<td>'.$colour.'</td>
+									<td>'.$stockDesc.'</td>
+									<td>'.$quantity.'</td>
+									<td align="center"><a href="?did='.$i.'" title="Delete Product"><img src="/images/icons/delete_icon.gif" border="0"/></a></td>
+									</tr>';
 							}else{
 								$info = getStockInfo($orderDetail[0]);
 								$category = get_product($info["Product_ID"]);

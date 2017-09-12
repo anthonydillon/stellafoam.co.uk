@@ -16,7 +16,6 @@ if(isset($_GET["sid"]) && isset($_GET["qty"]) && $_GET["sid"] != '' && $_GET["qt
 		for($i = 0; $i < count($orderList); $i++){
 			$orderDetail = explode('-',$orderList[$i]);
 			if($orderDetail[0] == $sid){
-				echo $orderDetail[1] + ' += ' + $qty;
 				$orderDetail[1] += $qty;
 				$orderList[$i] = implode('-',$orderDetail );
 				$readding = true;
@@ -52,6 +51,7 @@ if(isset($_GET["did"]) && isset($_COOKIE["stellafoamorder"])){
 $details = false;
 if(isset($_POST["todo"]) && $_POST["todo"] == 'send'){
 	$to  = 'me@anthonydillon.com, sales@stellafoam.co.uk, Mark@stellafoam.co.uk';
+	$to  = 'me@anthonydillon.com';
 	$subject = 'Order from Stellafoam Website';
 	$message = '<html><head><title>Order from Stellafoam Website</title></head>
 	<body>
@@ -136,38 +136,74 @@ if(isset($_POST["todo"]) && $_POST["todo"] == 'send'){
 						}
 						for($i = 0; $i < $count; $i++) {
 							$orderDetail = $overrideArray[$i];
-							$info = getStockInfo($orderDetail[0]);
-							$category = get_product($info["Product_ID"]);
-							$discount = ($category['Pack'] != 0)?$category["Discount"].'&#37;':'&ndash;';
-							$discountDisplay = '';
-							$pack = ($category["Pack"] != 0)?$category["Pack"]:'&ndash;';
-							if($discount != '&ndash;' && $pack != '&ndash;'){
-								if($discounted){
-									$total = ($info["Price"] * $orderDetail[1]) * (1 - ($discount / 100));
-									$saving += ($info["Price"] * $orderDetail[1]) * ($discount / 100);
-									$discountDisplay = ' <span style="color:green">('. $discount .')</span>';
+							if(strpos($orderList[$i], 'KMS') === 0) {
+								$orderDetail = explode('~',$orderList[$i]);
+								$info = getStockInfoString($orderDetail[0]);
+								$colour = explode('-',$orderDetail[1])[0];
+								$quantity = explode('-',$orderDetail[1])[1];
+								$discount = ($info["Discount"] != 0)?$info["Discount"].'&#37;':'&ndash;';
+								$discountDisplay = '';
+								$pack = ($info["Pack"] != 0)?$info["Pack"]:'&ndash;';
+								if($discount != '&ndash;' && $pack != '&ndash;'){
+									if($quantity < $pack){
+										$total = ($info["Price"] * $quantity);
+									}else{
+										$total = ($info["Price"] * $quantity) * (1 - ($discount / 100));
+										$saving += ($info["Price"] * $quantity) * ($discount / 100);
+										$discountDisplay = ' <span style="color:green">('. $discount .')</span>';
+									}
 								}else{
-									$total = ($info["Price"] * $orderDetail[1]);
+									$total = $info["Price"] * $quantity;
 								}
-							}else{
-								$total = $info["Price"] * $orderDetail[1];
-							}
-							$originial += $info["Price"] * $orderDetail[1];
-							$grandtotal += $total;
-
-							$message .= '<tr>
+								$originial += $info["Price"] * $quantity;
+								$grandtotal += $total;
+								$message .= '<tr>
 									<td>'.$info["Stock_Code"].'</td>
-									<td>'.$category["Product_Title"].'</td>
+									<td>'.$colour.'</td>
 									<td>'.$info["Stock_Name"].'</td>
 									<td>&pound;'.number_format($info["Price"], 2).'</td>
-									<td>'.$orderDetail[1].'</td>';
-							if(!$spanned) {
-								$spanned = true;
-								$message .= '<td rowspan="'.$count.'">'.$pack.'</td>';
+									<td>'.$quantity.'</td>';
+								if(!$spanned) {
+									$spanned = true;
+									$message .= '<td rowspan="'.$count.'">'.$pack.'</td>';
+								}
+								$message .= '
+										<td>&pound;'.number_format($total, 2) . $discountDisplay.'</td>
+									</tr>';
+							}else{
+								$info = getStockInfo($orderDetail[0]);
+								$category = get_product($info["Product_ID"]);
+								$discount = ($category['Pack'] != 0)?$category["Discount"].'&#37;':'&ndash;';
+								$discountDisplay = '';
+								$pack = ($category["Pack"] != 0)?$category["Pack"]:'&ndash;';
+								if($discount != '&ndash;' && $pack != '&ndash;'){
+									if($discounted){
+										$total = ($info["Price"] * $orderDetail[1]) * (1 - ($discount / 100));
+										$saving += ($info["Price"] * $orderDetail[1]) * ($discount / 100);
+										$discountDisplay = ' <span style="color:green">('. $discount .')</span>';
+									}else{
+										$total = ($info["Price"] * $orderDetail[1]);
+									}
+								}else{
+									$total = $info["Price"] * $orderDetail[1];
+								}
+								$originial += $info["Price"] * $orderDetail[1];
+								$grandtotal += $total;
+
+								$message .= '<tr>
+										<td>'.$info["Stock_Code"].'</td>
+										<td>'.$category["Product_Title"].'</td>
+										<td>'.$info["Stock_Name"].'</td>
+										<td>&pound;'.number_format($info["Price"], 2).'</td>
+										<td>'.$orderDetail[1].'</td>';
+								if(!$spanned) {
+									$spanned = true;
+									$message .= '<td rowspan="'.$count.'">'.$pack.'</td>';
+								}
+								$message .= '
+										<td>&pound;'.number_format($total, 2) . $discountDisplay.'</td>
+									</tr>';
 							}
-							$message .= '
-									<td>&pound;'.number_format($total, 2) . $discountDisplay.'</td>
-								</tr>';
 						}
 					$message .= '</tbody><tfoot><tr>
 							<td colspan="5" style="border:0;"></td>
@@ -288,40 +324,72 @@ if(isset($_POST["todo"]) && $_POST["todo"] == 'send'){
 						$saving = 0;
 						$overrideArray = array();
 						for($i = 0; $i < count($orderList); $i++) {
-							$orderDetail = explode('-',$orderList[$i]);
-							$info = getStockInfo($orderDetail[0]);
-							$category = get_product($info["Product_ID"]);
-							if($category['Override_Discount'] == '1') {
-								$overrideArray[] = $orderDetail;
-							}else{
+							if(strpos($orderList[$i], 'KMS') === 0) {
+								$orderDetail = explode('~',$orderList[$i]);
+								$info = getStockInfoString($orderDetail[0]);
+								$colour = explode('-',$orderDetail[1])[0];
+								$quantity = explode('-',$orderDetail[1])[1];
 								$discount = ($info["Discount"] != 0)?$info["Discount"].'&#37;':'&ndash;';
 								$discountDisplay = '';
 								$pack = ($info["Pack"] != 0)?$info["Pack"]:'&ndash;';
 								if($discount != '&ndash;' && $pack != '&ndash;'){
-									if($orderDetail[1] < $pack){
-										$total = ($info["Price"] * $orderDetail[1]);
+									if($quantity < $pack){
+										$total = ($info["Price"] * $quantity);
 									}else{
-										$total = ($info["Price"] * $orderDetail[1]) * (1 - ($discount / 100));
-										$saving += ($info["Price"] * $orderDetail[1]) * ($discount / 100);
+										$total = ($info["Price"] * $quantity) * (1 - ($discount / 100));
+										$saving += ($info["Price"] * $quantity) * ($discount / 100);
 										$discountDisplay = ' <span style="color:green">('. $discount .')</span>';
 									}
 								}else{
-									$total = $info["Price"] * $orderDetail[1];
+									$total = $info["Price"] * $quantity;
 								}
-								$originial += $info["Price"] * $orderDetail[1];
+								$originial += $info["Price"] * $quantity;
 								$grandtotal += $total;
 
 								echo '<tr>
 										<td>'.$info["Stock_Code"].'</td>
-										<td>'.$category["Product_Title"].'</td>
+										<td>'.$colour.'</td>
 										<td>'.$info["Stock_Name"].'</td>
 										<td>&pound;'.number_format($info["Price"], 2).'</td>
-										<td>'.$orderDetail[1].'</td>
+										<td>'.$quantity.'</td>
 										<td>'.$pack.'</td>
 										<td>&pound;'.number_format($total, 2) . $discountDisplay.'</td>
-									 </tr>';
-							}
+									</tr>';
+							} else {
+								$orderDetail = explode('-',$orderList[$i]);
+								$info = getStockInfo($orderDetail[0]);
+								$category = get_product($info["Product_ID"]);
+								if($category['Override_Discount'] == '1') {
+									$overrideArray[] = $orderDetail;
+								}else{
+									$discount = ($info["Discount"] != 0)?$info["Discount"].'&#37;':'&ndash;';
+									$discountDisplay = '';
+									$pack = ($info["Pack"] != 0)?$info["Pack"]:'&ndash;';
+									if($discount != '&ndash;' && $pack != '&ndash;'){
+										if($orderDetail[1] < $pack){
+											$total = ($info["Price"] * $orderDetail[1]);
+										}else{
+											$total = ($info["Price"] * $orderDetail[1]) * (1 - ($discount / 100));
+											$saving += ($info["Price"] * $orderDetail[1]) * ($discount / 100);
+											$discountDisplay = ' <span style="color:green">('. $discount .')</span>';
+										}
+									}else{
+										$total = $info["Price"] * $orderDetail[1];
+									}
+									$originial += $info["Price"] * $orderDetail[1];
+									$grandtotal += $total;
 
+									echo '<tr>
+											<td>'.$info["Stock_Code"].'</td>
+											<td>'.$category["Product_Title"].'</td>
+											<td>'.$info["Stock_Name"].'</td>
+											<td>&pound;'.number_format($info["Price"], 2).'</td>
+											<td>'.$orderDetail[1].'</td>
+											<td>'.$pack.'</td>
+											<td>&pound;'.number_format($total, 2) . $discountDisplay.'</td>
+										</tr>';
+								}
+							}
 						}
 						$spanned = false;
 						$count = count($overrideArray);
