@@ -1,5 +1,6 @@
 <?php
 include("functions.php");
+define('sessionlen',20000);
 // Report all PHP errors
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
@@ -59,7 +60,9 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 				include 'header.php';
 			?>
 		<div id="content">
-		<?php if(isset($_POST['username'])){ echo '<p align="center" style=color:red">Username or Password incorrect</p>'; } ?>
+		<?php
+			if(isset($_POST['username'])){ echo '<p align="center" style=color:red">Username or Password incorrect</p>'; }
+		?>
 		<form method="post">
 			<h3 style="font-size: 19px;">Login</h3>
 			<table align="center" style="margin-top:30px;padding-right:55px;" cellpadding="12px" cellspacing="12px">

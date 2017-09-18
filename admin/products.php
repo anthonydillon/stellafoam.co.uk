@@ -1,5 +1,6 @@
 <?php
 include("functions.php");
+define('sessionlen',20000);
 if (isset($_COOKIE["stellafoamadmin"])){
 	$splitCookie = explode('_', $_COOKIE["stellafoamadmin"]);
 	if($splitCookie[1] > time()-sessionlen){

@@ -12,6 +12,7 @@
 				<?php
 					echo get_KMS_categorys(255);
 					echo get_KMS_categorys(256);
+					echo get_KMS_categorys(257);
 				?>
 			</select>
 			<img src="/images/homepage/stellafoam-kitchens-made-simple.png" alt="" class="select-unit__image" />
@@ -25,6 +26,7 @@
 				<?php
 					echo get_KMS_products(255);
 					echo get_KMS_products(256);
+					echo get_KMS_products(257);
 				?>
 			</select>
 			<img src="" alt="" class="select-design__image" />
