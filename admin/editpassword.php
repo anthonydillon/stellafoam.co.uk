@@ -5,6 +5,7 @@ ini_set('display_errors', '1');
 ini_set('error_reporting', E_ALL);
 ini_set('error_display', '1');
 include("functions.php");
+define('sessionlen',20000);
 if (isset($_COOKIE["stellafoamadmin"])){
 	$splitCookie = explode('_', $_COOKIE["stellafoamadmin"]);
 	if($splitCookie[1] > time()-sessionlen){
