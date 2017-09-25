@@ -1,6 +1,7 @@
 <?php
 
 include("functions.php");
+define('sessionlen',20000);
 
 $loggedIn = false;
 
