@@ -359,8 +359,9 @@ if(isset($_GET["sent"])){
 							$orderDetail = explode('~',$orderList[$i]);
 							$stockID = $orderDetail[0];
 							if(strpos($stockID, 'KMS') === 0) {
-								$colour = explode('-', $orderDetail[1])[0];
-								$quantity = explode('-', $orderDetail[1])[1];
+								$splitItem = explode('-', $orderDetail[1]);
+								$colour = $splitItem[0];
+								$quantity = $splitItem[1];
 								$info = getStockInfoString($stockID);
 								$pack = ($info["Pack"] != 0)?$info["Pack"]:'&ndash;';
 								$total = $info["Price"] * $quantity;
@@ -513,8 +514,9 @@ if(isset($_GET["sent"])){
 							$orderDetail = explode('~',$orderList[$i]);
 							$stockID = $orderDetail[0];
 							if(strpos($stockID, 'KMS') === 0) {
-								$colour = explode('-', $orderDetail[1])[0];
-								$quantity = explode('-', $orderDetail[1])[1];
+								$exploded = explode('-', $orderDetail[1]);
+								$colour = $exploded[0];
+								$quantity = $exploded[1];
 								$info = getStockInfoString($stockID);
 								$pack = ($info["Pack"] != 0)?$info["Pack"]:'&ndash;';
 								$total = $info["Price"] * $quantity;

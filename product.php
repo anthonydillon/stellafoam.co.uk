@@ -1,5 +1,6 @@
 <?php
 include("functions.php");
+define('sessionlen',20000);
 
 if(isset($_GET["p"])){
 	$product = get_product($_GET["p"]);
