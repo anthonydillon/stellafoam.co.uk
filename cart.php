@@ -1,5 +1,6 @@
 <?php
 include("functions.php");
+define('sessionlen',20000);
 
 $sid = false;
 $qty = false;
