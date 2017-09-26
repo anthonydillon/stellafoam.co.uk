@@ -357,10 +357,12 @@ if(isset($_GET["sent"])){
 						$saving = 0;
 						$overrideArray = array();
 						for($i = 0; $i < count($orderList); $i++) {
-							$orderDetail = explode('~',$orderList[$i]);
+							$orderDetail = explode('-',$orderList[$i]);
 							$stockID = $orderDetail[0];
 							if(strpos($stockID, 'KMS') === 0) {
-								$splitItem = explode('-', $orderDetail[1]);
+								$splitItem = explode('~',$orderList[$i]);
+								$stockID = $splitItem[0];
+								$splitItem = explode('-',$splitItem[1]);
 								$colour = $splitItem[0];
 								$quantity = $splitItem[1];
 								$info = getStockInfoString($stockID);
@@ -370,7 +372,7 @@ if(isset($_GET["sent"])){
 								$grandtotal += $total;
 								$stockDesc = $info["Stock_Name"];
 								echo '<tr>
-									<td>'.$info["Stock_Code"].'</td>
+									<td>'.$stockID.'</td>
 									<td>'.$colour.'</td>
 									<td>'.$stockDesc.'</td>
 									<td>&pound;'.number_format($info["Price"], 2).'</td>
