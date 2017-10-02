@@ -13,6 +13,15 @@
 					echo get_KMS_categorys(255);
 					echo get_KMS_categorys(256);
 					echo get_KMS_categorys(257);
+					echo get_KMS_categorys(258);
+					echo get_KMS_categorys(259);
+					echo get_KMS_categorys(260);
+					echo get_KMS_categorys(261);
+					echo get_KMS_categorys(262);
+					echo get_KMS_categorys(219);
+					echo get_KMS_categorys(264);
+					echo get_KMS_categorys(265);
+					echo get_KMS_categorys(266);
 				?>
 			</select>
 			<img src="/images/homepage/stellafoam-kitchens-made-simple.png" alt="" class="select-unit__image" />
@@ -27,6 +36,15 @@
 					echo get_KMS_products(255);
 					echo get_KMS_products(256);
 					echo get_KMS_products(257);
+					echo get_KMS_products(258);
+					echo get_KMS_products(259);
+					echo get_KMS_products(260);
+					echo get_KMS_products(261);
+					echo get_KMS_products(262);
+					echo get_KMS_products(219);
+					echo get_KMS_products(264);
+					echo get_KMS_products(265);
+					echo get_KMS_products(266);
 				?>
 			</select>
 			<img src="" alt="" class="select-design__image" />
