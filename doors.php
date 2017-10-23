@@ -307,7 +307,7 @@ include("functions.php");
 						<li>Made to measure heights on curved doors</li>
 						<li>Framed doors supplied with gasket but not glass</li>
 						<li>Vinyl wrapped on highest quality HDF</li>
-						<li>10 year guarantee</li>
+						<li>6 year guarantee</li>
 						<li>1-2 week turnaround</li>
 						<li>Samples available upon request</li>
 					</ul>
@@ -472,7 +472,7 @@ include("functions.php");
 						<li>Made to measure acrylic doors, 18mm worktops and panels</li>
 						<li>Large selection of colours with matching or two-tone metallic edging</li>
 						<li>Metallic reverse</li>
-						<li>10 year guarantee</li>
+						<li>6 year guarantee</li>
 						<li>1-2 week turnaround</li>
 						<li>Samples available upon request</li>
 					</ul>
@@ -510,7 +510,7 @@ include("functions.php");
 						<li>Framed doors supplied with gasket but not glass</li>
 						<li>Centre bar comes loose so you can pick your ideal height</li>
 						<li>Vinyl wrapped on highest quality HDF</li>
-						<li>10 year guarantee</li>
+						<li>6 year guarantee</li>
 						<li>1-2 week turnaround</li>
 						<li>Samples available upon request</li>
 					</ul>
@@ -546,7 +546,7 @@ include("functions.php");
 							<li>Curved doors available</li>
 							<li>Framed doors supplied with gasket but not glass</li>
 							<li>Painted on  highest quality HDF</li>
-							<li>10 year guarantee</li>
+							<li>6 year guarantee</li>
 							<li>2-3 week turnaround</li>
 							<li>Samples available upon request</li>
 						</ul>
@@ -587,7 +587,7 @@ include("functions.php");
 						<li>Standard bedroom sizes, made to measure not available</li>
 						<li>Matching 18mm panels and accessories available</li>
 						<li>Framed doors supplied with gasket but not glass</li>
-						<li>10 year guarantee</li>
+						<li>6 year guarantee</li>
 						<li>2-3 week turnaround</li>
 						<li>Samples available upon request</li>
 					</ul>
@@ -616,7 +616,7 @@ include("functions.php");
 						<li>Made to measure heights on curved doors</li>
 						<li>Framed doors supplied with gasket but not glass</li>
 						<li>Vinyl wrapped on highest quality HDF</li>
-						<li>10 year guarantee</li>
+						<li>6 year guarantee</li>
 						<li>1-2 week turnaround</li>
 						<li>Samples available upon request</li>
 					</ul>
@@ -748,7 +748,7 @@ include("functions.php");
 						<li>Made to measure acrylic doors, 18mm worktops and panels</li>
 						<li>Large selection of colours with matching or two-tone metallic edging</li>
 						<li>Metallic reverse</li>
-						<li>10 year guarantee</li>
+						<li>6 year guarantee</li>
 						<li>1-2 week turnaround</li>
 						<li>Samples available upon request</li>
 					</ul>
@@ -786,7 +786,7 @@ include("functions.php");
 						<li>Framed doors supplied with gasket but not glass</li>
 						<li>Centre bar comes loose so you can pick your ideal height</li>
 						<li>Vinyl wrapped on highest quality HDF</li>
-						<li>10 year guarantee</li>
+						<li>6 year guarantee</li>
 						<li>1-2 week turnaround</li>
 						<li>Samples available upon request</li>
 					</ul>
@@ -823,7 +823,7 @@ include("functions.php");
 						<li>Curved doors available</li>
 						<li>Framed doors supplied with gasket but not glass</li>
 						<li>Painted on  highest quality HDF or solid wood</li>
-						<li>10 year guarantee</li>
+						<li>6 year guarantee</li>
 						<li>2-3 week turnaround</li>
 						<li>Samples available upon request</li>
 					</ul>
@@ -882,7 +882,7 @@ include("functions.php");
 						<li>Standard kitchen sizes, made to measure not available</li>
 						<li>Matching 18mm panels and accessories available</li>
 						<li>Framed doors supplied with gasket but not glass</li>
-						<li>10 year guarantee</li>
+						<li>6 year guarantee</li>
 						<li>2-3 week turnaround</li>
 						<li>Samples available upon request</li>
 					</ul>
