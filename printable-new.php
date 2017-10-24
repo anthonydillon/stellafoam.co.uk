@@ -139,8 +139,10 @@ if(isset($_POST["todo"]) && $_POST["todo"] == 'send'){
 							if(strpos($orderList[$i], 'KMS') === 0) {
 								$orderDetail = explode('~',$orderList[$i]);
 								$info = getStockInfoString($orderDetail[0]);
-								$colour = explode('-',$orderDetail[1])[0];
-								$quantity = explode('-',$orderDetail[1])[1];
+								$colour = explode('-',$orderDetail[1]);
+								$colour = $color[0];
+								$quantity = explode('-',$orderDetail[1]);
+								$quantity = $quantity[1];
 								$discount = ($info["Discount"] != 0)?$info["Discount"].'&#37;':'&ndash;';
 								$discountDisplay = '';
 								$pack = ($info["Pack"] != 0)?$info["Pack"]:'&ndash;';
@@ -327,8 +329,10 @@ if(isset($_POST["todo"]) && $_POST["todo"] == 'send'){
 							if(strpos($orderList[$i], 'KMS') === 0) {
 								$orderDetail = explode('~',$orderList[$i]);
 								$info = getStockInfoString($orderDetail[0]);
-								$colour = explode('-',$orderDetail[1])[0];
-								$quantity = explode('-',$orderDetail[1])[1];
+								$colour = explode('-',$orderDetail[1]);
+								$colour = $colour[0];
+								$quantity = explode('-',$orderDetail[1]);
+								$quantity = $quantity[1];
 								$discount = ($info["Discount"] != 0)?$info["Discount"].'&#37;':'&ndash;';
 								$discountDisplay = '';
 								$pack = ($info["Pack"] != 0)?$info["Pack"]:'&ndash;';
