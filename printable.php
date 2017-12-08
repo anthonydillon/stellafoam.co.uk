@@ -2,7 +2,7 @@
 include("functions.php");
 $details = false;
 if(isset($_POST["todo"]) && $_POST["todo"] == 'send'){
-	$to  = 'anthony_dillon@hotmail.com, sales@stellafoam.co.uk, Mark@stellafoam.co.uk';
+	$to  = 'me@anthonydillon.com, sales@stellafoam.co.uk, Mark@stellafoam.co.uk';
 	$subject = 'Order from Stellafoam Website';
 	$message = '<html><head><title>Order from Stellafoam Website</title></head>
 	<body>

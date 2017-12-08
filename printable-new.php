@@ -51,7 +51,6 @@ if(isset($_GET["did"]) && isset($_COOKIE["stellafoamorder"])){
 $details = false;
 if(isset($_POST["todo"]) && $_POST["todo"] == 'send'){
 	$to  = 'me@anthonydillon.com, sales@stellafoam.co.uk, Mark@stellafoam.co.uk';
-	$to  = 'me@anthonydillon.com';
 	$subject = 'Order from Stellafoam Website';
 	$message = '<html><head><title>Order from Stellafoam Website</title></head>
 	<body>
