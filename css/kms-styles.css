@@ -19,10 +19,12 @@ img {
 	padding: 15px;
 	width: 934px;
 	background: #f5f3f2;
+	display: flex;
 }
 #footer a {
 	color: #016bb5;
 	font-size: 13px;
+	flex: 1;
 }
 #content {
 	padding: 0;
