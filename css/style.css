@@ -523,3 +523,10 @@ form input {
 	margin-bottom: 20px;
 	line-height: 1;
 }
+
+#footer {
+	display: flex;
+}
+#footer a {
+	flex: 1
+}
