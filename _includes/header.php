@@ -13,18 +13,19 @@
                               <dt>Cut &amp; Edged 18mm MFC</dt>
                               <dd><a href="product.php?p=156">Agnola Beech<img src="images/<?php echo get_product_image(156); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=155">Avola Brown<img src="images/<?php echo get_product_image(155); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=247">Avola Brown Grey<img src="images/<?php echo get_product_image(247); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=174">Avola Grey<img src="images/<?php echo get_product_image(174); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=172">Avola White<img src="images/<?php echo get_product_image(172); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=248">Black Hacienda<img src="images/<?php echo get_product_image(248); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=231">Cashmere<img src="images/<?php echo get_product_image(231); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=24">Classic Walnut<img src="images/<?php echo get_product_image(24); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=243">Denim<img src="images/<?php echo get_product_image(243); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=232">Dust Grey<img src="images/<?php echo get_product_image(232); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=233">French Oak<img src="images/<?php echo get_product_image(233); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=27">Golden Walnut<img src="images/<?php echo get_product_image(27); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=276">Graphite<img src="images/<?php echo get_product_image(269); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=28">Ivory<img src="images/<?php echo get_product_image(28); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=197">Legno Alabaster<img src="images/<?php echo get_product_image(197); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=268">Legno Cashmere<img src="images/<?php echo get_product_image(268); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=267">Legno Light Grey<img src="images/<?php echo get_product_image(267); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=201">Legno Mussel<img src="images/<?php echo get_product_image(201); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=203">Legno White<img src="images/<?php echo get_product_image(203); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=204">Light Elm<img src="images/<?php echo get_product_image(204); ?>" class="product-image"/></a></dd>
@@ -33,11 +34,9 @@
                               <dd><a href="product.php?p=205">Mali Wenge<img src="images/<?php echo get_product_image(205); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=235">Mussel<img src="images/<?php echo get_product_image(235); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=237">Natural Oak<img src="images/<?php echo get_product_image(237); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=33">Ontario Maple<img src="images/<?php echo get_product_image(33); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=34">Pamplona Oak<img src="images/<?php echo get_product_image(34); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=207">Pearl Dakar<img src="images/<?php echo get_product_image(207); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=36">Pippy Oak<img src="images/<?php echo get_product_image(36); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=38">Steamed Beech<img src="images/<?php echo get_product_image(38); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=236">Stone Grey<img src="images/<?php echo get_product_image(236); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=242">Textured Ivory<img src="images/<?php echo get_product_image(242); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=45">Textured White<img src="images/<?php echo get_product_image(45); ?>" class="product-image"/></a></dd>
@@ -57,8 +56,11 @@
                               <dd><a href="product.php?p=232">Dust Grey<img src="images/<?php echo get_product_image(232); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=233">French Oak<img src="images/<?php echo get_product_image(233); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=27">Golden Walnut<img src="images/<?php echo get_product_image(27); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=276">Graphite<img src="images/<?php echo get_product_image(269); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=28">Ivory<img src="images/<?php echo get_product_image(28); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=197">Legno Alabaster<img src="images/<?php echo get_product_image(197); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=268">Legno Cashmere<img src="images/<?php echo get_product_image(268); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=267">Legno Light Grey<img src="images/<?php echo get_product_image(267); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=201">Legno Mussel<img src="images/<?php echo get_product_image(201); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=203">Legno White<img src="images/<?php echo get_product_image(203); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=204">Light Elm<img src="images/<?php echo get_product_image(204); ?>" class="product-image"/></a></dd>
@@ -67,11 +69,9 @@
                               <dd><a href="product.php?p=205">Mali Wenge<img src="images/<?php echo get_product_image(205); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=235">Mussel<img src="images/<?php echo get_product_image(235); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=237">Natural Oak<img src="images/<?php echo get_product_image(237); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=33">Ontario Maple<img src="images/<?php echo get_product_image(33); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=34">Pamplona Oak<img src="images/<?php echo get_product_image(34); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=207">Pearl Dakar<img src="images/<?php echo get_product_image(207); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=36">Pippy Oak<img src="images/<?php echo get_product_image(36); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=38">Steamed Beech<img src="images/<?php echo get_product_image(38); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=236">Stone Grey<img src="images/<?php echo get_product_image(236); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=242">Textured Ivory<img src="images/<?php echo get_product_image(242); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=45">Textured White<img src="images/<?php echo get_product_image(45); ?>" class="product-image"/></a></dd>
@@ -91,6 +91,8 @@
                               <dd><a href="product.php?p=232">Dust Grey<img src="images/<?php echo get_product_image(232); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=27">Golden Walnut<img src="images/<?php echo get_product_image(27); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=197">Legno Alabaster (Matt)<img src="images/<?php echo get_product_image(197); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=268">Legno Cashmere (Matt)<img src="images/<?php echo get_product_image(268); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=267">Legno Light Grey (Matt)<img src="images/<?php echo get_product_image(267); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=203">Legno White (Matt)<img src="images/<?php echo get_product_image(203); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=204">Light Elm<img src="images/<?php echo get_product_image(204); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=234">Light Grey<img src="images/<?php echo get_product_image(234); ?>" class="product-image"/></a></dd>
@@ -99,18 +101,21 @@
                               <dd><a href="product.php?p=237">Natural Oak<img src="images/<?php echo get_product_image(237); ?>" class="product-image"/></a></dd>
         					  <dd><a href="product.php?p=34">Pamplona Oak<img src="images/<?php echo get_product_image(34); ?>" class="product-image"/></a></dd>
         					  <dd><a href="product.php?p=36">Pippy Oak<img src="images/<?php echo get_product_image(36); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=38">Steamed Beech<img src="images/<?php echo get_product_image(38); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=236">Stone Grey<img src="images/<?php echo get_product_image(236); ?>" class="product-image"/></a></dd>
 				              <dd><a href="product.php?p=209">Vintage Oak<img src="images/<?php echo get_product_image(209); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=44">White Matt<img src="images/<?php echo get_product_image(44); ?>" class="product-image"/></a></dd>
-                              <dt>Vinyl Wrapped 18mm HDF</dt>
-                              <dd><a href="product.php?p=163">Gloss White<img src="images/<?php echo get_product_image(163); ?>" class="product-image"/></a></dd>
                               <dt>Painted &amp; Lacquered 18mm HDF</dt>
-                              <dd><a href="product.php?p=28">Gloss Ivory<img src="images/<?php echo get_product_image(28); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=234">Gloss Light Grey<img src="images/<?php echo get_product_image(234); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=163">Gloss White<img src="images/<?php echo get_product_image(163); ?>" class="product-image"/></a></dd>
                           </dl>
                           <dl>
+                              <dt>8'x4' 18mm Acrylic</dt>
+                              <dd><a href="product.php?p=270">Gloss Cashmere<img src="images/<?php echo get_product_image(270); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=271">Gloss Dust Grey<img src="images/<?php echo get_product_image(271); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=273">Gloss Graphite<img src="images/<?php echo get_product_image(273); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=275">Gloss Light Grey<img src="images/<?php echo get_product_image(275); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=274">Gloss Mussel<img src="images/<?php echo get_product_image(274); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=163">Gloss White<img src="images/<?php echo get_product_image(163); ?>" class="product-image"/></a></dd>
                               <dt>8mm MFC/MDF Thin-board</dt>
                               <dd><a href="product.php?p=156">Agnola Beech<img src="images/<?php echo get_product_image(156); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=155">Avola Brown<img src="images/<?php echo get_product_image(155); ?>" class="product-image"/></a></dd>
@@ -141,36 +146,39 @@
                               <dd><a href="product.php?p=44">White Matt<img src="images/<?php echo get_product_image(44); ?>" class="product-image"/></a></dd>
                           </dl>
                           <dl class="last-col">
+                              <dt>Cut &amp; Edged 20mm Acrylic</dt>
+                              <dd><a href="product.php?p=270">Gloss Cashmere<img src="images/<?php echo get_product_image(270); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=271">Gloss Dust Grey<img src="images/<?php echo get_product_image(271); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=273">Gloss Graphite<img src="images/<?php echo get_product_image(273); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=275">Gloss Light Grey<img src="images/<?php echo get_product_image(275); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=274">Gloss Mussel<img src="images/<?php echo get_product_image(274); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=163">Gloss White<img src="images/<?php echo get_product_image(163); ?>" class="product-image"/></a></dd>
                               <dt>1-Sided MDF</dt>
                               <dd><a href="product.php?p=156">Agnola Beech<img src="images/<?php echo get_product_image(156); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=24">Classic Walnut<img src="images/<?php echo get_product_image(24); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=233">French Oak<img src="images/<?php echo get_product_image(233); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=27">Golden Walnut<img src="images/<?php echo get_product_image(27); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=234">Light Grey<img src="images/<?php echo get_product_image(234); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=237">Natural Oak<img src="images/<?php echo get_product_image(237); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=34">Pamplona Oak<img src="images/<?php echo get_product_image(34); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=38">Steamed Beech<img src="images/<?php echo get_product_image(38); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=242">Textured Ivory<img src="images/<?php echo get_product_image(242); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=45">Textured White<img src="images/<?php echo get_product_image(45); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=44">White Matt<img src="images/<?php echo get_product_image(44); ?>" class="product-image"/></a></dd>
                               <dt>8'x4' White Oak Veneer</dt>
-                              <dd><a href="product.php?p=56">2-Sided 19mm Chipboard</a></dd>
                               <dd><a href="product.php?p=56">2-Sided 19mm MDF</a></dd>
                               <dd><a href="product.php?p=56">2-Sided 16mm MDF</a></dd>
+                              <dd><a href="product.php?p=56">2-Sided 6mm MDF</a></dd>
+                              <dt>8'x4' Walnut Veneer</dt>
+                              <dd><a href="product.php?p=56">2-Sided 19mm MDF</a></dd>
                               <dd><a href="product.php?p=56">2-Sided 6mm MDF</a></dd>
                               <dt>8'x4' Deep-Rout MDF</dt>
                               <dd><a href="product.php?p=129">6mm</a></dd>
                               <dd><a href="product.php?p=129">6mm Moisture Resistant</a></dd>
                               <dd><a href="product.php?p=129">9mm</a></dd>
                               <dd><a href="product.php?p=129">9mm Moisture Resistant</a></dd>
-                              <dd><a href="product.php?p=129">12mm</a></dd>
-                              <dd><a href="product.php?p=129">15mm</a></dd>
+                              <dd><a href="product.php?p=129">12mm Moisture Resistant</a></dd>
+                              <dd><a href="product.php?p=129">16mm Moisture Resistant</a></dd>
                               <dd><a href="product.php?p=129">18mm</a></dd>
                               <dd><a href="product.php?p=129">18mm Moisture Resistant</a></dd>
-                              <dd><a href="product.php?p=129">22mm</a></dd>
                               <dd><a href="product.php?p=129">22mm Moisture Resistant</a></dd>
-                              <dd><a href="product.php?p=129">25mm</a></dd>
-                              <dd><a href="product.php?p=129">25mm (10'x4')</a></dd>
+                              <dd><a href="product.php?p=129">25mm Moisture Resistant</a></dd>
+                              <dd><a href="product.php?p=129">25mm Moisture Resistant (10'x4')</a></dd>
                           </dl>
                       </li>
                   </ul>
