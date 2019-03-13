@@ -176,6 +176,7 @@
                               <dd><a href="product.php?p=129">16mm Moisture Resistant</a></dd>
                               <dd><a href="product.php?p=129">18mm</a></dd>
                               <dd><a href="product.php?p=129">18mm Moisture Resistant</a></dd>
+                              <dd><a href="product.php?p=129">18mm Moisture Resistant (10'x4')</a></dd>
                               <dd><a href="product.php?p=129">22mm Moisture Resistant</a></dd>
                               <dd><a href="product.php?p=129">25mm Moisture Resistant</a></dd>
                               <dd><a href="product.php?p=129">25mm Moisture Resistant (10'x4')</a></dd>
