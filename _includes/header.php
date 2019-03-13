@@ -21,7 +21,7 @@
                               <dd><a href="product.php?p=232">Dust Grey<img src="images/<?php echo get_product_image(232); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=233">French Oak<img src="images/<?php echo get_product_image(233); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=27">Golden Walnut<img src="images/<?php echo get_product_image(27); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=276">Graphite<img src="images/<?php echo get_product_image(269); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=276">Graphite<img src="images/<?php echo get_product_image(276); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=28">Ivory<img src="images/<?php echo get_product_image(28); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=197">Legno Alabaster<img src="images/<?php echo get_product_image(197); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=268">Legno Cashmere<img src="images/<?php echo get_product_image(268); ?>" class="product-image"/></a></dd>
@@ -56,7 +56,7 @@
                               <dd><a href="product.php?p=232">Dust Grey<img src="images/<?php echo get_product_image(232); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=233">French Oak<img src="images/<?php echo get_product_image(233); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=27">Golden Walnut<img src="images/<?php echo get_product_image(27); ?>" class="product-image"/></a></dd>
-                              <dd><a href="product.php?p=276">Graphite<img src="images/<?php echo get_product_image(269); ?>" class="product-image"/></a></dd>
+                              <dd><a href="product.php?p=276">Graphite<img src="images/<?php echo get_product_image(276); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=28">Ivory<img src="images/<?php echo get_product_image(28); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=197">Legno Alabaster<img src="images/<?php echo get_product_image(197); ?>" class="product-image"/></a></dd>
                               <dd><a href="product.php?p=268">Legno Cashmere<img src="images/<?php echo get_product_image(268); ?>" class="product-image"/></a></dd>
